@@ -32,3 +32,10 @@ Efficient team player with better analytical and problem resolving ability, with
 [![trophy](https://github-profile-trophy.vercel.app/?username=santoshshinde2012&theme=monokai&margin-w=15&margin-h=15&&no-frame=true&row=1)](https://github.com/ryo-ma/github-profile-trophy)
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=santoshshinde2012&layout=compact&hide=html" />
+
+<br/>
+
+# Blog Posts
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
