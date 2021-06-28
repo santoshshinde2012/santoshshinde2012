@@ -37,4 +37,8 @@ Efficient team player with better analytical and problem resolving ability, with
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Visualization of Node.js Event Emitter](https://javascript.plainenglish.io/visualization-of-node-js-event-emitter-4f7c9fe3a477?source=rss-f5cfa346da5------2)
+- [Introduction to Matrix Architecture](https://santosh-shinde.medium.com/introduction-to-matrix-architecture-94943750b308?source=rss-f5cfa346da5------2)
+- [REST API overview and API Security Vulnerabilities](https://javascript.plainenglish.io/rest-api-overview-api-security-vulnerabilities-a677cda0be9d?source=rss-f5cfa346da5------2)
+- [Secure an Angular Single-Page Application with Keycloak](https://javascript.plainenglish.io/secure-an-angular-single-page-application-with-keycloak-cdbe5026881e?source=rss-f5cfa346da5------2)
 <!-- BLOG-POST-LIST:END -->
