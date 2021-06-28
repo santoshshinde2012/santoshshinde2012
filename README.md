@@ -29,8 +29,7 @@ Efficient team player with better analytical and problem resolving ability, with
 
 📊 **This week I spent my time on**
 
-[![Santosh GitHub stats](https://github-readme-stats.vercel.app/api?username=santoshshinde2012)](https://github.com/anuraghazra/github-readme-stats)
-
+![Wwakatime stats](https://github-readme-stats-taupe-two.vercel.app/api/wakatime?username=santoshshinde2012&hide_title=true&hide_border=true&langs_count=5)
 
 <br/>
 
