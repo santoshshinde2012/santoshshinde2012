@@ -21,17 +21,16 @@ Efficient team player with better analytical and problem resolving ability, with
 [![stackoverflow](https://stackoverflow.com/users/flair/4319438.png)](https://stackoverflow.com/users/4319438/santosh-shinde)
 <br/>
 <br/>
-
-📊 **This week I spent my time on**
-
-![Wwakatime stats](https://github-readme-stats-taupe-two.vercel.app/api/wakatime?username=santoshshinde2012&hide_title=true&hide_border=true&langs_count=5)
-
-
 ## 🏆 Github Profile Trophy
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=santoshshinde2012&theme=monokai&margin-w=15&margin-h=15&&no-frame=true&row=1)](https://github.com/ryo-ma/github-profile-trophy)
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=santoshshinde2012&layout=compact&hide=html" />
+
+📊 **This week I spent my time on**
+
+[![Santosh GitHub stats](https://github-readme-stats.vercel.app/api?username=santoshshinde2012)](https://github.com/anuraghazra/github-readme-stats)
+
 
 <br/>
 
