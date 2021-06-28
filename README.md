@@ -27,10 +27,6 @@ Efficient team player with better analytical and problem resolving ability, with
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=santoshshinde2012&layout=compact&hide=html" />
 
-📊 **This week I spent my time on**
-
-![Wwakatime stats](https://github-readme-stats-taupe-two.vercel.app/api/wakatime?username=santoshshinde2012&hide_title=true&hide_border=true&langs_count=5)
-
 <br/>
 
 # Blog Posts
