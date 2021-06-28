@@ -20,6 +20,12 @@ Efficient team player with better analytical and problem resolving ability, with
 [![GitHub Santosh](https://img.shields.io/github/followers/santoshshinde2012?label=follow&style=social)](https://github.com/santoshshinde2012)
 [![stackoverflow](https://stackoverflow.com/users/flair/4319438.png)](https://stackoverflow.com/users/4319438/santosh-shinde)
 <br/>
+<br/>
+
+📊 **This week I spent my time on**
+
+![Wwakatime stats](https://github-readme-stats-taupe-two.vercel.app/api/wakatime?username=santoshshinde2012&hide_title=true&hide_border=true&langs_count=5)
+
 
 ## 🏆 Github Profile Trophy
 
