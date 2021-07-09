@@ -2,7 +2,7 @@
 
 #### [Full Stack Developer | Solutions Architect | Technical Team Lead | Micro Services | Node JS | ReactJS | Angular | Typescript | JavaScript 🇮🇳](http://santoshshinde.com/)
 
-I've been in the software industry since the past 7+ years, progressing from an entry level trainee to an architect and technical leader in my current role. <br/>
+I've been in the software industry since the past 8+ years, progressing from an entry level trainee to an architect and technical leader in my current role. <br/>
 
 Having experience in the Development and Deployment of web-based applications using Node. Js, MongoDB, ExpressJS, Angular, ReactJS, NestJS. <br/>
 
