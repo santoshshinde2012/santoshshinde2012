@@ -32,8 +32,8 @@ Efficient team player with better analytical and problem resolving ability, with
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Static Code Analysis for Node.js and TypeScript Project using SonarQube](https://javascript.plainenglish.io/static-code-analysis-for-node-js-and-typescript-project-using-sonarqube-8f90799add06?source=rss-f5cfa346da5------2)
 - [Skeleton for Node.js Apps Written in TypeScript](https://javascript.plainenglish.io/skeleton-for-node-js-apps-written-in-typescript-444fa1695b30?source=rss-f5cfa346da5------2)
 - [Visualization of Node.js Event Emitter](https://javascript.plainenglish.io/visualization-of-node-js-event-emitter-4f7c9fe3a477?source=rss-f5cfa346da5------2)
 - [Introduction to Matrix Architecture](https://santosh-shinde.medium.com/introduction-to-matrix-architecture-94943750b308?source=rss-f5cfa346da5------2)
-- [REST API overview and API Security Vulnerabilities](https://javascript.plainenglish.io/rest-api-overview-api-security-vulnerabilities-a677cda0be9d?source=rss-f5cfa346da5------2)
 <!-- BLOG-POST-LIST:END -->
