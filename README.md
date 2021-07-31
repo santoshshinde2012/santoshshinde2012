@@ -32,7 +32,7 @@ Efficient team player with better analytical and problem resolving ability, with
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Beginners Guide to Testing Jest with Node & Typescript](https://javascript.plainenglish.io/beginners-guide-to-testing-jest-with-node-typescript-1f46a1b87dad?source=rss-f5cfa346da5------2)
+- [Testing with Jest in TypeScript & Node JS for Beginners](https://javascript.plainenglish.io/beginners-guide-to-testing-jest-with-node-typescript-1f46a1b87dad?source=rss-f5cfa346da5------2)
 - [NestJS Roadmap for Beginners](https://javascript.plainenglish.io/nestjs-roadmap-for-beginners-4fee5be251b?source=rss-f5cfa346da5------2)
 - [Static Code Analysis for Node.js and TypeScript Project using SonarQube](https://javascript.plainenglish.io/static-code-analysis-for-node-js-and-typescript-project-using-sonarqube-8f90799add06?source=rss-f5cfa346da5------2)
 - [Skeleton for Node.js Apps Written in TypeScript](https://javascript.plainenglish.io/skeleton-for-node-js-apps-written-in-typescript-444fa1695b30?source=rss-f5cfa346da5------2)
