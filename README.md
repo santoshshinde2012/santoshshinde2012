@@ -20,7 +20,17 @@ Efficient team player with better analytical and problem resolving ability, with
 [![GitHub Santosh](https://img.shields.io/github/followers/santoshshinde2012?label=follow&style=social)](https://github.com/santoshshinde2012)
 [![stackoverflow](https://stackoverflow.com/users/flair/4319438.png)](https://stackoverflow.com/users/4319438/santosh-shinde)
 <br/>
+<div align="left" inline>
+<span align="left"> <a href="https://twitter.com/shindesan2012" target="blank"><img src="https://img.shields.io/twitter/follow/shindesan2012?logo=twitter&style=for-the-badge" alt="shindesan2012" /></a> </span>
+</div>
 <br/>
+
+### My GitHub Stats
+<div>
+<img align="center" width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=santoshshinde2012&" alt="santoshshinde2012" />
+<img align="center" width="49%"  src="https://github-readme-stats.vercel.app/api?username=santoshshinde2012&show_icons=true&locale=en" alt="santoshshinde2012" />
+</div>
+
 ## 🏆 Github Profile Trophy
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=santoshshinde2012&theme=monokai&margin-w=15&margin-h=15&&no-frame=true&row=1)](https://github.com/ryo-ma/github-profile-trophy)
