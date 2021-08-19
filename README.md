@@ -27,7 +27,7 @@ Efficient team player with better analytical and problem resolving ability, with
 
 ### My GitHub Stats
 <div>
-<img align="center" width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=santoshshinde2012&" alt="santoshshinde2012" />
+<img align="center" width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=santoshshinde2012" alt="santoshshinde2012" />
 <img align="center" width="49%"  src="https://github-readme-stats.vercel.app/api?username=santoshshinde2012&show_icons=true&locale=en" alt="santoshshinde2012" />
 </div>
 
