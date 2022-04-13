@@ -1,29 +1,24 @@
 # Hello, That's Me!
 
-#### [Full Stack Developer | Solutions Architect | Technical Team Lead | Micro Services | Node JS | ReactJS | Angular | Typescript | JavaScript 🇮🇳](http://santoshshinde.com/)
+<p align="center"> 
+ <a href="https://twitter.com/shindesan2012" alt="santosh shinde github stats">
+   <img src="https://img.shields.io/badge/-@shindesan2012-%231DA1F2?style=flat-square&logo=twitter&logoColor=ffffff" />
+ </a>
+ <a href="https://github.com/santoshshinde2012" alt="santosh shinde github stats">
+   <img src="https://img.shields.io/badge/-@santoshshinde2012-%23181717?style=flat-square&logo=github" />
+ </a>
+ <a href="https://www.linkedin.com/in/shindesantosh" alt="santosh shinde github stats">
+   <img src="https://img.shields.io/badge/-shindesantosh-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/shindesantosh" />
+ </a>
+ <a href="http://blog.santoshshinde.com/" alt="santosh shinde blog">
+   <img src="https://img.shields.io/badge/blog.santoshshinde.com-brightgreen?style=flat-square" />
+ </a>
+</p>
 
-I've been in the software industry since the past 8+ years, progressing from an entry level trainee to an architect and technical leader in my current role. <br/>
 
-Having experience in the Development and Deployment of web-based applications using Node. Js, MongoDB, ExpressJS, Angular, ReactJS, NestJS. <br/>
+I’m a software engineer with 8+ years of experience in developing and designing distributed applications built on top of cutting-edge technologies with interest in Microservices, Micro-frotend, DDD, Event Sourcing, and Clean Architecture.
 
-Having experience in the Development and Deployment of Hybrid Mobile Application( PhoneGap, Cordova, Capacitor) using Ionic1/Ionic2 Framework, ReactJs, AngularJs. <br/>
-
-An enthusiastic and project-oriented team player with solid Communication skills to develop creative solutions. <br/>
-
-Efficient team player with better analytical and problem resolving ability, with a track record of enhancing operations. Strong quantitative background with a thorough understanding of working with large and complex data sets. <br/>
-
-## Profiles
-
-[![Twitter](https://img.shields.io/badge/-Twitter-222222?style=flat-square&logo=twitter&logoColor=white&link=https://twitter.com/shindesan2012/)](https://twitter.com/shindesan2012/)
-[![Linkedin](https://img.shields.io/badge/-LinkedIn-222222?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/santosh-shinde-54454635/)](https://www.linkedin.com/in/santosh-shinde-54454635/)
-[![Medium](https://img.shields.io/badge/-Medium-222222?style=flat-square&logo=medium&logoColor=white&link=https://blog.santoshshinde.com/)](https://blog.santoshshinde.com/)
-[![GitHub Santosh](https://img.shields.io/github/followers/santoshshinde2012?label=follow&style=social)](https://github.com/santoshshinde2012)
-[![stackoverflow](https://stackoverflow.com/users/flair/4319438.png)](https://stackoverflow.com/users/4319438/santosh-shinde)
-<br/>
-<div align="left" inline>
-<span align="left"> <a href="https://twitter.com/shindesan2012" target="blank"><img src="https://img.shields.io/twitter/follow/shindesan2012?logo=twitter&style=for-the-badge" alt="shindesan2012" /></a> </span>
-</div>
-<br/>
+As a developer, I mostly work with NodeJS(Javascript/Typescript) and frontend (React JS/Angular/Vue), but I'm always open to exploring new technologies and languages wherever the opportunity arises. I am passionate about sharing what I have learned through my blog.
 
 ### My GitHub Stats
 <div>
