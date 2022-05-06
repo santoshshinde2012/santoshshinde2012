@@ -37,6 +37,7 @@ As a developer, I mostly work with NodeJS(Javascript/Typescript) and frontend (R
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Introduction to Client-Side Storage](https://santosh-shinde.medium.com/introduction-to-client-side-storage-31b103909fb9?source=rss-f5cfa346da5------2)
 - [What’s the Difference Between a Component and a Micro-Frontend?](https://javascript.plainenglish.io/whats-the-difference-between-a-component-and-a-micro-frontend-43aefd0af062?source=rss-f5cfa346da5------2)
 - [Integration of Keycloak in TYK Gateway Middleware](https://javascript.plainenglish.io/integration-of-keycloak-in-tyk-gateway-middleware-26f8e5b760e3?source=rss-f5cfa346da5------2)
 - [Skeleton for React with Redux Frontend Apps Written in TypeScript](https://javascript.plainenglish.io/skeleton-for-react-with-redux-frontend-apps-written-in-typescript-9f5490e94e6d?source=rss-f5cfa346da5------2)
@@ -46,5 +47,4 @@ As a developer, I mostly work with NodeJS(Javascript/Typescript) and frontend (R
 - [NestJS Roadmap for Beginners](https://javascript.plainenglish.io/nestjs-roadmap-for-beginners-4fee5be251b?source=rss-f5cfa346da5------2)
 - [Static Code Analysis for Node.js and TypeScript Project using SonarQube](https://javascript.plainenglish.io/static-code-analysis-for-node-js-and-typescript-project-using-sonarqube-8f90799add06?source=rss-f5cfa346da5------2)
 - [Skeleton for Node.js Apps Written in TypeScript](https://javascript.plainenglish.io/skeleton-for-node-js-apps-written-in-typescript-444fa1695b30?source=rss-f5cfa346da5------2)
-- [Visualization of Node.js Event Emitter](https://javascript.plainenglish.io/visualization-of-node-js-event-emitter-4f7c9fe3a477?source=rss-f5cfa346da5------2)
 <!-- BLOG-POST-LIST:END -->
