@@ -37,7 +37,7 @@ As a developer, I mostly work with NodeJS(Javascript/Typescript) and frontend (R
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Introduction to Client-Side Storage](https://javascript.plainenglish.io/introduction-to-client-side-storage-31b103909fb9?source=rss-f5cfa346da5------2)
+- [Introduction to Client-Side Storage for Beginners](https://javascript.plainenglish.io/introduction-to-client-side-storage-31b103909fb9?source=rss-f5cfa346da5------2)
 - [What’s the Difference Between a Component and a Micro-Frontend?](https://javascript.plainenglish.io/whats-the-difference-between-a-component-and-a-micro-frontend-43aefd0af062?source=rss-f5cfa346da5------2)
 - [Integration of Keycloak in TYK Gateway Middleware](https://javascript.plainenglish.io/integration-of-keycloak-in-tyk-gateway-middleware-26f8e5b760e3?source=rss-f5cfa346da5------2)
 - [Skeleton for React with Redux Frontend Apps Written in TypeScript](https://javascript.plainenglish.io/skeleton-for-react-with-redux-frontend-apps-written-in-typescript-9f5490e94e6d?source=rss-f5cfa346da5------2)
