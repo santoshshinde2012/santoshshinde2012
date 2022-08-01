@@ -37,7 +37,7 @@ As a developer, I mostly work with NodeJS(Javascript/Typescript) and frontend (R
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Four Micro-frontend Anti-patterns](https://javascript.plainenglish.io/four-micro-frontend-anti-patterns-58aaa9fe19d5?source=rss-f5cfa346da5------2)
+- [4 Micro-Frontend Anti-Patterns](https://javascript.plainenglish.io/four-micro-frontend-anti-patterns-58aaa9fe19d5?source=rss-f5cfa346da5------2)
 - [Integration of the Braintree Payment Gateway SDK in Node.js and React](https://javascript.plainenglish.io/integration-of-the-braintree-payment-gateway-sdk-in-node-js-and-react-js-ba64bd48177f?source=rss-f5cfa346da5------2)
 - [Introduction to Client-Side Storage for Beginners](https://javascript.plainenglish.io/introduction-to-client-side-storage-31b103909fb9?source=rss-f5cfa346da5------2)
 - [What’s the Difference Between a Component and a Micro-Frontend?](https://javascript.plainenglish.io/whats-the-difference-between-a-component-and-a-micro-frontend-43aefd0af062?source=rss-f5cfa346da5------2)
