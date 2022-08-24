@@ -16,7 +16,7 @@
 </p>
 
 
-I’m a software engineer with 8+ years of experience in developing and designing distributed applications built on top of cutting-edge technologies with interest in Microservices, Micro-frotend, DDD, Event Sourcing, and Clean Architecture.
+I’m a software engineer with 9+ years of experience in developing and designing distributed applications built on top of cutting-edge technologies with interest in Microservices, Micro-frotend, DDD, Event Sourcing, and Clean Architecture.
 
 As a developer, I mostly work with NodeJS(Javascript/Typescript) and frontend (React JS/Angular/Vue), but I'm always open to exploring new technologies and languages wherever the opportunity arises. I am passionate about sharing what I have learned through my blog.
 
