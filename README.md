@@ -37,6 +37,7 @@ As a developer, I mostly work with NodeJS(Javascript/Typescript) and frontend (R
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Secure Client-Side Storage Data Using With Web Crypto &lpar;React JS + Typescript&rpar;](https://javascript.plainenglish.io/secure-client-side-storage-data-using-with-web-crypto-react-js-typescript-f43944fad7b3?source=rss-f5cfa346da5------2)
 - [4 Micro-Frontend Anti-Patterns](https://javascript.plainenglish.io/four-micro-frontend-anti-patterns-58aaa9fe19d5?source=rss-f5cfa346da5------2)
 - [Integration of the Braintree Payment Gateway SDK in Node.js and React](https://javascript.plainenglish.io/integration-of-the-braintree-payment-gateway-sdk-in-node-js-and-react-js-ba64bd48177f?source=rss-f5cfa346da5------2)
 - [Introduction to Client-Side Storage for Beginners](https://javascript.plainenglish.io/introduction-to-client-side-storage-31b103909fb9?source=rss-f5cfa346da5------2)
@@ -46,5 +47,4 @@ As a developer, I mostly work with NodeJS(Javascript/Typescript) and frontend (R
 - [Getting Started with Tyk API Gateway with Keycloak](https://javascript.plainenglish.io/getting-started-to-tyk-api-gateway-with-keycloak-16307435584a?source=rss-f5cfa346da5------2)
 - [Get Started with Tyk API Gateway on Your Local Machine](https://javascript.plainenglish.io/getting-started-with-tyk-open-source-on-your-local-machine-6468d1c4f7b?source=rss-f5cfa346da5------2)
 - [Testing with Jest in TypeScript and Node.js for Beginners](https://javascript.plainenglish.io/beginners-guide-to-testing-jest-with-node-typescript-1f46a1b87dad?source=rss-f5cfa346da5------2)
-- [NestJS Roadmap for Beginners](https://javascript.plainenglish.io/nestjs-roadmap-for-beginners-4fee5be251b?source=rss-f5cfa346da5------2)
 <!-- BLOG-POST-LIST:END -->
