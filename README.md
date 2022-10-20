@@ -37,6 +37,7 @@ As a developer, I mostly work with NodeJS(Javascript/Typescript) and frontend (R
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Global Error and Response Handler in Node JS with Express and Typescript](https://javascript.plainenglish.io/global-error-and-response-handler-in-node-js-with-express-and-typescript-913ec06d74b3?source=rss-f5cfa346da5------2)
 - [Secure Client-Side Storage Data with Web Crypto &lpar;React JS + TypeScript&rpar;](https://javascript.plainenglish.io/secure-client-side-storage-data-using-with-web-crypto-react-js-typescript-f43944fad7b3?source=rss-f5cfa346da5------2)
 - [4 Micro-Frontend Anti-Patterns](https://javascript.plainenglish.io/four-micro-frontend-anti-patterns-58aaa9fe19d5?source=rss-f5cfa346da5------2)
 - [Integration of the Braintree Payment Gateway SDK in Node.js and React](https://javascript.plainenglish.io/integration-of-the-braintree-payment-gateway-sdk-in-node-js-and-react-js-ba64bd48177f?source=rss-f5cfa346da5------2)
@@ -46,5 +47,4 @@ As a developer, I mostly work with NodeJS(Javascript/Typescript) and frontend (R
 - [Skeleton for React with Redux Frontend Apps Written in TypeScript](https://javascript.plainenglish.io/skeleton-for-react-with-redux-frontend-apps-written-in-typescript-9f5490e94e6d?source=rss-f5cfa346da5------2)
 - [Getting Started with Tyk API Gateway with Keycloak](https://javascript.plainenglish.io/getting-started-to-tyk-api-gateway-with-keycloak-16307435584a?source=rss-f5cfa346da5------2)
 - [Get Started with Tyk API Gateway on Your Local Machine](https://javascript.plainenglish.io/getting-started-with-tyk-open-source-on-your-local-machine-6468d1c4f7b?source=rss-f5cfa346da5------2)
-- [Testing with Jest in TypeScript and Node.js for Beginners](https://javascript.plainenglish.io/beginners-guide-to-testing-jest-with-node-typescript-1f46a1b87dad?source=rss-f5cfa346da5------2)
 <!-- BLOG-POST-LIST:END -->
