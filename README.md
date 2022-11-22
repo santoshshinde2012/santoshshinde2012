@@ -16,9 +16,14 @@
 </p>
 
 
-I’m a software engineer with 9+ years of experience in developing and designing distributed applications built on top of cutting-edge technologies with interest in Microservices, Micro-frotend, DDD, Event Sourcing, and Clean Architecture.
+I am a Full stack developer with 8+ years of experience, specializing in React JS & NodeJS. I have extensive experience in developing and deploying websites utilizing various open-source packages.
 
-As a developer, I mostly work with NodeJS(Javascript/Typescript) and frontend (React JS/Angular/Vue), but I'm always open to exploring new technologies and languages wherever the opportunity arises. I am passionate about sharing what I have learned through my blog.
+As a developer, I mostly work with NodeJS(Javascript/Typescript) and frontend (React JS/Angular), but I'm always open to exploring new technologies and languages wherever the opportunity arises. I am passionate about sharing what I have learned through my blog.
+
+Skilled in ReactJS, NodeJS, Angular, Typescript, JavaScript, HTML5, CSS3, Next JS, Nest JS, Phonegap/Cordova, Ionic, MongoDB, MySQL, PostgreSQL, SQLite, GraphQL, webrtc, socket.io, AWS Cloud services, Micro-frontend and Micro-services Architecture.
+
+Portfolio - https://www.santoshshinde.com/
+Blog - http://blog.santoshshinde.com/
 
 ### My GitHub Stats
 <div>
