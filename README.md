@@ -23,6 +23,7 @@ As a developer, I mostly work with NodeJS(Javascript/Typescript) and frontend (R
 Skilled in ReactJS, NodeJS, Angular, Typescript, JavaScript, HTML5, CSS3, Next JS, Nest JS, Phonegap/Cordova, Ionic, MongoDB, MySQL, PostgreSQL, SQLite, GraphQL, webrtc, socket.io, AWS Cloud services, Micro-frontend and Micro-services Architecture.
 
 Portfolio - https://www.santoshshinde.com/
+
 Blog - http://blog.santoshshinde.com/
 
 ### My GitHub Stats
