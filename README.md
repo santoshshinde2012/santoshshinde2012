@@ -16,7 +16,7 @@
 </p>
 
 
-I am a Full stack developer with 8+ years of experience, specializing in React JS & NodeJS. I have extensive experience in developing and deploying websites utilizing various open-source packages.
+I am a Full stack developer with 9+ years of experience, specializing in React JS & NodeJS. I have extensive experience in developing and deploying websites utilizing various open-source packages.
 
 As a developer, I mostly work with NodeJS(Javascript/Typescript) and frontend (React JS/Angular), but I'm always open to exploring new technologies and languages wherever the opportunity arises. I am passionate about sharing what I have learned through my blog.
 
