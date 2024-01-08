@@ -19,6 +19,7 @@
 With over 10+ years of experience as a full stack engineer, I specialize in developing and deploying cloud-native web applications using JavaScript, React, Node, and AWS. I have a strong background in education admissions domain, where I provide functional and technical solutions as the Lead Software Engineer at Ellucian, a leading provider of software and services for higher education institutions.
 
 As a passionate and curious learner, I constantly explore new technologies and languages to enhance my skills and deliver high-quality products. I also share my knowledge and insights through my blog and portfolio, where I showcase my projects and publications. Some of the technologies and tools that I use include Angular, TypeScript, Next, Nest, MongoDB, PostgreSQL, GraphQL, Socket.io, and Microservices Architecture.
+
 Portfolio - https://www.santoshshinde.com/
 
 Blog - http://blog.santoshshinde.com/
