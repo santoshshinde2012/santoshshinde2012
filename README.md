@@ -16,11 +16,9 @@
 </p>
 
 
-I am a Full stack developer with 9+ years of experience, specializing in React JS & NodeJS. I have extensive experience in developing and deploying websites utilizing various open-source packages.
+With over 10+ years of experience as a full stack engineer, I specialize in developing and deploying cloud-native web applications using JavaScript, React, Node, and AWS. I have a strong background in education admissions domain, where I provide functional and technical solutions as the Lead Software Engineer at Ellucian, a leading provider of software and services for higher education institutions.
 
-As a developer, I mostly work with NodeJS(Javascript/Typescript) and frontend (React JS/Angular), but I'm always open to exploring new technologies and languages wherever the opportunity arises. I am passionate about sharing what I have learned through my blog.
-
-Skilled in ReactJS, NodeJS, Angular, Typescript, JavaScript, HTML5, CSS3, Next JS, Nest JS, Phonegap/Cordova, Ionic, MongoDB, MySQL, PostgreSQL, SQLite, GraphQL, webrtc, socket.io, AWS Cloud services, Micro-frontend and Micro-services Architecture.
+As a passionate and curious learner, I constantly explore new technologies and languages to enhance my skills and deliver high-quality products. I also share my knowledge and insights through my blog and portfolio, where I showcase my projects and publications. Some of the technologies and tools that I use include Angular, TypeScript, Next, Nest, MongoDB, PostgreSQL, GraphQL, Socket.io, and Microservices Architecture. I am also proficient in HTML5, CSS3, Phonegap, Ionic, and WebRTC.
 
 Portfolio - https://www.santoshshinde.com/
 
