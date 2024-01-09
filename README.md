@@ -1,3 +1,6 @@
+[![Santosh Shinde GitHub Banner](./santosh-shinde.png)](https://www.santoshshinde.com/)
+
+
 # Hello, That's Me!
 
 <p align="center"> 
