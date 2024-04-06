@@ -46,6 +46,7 @@ Blog - http://blog.santoshshinde.com/
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Getting Started with Chrome Extensions Using Vite, Typescript, React, Tailwind css and IndexdDB](https://javascript.plainenglish.io/getting-started-with-chrome-extensions-using-vite-typescript-react-tailwind-css-and-indexdb-cae7aff39dca?source=rss-f5cfa346da5------2)
 - [How to Use Sequelize with Typescript, Node.js, and PostgreSQL](https://javascript.plainenglish.io/how-to-use-sequelize-with-typescript-node-js-and-postgresql-c6ff58a3af76?source=rss-f5cfa346da5------2)
 - [Global Error and Response Handler in Node JS with Express and Typescript](https://javascript.plainenglish.io/global-error-and-response-handler-in-node-js-with-express-and-typescript-913ec06d74b3?source=rss-f5cfa346da5------2)
 - [Secure Client-Side Storage Data with Web Crypto &lpar;React JS + TypeScript&rpar;](https://javascript.plainenglish.io/secure-client-side-storage-data-using-with-web-crypto-react-js-typescript-f43944fad7b3?source=rss-f5cfa346da5------2)
@@ -55,5 +56,4 @@ Blog - http://blog.santoshshinde.com/
 - [What’s the Difference Between a Component and a Micro-Frontend?](https://javascript.plainenglish.io/whats-the-difference-between-a-component-and-a-micro-frontend-43aefd0af062?source=rss-f5cfa346da5------2)
 - [Integration of Keycloak in TYK Gateway Middleware](https://javascript.plainenglish.io/integration-of-keycloak-in-tyk-gateway-middleware-26f8e5b760e3?source=rss-f5cfa346da5------2)
 - [Skeleton for React with Redux Frontend Apps Written in TypeScript](https://javascript.plainenglish.io/skeleton-for-react-with-redux-frontend-apps-written-in-typescript-9f5490e94e6d?source=rss-f5cfa346da5------2)
-- [Getting Started with Tyk API Gateway with Keycloak](https://javascript.plainenglish.io/getting-started-to-tyk-api-gateway-with-keycloak-16307435584a?source=rss-f5cfa346da5------2)
 <!-- BLOG-POST-LIST:END -->
