@@ -1,8 +1,3 @@
-[![Santosh Shinde GitHub Banner](./santosh-shinde.png)](https://www.santoshshinde.com/)
-
-
-# Hello, That's Me!
-
 <p align="center"> 
  <a href="https://twitter.com/shindesan2012" alt="santosh shinde github stats">
    <img src="https://img.shields.io/badge/-@shindesan2012-%231DA1F2?style=flat-square&logo=twitter&logoColor=ffffff" />
