@@ -18,8 +18,8 @@
  </a>
 </p>
 
+[![About me](./about-me.png)](https://www.santoshshinde.com/)
 
-I am a lead software engineer and have worked as a full-stack engineer for more than 9 years. I specialize in developing and deploying cloud-native web applications using Typescript/JavaScript, React/Angular, Node, and AWS. 
 
 In my current role, I am responsible for providing functional and technical solutions within the education admissions domain, utilising innovative technologies and architectures such as micro-services and micro-frontends. Some of the technologies and tools that I use include TypeScript, Jest, Next, Nest, MongoDB, PostgreSQL, GraphQL, Socket.io, and micro-services architecture.
 
