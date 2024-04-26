@@ -13,7 +13,7 @@
  </a>
 </p>
 
-[![About me](./about-me.png)](https://www.santoshshinde.com/)
+[![About me](./about-santosh.png)](https://www.santoshshinde.com/)
 
 
 In my current role, I am responsible for providing functional and technical solutions within the education admissions domain, utilising innovative technologies and architectures such as micro-services and micro-frontends. Some of the technologies and tools that I use include TypeScript, Jest, Next, Nest, MongoDB, PostgreSQL, GraphQL, Socket.io, and micro-services architecture.
