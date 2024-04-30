@@ -11,18 +11,35 @@
  <a href="http://blog.santoshshinde.com/" alt="santosh shinde blog">
    <img src="https://img.shields.io/badge/blog.santoshshinde.com-brightgreen?style=flat-square" />
  </a>
+ <a href="https://stackoverflow.com/users/4319438/santosh-shinde" alt="santosh shinde stackoverflow">
+   <img src="https://img.shields.io/badge/stackoverflow-%23181717?style=flat-square&logo=stackoverflow" />
+ </a>
+ <a href="https://www.buymeacoffee.com/santoshshin" target="_blank">
+   <img src="https://img.shields.io/badge/buymeacoffee-%231572B6?style=flat-square&logo=buymeacoffee" />
+  </a>
 </p>
 
 [![About me](./about-santosh.png)](https://www.santoshshinde.com/)
 
+<h1 align="center">Hi 👋, I'm Santosh Shinde</h1>
+<h3 align="center">Experienced full-stack engineer with a focus on technology-driven solutions. </h3>
 
 In my current role, I am responsible for providing functional and technical solutions within the education admissions domain, utilising innovative technologies and architectures such as micro-services and micro-frontends. Some of the technologies and tools that I use include TypeScript, Jest, Next, Nest, MongoDB, PostgreSQL, GraphQL, Socket.io, and micro-services architecture.
 
 I am passionate and curious about learning new technologies and languages, and I constantly explore new ways to enhance my skills and create innovative solutions. I also share my knowledge and insights through my blog and portfolio, which showcase my projects and publications.
 
-Portfolio - https://www.santoshshinde.com/
-
-Blog - http://blog.santoshshinde.com/
+<div style="display: flex;">
+  <div style="flex: 50%; padding: 0 15px;">
+    <h3 align="center">
+      <a href="http://blog.santoshshinde.com/" alt="santosh shinde blog">blog.santoshshinde.com</a>
+    </h3>
+  </div>
+  <div style="flex: 50%; padding: 0 15px;">
+    <h3 align="center">
+      <a href="http://www.santoshshinde.com/" alt="santosh shinde portfolio">www.santoshshinde.com</a>
+    </h3>
+  </div>
+</div>
 
 ### My GitHub Stats
 <div>
