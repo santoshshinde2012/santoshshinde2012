@@ -14,9 +14,6 @@
  <a href="https://stackoverflow.com/users/4319438/santosh-shinde" alt="santosh shinde stackoverflow">
    <img src="https://img.shields.io/badge/stackoverflow-%23181717?style=flat-square&logo=stackoverflow" />
  </a>
- <a href="https://www.buymeacoffee.com/santoshshin" target="_blank">
-   <img src="https://img.shields.io/badge/buymeacoffee-%231572B6?style=flat-square&logo=buymeacoffee" />
-  </a>
 </p>
 
 [![About me](./about-santosh.png)](https://www.santoshshinde.com/)
