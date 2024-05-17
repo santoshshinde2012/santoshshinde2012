@@ -16,7 +16,7 @@
  </a>
 </p>
 
-[![About me](./about-santosh.png)](https://www.santoshshinde.com/)
+[![About me](./profile.png)](https://www.santoshshinde.com/)
 
 <h1 align="center">Hi 👋, I'm Santosh Shinde</h1>
 <h3 align="center">Experienced full-stack engineer with a focus on technology-driven solutions. </h3>
