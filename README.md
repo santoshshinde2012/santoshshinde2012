@@ -21,9 +21,11 @@
 <h1 align="center">Hi 👋, I'm Santosh Shinde</h1>
 <h3 align="center">Experienced full-stack engineer with a focus on technology-driven solutions. </h3>
 
-In my current role, I am responsible for providing functional and technical solutions within the education admissions domain, utilising innovative technologies and architectures such as micro-services and micro-frontends. Some of the technologies and tools that I use include TypeScript, Jest, Next, Nest, MongoDB, PostgreSQL, GraphQL, Socket.io, and micro-services architecture.
+As a seasoned full-stack engineer, I am committed to creating technology-driven solutions that tackle intricate problems. I have honed my skills in various aspects of software development, and I take pride in contributing to the tech community by sharing my work and assisting others.
 
-I am passionate and curious about learning new technologies and languages, and I constantly explore new ways to enhance my skills and create innovative solutions. I also share my knowledge and insights through my blog and portfolio, which showcase my projects and publications.
+In my current role, I am responsible for delivering both functional and technical solutions by leveraging cutting-edge technologies and architectures, including micro-services and micro-frontends. My technical toolkit includes TypeScript, Jest, Next.js, Nest.js, MongoDB, PostgreSQL, GraphQL, and Socket.io.
+
+Driven by a passion for continuous learning and technological innovation, I consistently seek new opportunities to expand my expertise and develop creative solutions. I also actively share my knowledge and insights through my blog and portfolio, highlighting my projects and publications to support and inspire fellow professionals in the field.
 
 <div style="display: flex;">
   <div style="flex: 50%; padding: 0 15px;">
