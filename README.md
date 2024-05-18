@@ -57,6 +57,7 @@ Driven by a passion for continuous learning and technological innovation, I cons
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Enhancing Code Quality: A Deep Dive into Jest, SonarQube, and GitHub Actions for…](https://javascript.plainenglish.io/enhancing-code-quality-a-deep-dive-into-jest-sonarqube-and-github-actions-for-f8862f8e5848?source=rss-f5cfa346da5------2)
 - [Multi-factor authentication using Node JS and React JS](https://javascript.plainenglish.io/multi-factor-authentication-using-node-js-and-react-js-08967b755a5c?source=rss-f5cfa346da5------2)
 - [Getting Started with Chrome Extensions Using Vite, Typescript, React, Tailwind css and IndexdDB](https://javascript.plainenglish.io/getting-started-with-chrome-extensions-using-vite-typescript-react-tailwind-css-and-indexdb-cae7aff39dca?source=rss-f5cfa346da5------2)
 - [How to Use Sequelize with Typescript, Node.js, and PostgreSQL](https://javascript.plainenglish.io/how-to-use-sequelize-with-typescript-node-js-and-postgresql-c6ff58a3af76?source=rss-f5cfa346da5------2)
@@ -66,5 +67,4 @@ Driven by a passion for continuous learning and technological innovation, I cons
 - [Integration of the Braintree Payment Gateway SDK in Node.js and React](https://javascript.plainenglish.io/integration-of-the-braintree-payment-gateway-sdk-in-node-js-and-react-js-ba64bd48177f?source=rss-f5cfa346da5------2)
 - [Introduction to Client-Side Storage for Beginners](https://javascript.plainenglish.io/introduction-to-client-side-storage-31b103909fb9?source=rss-f5cfa346da5------2)
 - [What’s the Difference Between a Component and a Micro-Frontend?](https://javascript.plainenglish.io/whats-the-difference-between-a-component-and-a-micro-frontend-43aefd0af062?source=rss-f5cfa346da5------2)
-- [Integration of Keycloak in TYK Gateway Middleware](https://javascript.plainenglish.io/integration-of-keycloak-in-tyk-gateway-middleware-26f8e5b760e3?source=rss-f5cfa346da5------2)
 <!-- BLOG-POST-LIST:END -->
