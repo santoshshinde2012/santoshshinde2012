@@ -23,11 +23,13 @@
 
 As a seasoned full-stack engineer, I am committed to creating technology-driven solutions that tackle intricate problems. I have honed my skills in various aspects of software development, and I take pride in contributing to the tech community by sharing my work and assisting others.
 
+Currently, I'm actively involved in various open-source projects, where I collaborate with other developers to build and improve tools that make a difference.
 
-In my current role, I am responsible for delivering both functional and technical solutions by leveraging advanced technologies and modern architectures, including microservices and micro-frontends. My technical expertise encompasses TypeScript, Jest, Next.js, Nest.js, MongoDB, PostgreSQL, GraphQL, and Socket.io.
+In addition, I'm working on a new project aimed at helping the technical community get started with their own ventures. My goal is to provide resources, guidance, and support to enable others to kickstart their projects with confidence.
 
+Passionate about continuous learning and technological innovation, I consistently seek opportunities to broaden my expertise and devise creative solutions. I actively share my insights and experiences through my blog, as well as contribute to open-source projects. I believe in the power of community and open-source collaboration, and I'm always eager to connect with like-minded individuals.
 
-Passionate about continuous learning and technological innovation, I consistently seek opportunities to broaden my expertise and devise creative solutions. I actively share my insights and experiences through my blog, as well as contribute to open-source projects.
+Let's build something amazing together!
 
 <div style="display: flex;">
   <div style="flex: 50%; padding: 0 15px;">
