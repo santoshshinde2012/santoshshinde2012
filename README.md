@@ -61,14 +61,14 @@ Let's build something amazing together!
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Enhancing Code Quality: A Deep Dive into Jest, SonarQube, and GitHub Actions for…](https://javascript.plainenglish.io/enhancing-code-quality-a-deep-dive-into-jest-sonarqube-and-github-actions-for-f8862f8e5848?source=rss-f5cfa346da5------2)
-- [Multi-factor authentication using Node JS and React JS](https://javascript.plainenglish.io/multi-factor-authentication-using-node-js-and-react-js-08967b755a5c?source=rss-f5cfa346da5------2)
-- [Getting Started with Chrome Extensions Using Vite, Typescript, React, Tailwind css and IndexdDB](https://javascript.plainenglish.io/getting-started-with-chrome-extensions-using-vite-typescript-react-tailwind-css-and-indexdb-cae7aff39dca?source=rss-f5cfa346da5------2)
-- [How to Use Sequelize with Typescript, Node.js, and PostgreSQL](https://javascript.plainenglish.io/how-to-use-sequelize-with-typescript-node-js-and-postgresql-c6ff58a3af76?source=rss-f5cfa346da5------2)
-- [Global Error and Response Handler in Node JS with Express and Typescript](https://javascript.plainenglish.io/global-error-and-response-handler-in-node-js-with-express-and-typescript-913ec06d74b3?source=rss-f5cfa346da5------2)
-- [Secure Client-Side Storage Data with Web Crypto &lpar;React JS + TypeScript&rpar;](https://javascript.plainenglish.io/secure-client-side-storage-data-using-with-web-crypto-react-js-typescript-f43944fad7b3?source=rss-f5cfa346da5------2)
-- [4 Micro-Frontend Anti-Patterns](https://javascript.plainenglish.io/four-micro-frontend-anti-patterns-58aaa9fe19d5?source=rss-f5cfa346da5------2)
-- [Integration of the Braintree Payment Gateway SDK in Node.js and React](https://javascript.plainenglish.io/integration-of-the-braintree-payment-gateway-sdk-in-node-js-and-react-js-ba64bd48177f?source=rss-f5cfa346da5------2)
-- [Introduction to Client-Side Storage for Beginners](https://javascript.plainenglish.io/introduction-to-client-side-storage-31b103909fb9?source=rss-f5cfa346da5------2)
-- [What’s the Difference Between a Component and a Micro-Frontend?](https://javascript.plainenglish.io/whats-the-difference-between-a-component-and-a-micro-frontend-43aefd0af062?source=rss-f5cfa346da5------2)
+- [Enhancing Code Quality: A Deep Dive into Jest, SonarQube, and GitHub Actions for…](https://santosh-shinde.medium.com/enhancing-code-quality-a-deep-dive-into-jest-sonarqube-and-github-actions-for-f8862f8e5848?source=rss-f5cfa346da5------2)
+- [Multi-factor authentication using Node JS and React JS](https://santosh-shinde.medium.com/multi-factor-authentication-using-node-js-and-react-js-08967b755a5c?source=rss-f5cfa346da5------2)
+- [Getting Started with Chrome Extensions Using Vite, Typescript, React, Tailwind css and IndexdDB](https://santosh-shinde.medium.com/getting-started-with-chrome-extensions-using-vite-typescript-react-tailwind-css-and-indexdb-cae7aff39dca?source=rss-f5cfa346da5------2)
+- [How to Use Sequelize with Typescript, Node.js, and PostgreSQL](https://santosh-shinde.medium.com/how-to-use-sequelize-with-typescript-node-js-and-postgresql-c6ff58a3af76?source=rss-f5cfa346da5------2)
+- [Global Error and Response Handler in Node JS with Express and Typescript](https://santosh-shinde.medium.com/global-error-and-response-handler-in-node-js-with-express-and-typescript-913ec06d74b3?source=rss-f5cfa346da5------2)
+- [Secure Client-Side Storage Data with Web Crypto &lpar;React JS + TypeScript&rpar;](https://santosh-shinde.medium.com/secure-client-side-storage-data-using-with-web-crypto-react-js-typescript-f43944fad7b3?source=rss-f5cfa346da5------2)
+- [4 Micro-Frontend Anti-Patterns](https://santosh-shinde.medium.com/four-micro-frontend-anti-patterns-58aaa9fe19d5?source=rss-f5cfa346da5------2)
+- [Integration of the Braintree Payment Gateway SDK in Node.js and React](https://santosh-shinde.medium.com/integration-of-the-braintree-payment-gateway-sdk-in-node-js-and-react-js-ba64bd48177f?source=rss-f5cfa346da5------2)
+- [Introduction to Client-Side Storage for Beginners](https://santosh-shinde.medium.com/introduction-to-client-side-storage-31b103909fb9?source=rss-f5cfa346da5------2)
+- [What’s the Difference Between a Component and a Micro-Frontend?](https://santosh-shinde.medium.com/whats-the-difference-between-a-component-and-a-micro-frontend-43aefd0af062?source=rss-f5cfa346da5------2)
 <!-- BLOG-POST-LIST:END -->
