@@ -61,7 +61,7 @@ Let's build something amazing together!
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [A Comprehensive Guide to Setting Up ESLint, Jest, and Prettier in Node TypeScript](https://santosh-shinde.medium.com/a-comprehensive-guide-to-setting-up-eslint-jest-and-prettier-in-node-typescript-b04d8e5673fd?source=rss-f5cfa346da5------2)
+- [A Comprehensive Guide to Setting Up ESLint, Jest, and Prettier in Node TypeScript](https://levelup.gitconnected.com/a-comprehensive-guide-to-setting-up-eslint-jest-and-prettier-in-node-typescript-b04d8e5673fd?source=rss-f5cfa346da5------2)
 - [Enhancing Code Quality: A Deep Dive into Jest, SonarQube, and GitHub Actions for…](https://javascript.plainenglish.io/enhancing-code-quality-a-deep-dive-into-jest-sonarqube-and-github-actions-for-f8862f8e5848?source=rss-f5cfa346da5------2)
 - [Multi-factor authentication using Node JS and React JS](https://javascript.plainenglish.io/multi-factor-authentication-using-node-js-and-react-js-08967b755a5c?source=rss-f5cfa346da5------2)
 - [Getting Started with Chrome Extensions Using Vite, Typescript, React, Tailwind css and IndexdDB](https://javascript.plainenglish.io/getting-started-with-chrome-extensions-using-vite-typescript-react-tailwind-css-and-indexdb-cae7aff39dca?source=rss-f5cfa346da5------2)
