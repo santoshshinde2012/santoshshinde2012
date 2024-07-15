@@ -61,7 +61,7 @@ Let's build something amazing together!
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Effective Testing Strategies for React TypeScript: Using Jest and Mocking APIs](https://santosh-shinde.medium.com/effective-testing-strategies-for-react-typescript-using-jest-and-mocking-apis-ef768849e26e?source=rss-f5cfa346da5------2)
+- [Effective Testing Strategies for React TypeScript: Using Jest and Mocking APIs](https://levelup.gitconnected.com/effective-testing-strategies-for-react-typescript-using-jest-and-mocking-apis-ef768849e26e?source=rss-f5cfa346da5------2)
 - [Modern Testing Setup: Jest and React Testing Library for React TypeScript Projects](https://levelup.gitconnected.com/modern-testing-setup-jest-and-react-testing-library-for-react-typescript-projects-a534c651746f?source=rss-f5cfa346da5------2)
 - [A Comprehensive Guide to Setting Up ESLint, Jest, and Prettier in Node TypeScript](https://levelup.gitconnected.com/a-comprehensive-guide-to-setting-up-eslint-jest-and-prettier-in-node-typescript-b04d8e5673fd?source=rss-f5cfa346da5------2)
 - [Enhancing Code Quality: A Deep Dive into Jest, SonarQube, and GitHub Actions for…](https://javascript.plainenglish.io/enhancing-code-quality-a-deep-dive-into-jest-sonarqube-and-github-actions-for-f8862f8e5848?source=rss-f5cfa346da5------2)
