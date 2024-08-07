@@ -61,7 +61,7 @@ Let's build something amazing together!
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Getting Started with Streamlit and Custom Streamlit Components](https://santosh-shinde.medium.com/getting-started-with-streamlit-and-custom-streamlit-components-491bd197cd9f?source=rss-f5cfa346da5------2)
+- [Getting Started with Streamlit and Custom Streamlit Components](https://levelup.gitconnected.com/getting-started-with-streamlit-and-custom-streamlit-components-491bd197cd9f?source=rss-f5cfa346da5------2)
 - [A holistic strategy for the selection of open-source packages](https://medium.com/syngenta-digitalblog/a-holistic-strategy-for-the-selection-of-open-source-packages-dc814d14163b?source=rss-f5cfa346da5------2)
 - [Effective Testing Strategies for React TypeScript: Using Jest and Mocking APIs](https://levelup.gitconnected.com/effective-testing-strategies-for-react-typescript-using-jest-and-mocking-apis-ef768849e26e?source=rss-f5cfa346da5------2)
 - [Modern Testing Setup: Jest and React Testing Library for React TypeScript Projects](https://levelup.gitconnected.com/modern-testing-setup-jest-and-react-testing-library-for-react-typescript-projects-a534c651746f?source=rss-f5cfa346da5------2)
