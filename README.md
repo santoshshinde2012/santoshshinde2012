@@ -61,6 +61,7 @@ Let's build something amazing together!
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Bridging Authentication: A Getting Started Guide to Keycloak Token Exchange with Custom Identity…](https://levelup.gitconnected.com/bridging-authentication-a-getting-started-guide-to-keycloak-token-exchange-with-custom-identity-e6538b0754e3?source=rss-f5cfa346da5------2)
 - [Navigating Frontend Migration: Strategies for Refactoring, Rewriting, and Embracing Microfrontends](https://medium.com/syngenta-digitalblog/navigating-frontend-migration-strategies-for-refactoring-rewriting-and-embracing-microfrontends-331520cde2bb?source=rss-f5cfa346da5------2)
 - [Getting Started with Streamlit and Custom Streamlit Components](https://levelup.gitconnected.com/getting-started-with-streamlit-and-custom-streamlit-components-491bd197cd9f?source=rss-f5cfa346da5------2)
 - [A holistic strategy for the selection of open-source packages](https://medium.com/syngenta-digitalblog/a-holistic-strategy-for-the-selection-of-open-source-packages-dc814d14163b?source=rss-f5cfa346da5------2)
@@ -70,5 +71,4 @@ Let's build something amazing together!
 - [Enhancing Code Quality: A Deep Dive into Jest, SonarQube, and GitHub Actions for…](https://javascript.plainenglish.io/enhancing-code-quality-a-deep-dive-into-jest-sonarqube-and-github-actions-for-f8862f8e5848?source=rss-f5cfa346da5------2)
 - [Multi-factor authentication using Node JS and React JS](https://javascript.plainenglish.io/multi-factor-authentication-using-node-js-and-react-js-08967b755a5c?source=rss-f5cfa346da5------2)
 - [Getting Started with Chrome Extensions Using Vite, Typescript, React, Tailwind css and IndexdDB](https://javascript.plainenglish.io/getting-started-with-chrome-extensions-using-vite-typescript-react-tailwind-css-and-indexdb-cae7aff39dca?source=rss-f5cfa346da5------2)
-- [How to Use Sequelize with Typescript, Node.js, and PostgreSQL](https://javascript.plainenglish.io/how-to-use-sequelize-with-typescript-node-js-and-postgresql-c6ff58a3af76?source=rss-f5cfa346da5------2)
 <!-- BLOG-POST-LIST:END -->
