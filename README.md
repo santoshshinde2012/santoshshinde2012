@@ -61,6 +61,7 @@ Let's build something amazing together!
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Designing a Robust Asynchronous Request Inference Architecture with NestJS, Kafka, and Redis](https://levelup.gitconnected.com/designing-a-robust-asynchronous-request-inference-architecture-with-nestjs-kafka-and-redis-33cd269b1cbe?source=rss-f5cfa346da5------2)
 - [A Practical Approach to Keycloak Token Exchange: Converting External Tokens for Internal Use with…](https://levelup.gitconnected.com/a-practical-approach-to-keycloak-token-exchange-converting-external-tokens-for-internal-use-with-4d8fc965d57f?source=rss-f5cfa346da5------2)
 - [Bridging Authentication: A Getting Started Guide to Keycloak Token Exchange with Custom Identity…](https://levelup.gitconnected.com/bridging-authentication-a-getting-started-guide-to-keycloak-token-exchange-with-custom-identity-e6538b0754e3?source=rss-f5cfa346da5------2)
 - [Navigating Frontend Migration: Strategies for Refactoring, Rewriting, and Embracing Microfrontends](https://medium.com/syngenta-digitalblog/navigating-frontend-migration-strategies-for-refactoring-rewriting-and-embracing-microfrontends-331520cde2bb?source=rss-f5cfa346da5------2)
@@ -70,5 +71,4 @@ Let's build something amazing together!
 - [Modern Testing Setup: Jest and React Testing Library for React TypeScript Projects](https://levelup.gitconnected.com/modern-testing-setup-jest-and-react-testing-library-for-react-typescript-projects-a534c651746f?source=rss-f5cfa346da5------2)
 - [A Comprehensive Guide to Setting Up ESLint, Jest, and Prettier in Node TypeScript](https://levelup.gitconnected.com/a-comprehensive-guide-to-setting-up-eslint-jest-and-prettier-in-node-typescript-b04d8e5673fd?source=rss-f5cfa346da5------2)
 - [Enhancing Code Quality: A Deep Dive into Jest, SonarQube, and GitHub Actions for…](https://javascript.plainenglish.io/enhancing-code-quality-a-deep-dive-into-jest-sonarqube-and-github-actions-for-f8862f8e5848?source=rss-f5cfa346da5------2)
-- [Multi-factor authentication using Node JS and React JS](https://javascript.plainenglish.io/multi-factor-authentication-using-node-js-and-react-js-08967b755a5c?source=rss-f5cfa346da5------2)
 <!-- BLOG-POST-LIST:END -->
