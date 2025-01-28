@@ -61,6 +61,7 @@ Let's build something amazing together!
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Strategic Payload Validation in Asynchronous ML Inference Architectures: Ensuring Efficiency and…](https://levelup.gitconnected.com/strategic-payload-validation-in-asynchronous-ml-inference-architectures-ensuring-efficiency-and-d26ca08fd8fe?source=rss-f5cfa346da5------2)
 - [Achieving Scalability and Resiliency in Asynchronous Request Inference Architecture](https://levelup.gitconnected.com/achieving-scalability-and-resiliency-in-asynchronous-request-inference-architecture-3f3948d978d2?source=rss-f5cfa346da5------2)
 - [Design a Serverless Data Pipeline: Daily Data Collection, Transformation, and Storage with AWS…](https://levelup.gitconnected.com/design-a-serverless-data-pipeline-daily-data-collection-transformation-and-storage-with-aws-b0910179e4e1?source=rss-f5cfa346da5------2)
 - [Design Cache Invalidation with Real-Time Data Tracking with MongoDB, Debezium, Kafka, and NestJS](https://levelup.gitconnected.com/design-cache-invalidation-with-real-time-data-tracking-with-mongodb-debezium-kafka-and-nestjs-ae620b20c98d?source=rss-f5cfa346da5------2)
@@ -70,5 +71,4 @@ Let's build something amazing together!
 - [Navigating Frontend Migration: Strategies for Refactoring, Rewriting, and Embracing Microfrontends](https://medium.com/syngenta-digitalblog/navigating-frontend-migration-strategies-for-refactoring-rewriting-and-embracing-microfrontends-331520cde2bb?source=rss-f5cfa346da5------2)
 - [Getting Started with Streamlit and Custom Streamlit Components](https://levelup.gitconnected.com/getting-started-with-streamlit-and-custom-streamlit-components-491bd197cd9f?source=rss-f5cfa346da5------2)
 - [A holistic strategy for the selection of open-source packages](https://medium.com/syngenta-digitalblog/a-holistic-strategy-for-the-selection-of-open-source-packages-dc814d14163b?source=rss-f5cfa346da5------2)
-- [Effective Testing Strategies for React TypeScript: Using Jest and Mocking APIs](https://levelup.gitconnected.com/effective-testing-strategies-for-react-typescript-using-jest-and-mocking-apis-ef768849e26e?source=rss-f5cfa346da5------2)
 <!-- BLOG-POST-LIST:END -->
