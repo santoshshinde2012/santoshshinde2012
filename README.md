@@ -61,6 +61,7 @@ Let's build something amazing together!
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Bridging the Domain-AI Gap: A Collaborative Application-Driven Machine Learning Model](https://levelup.gitconnected.com/bridging-the-domain-ai-gap-a-collaborative-application-driven-machine-learning-model-0d10939f6525?source=rss-f5cfa346da5------2)
 - [Getting Started with DeepSeek: Running DeepSeek-R1 Locally on MacOS](https://levelup.gitconnected.com/getting-started-with-deepseek-running-deepseek-r1-locally-on-macos-35bac18ade3a?source=rss-f5cfa346da5------2)
 - [Strategic Payload Validation in Asynchronous ML Inference Architectures: Ensuring Efficiency and…](https://levelup.gitconnected.com/strategic-payload-validation-in-asynchronous-ml-inference-architectures-ensuring-efficiency-and-d26ca08fd8fe?source=rss-f5cfa346da5------2)
 - [Achieving Scalability and Resiliency in Asynchronous Request Inference Architecture](https://levelup.gitconnected.com/achieving-scalability-and-resiliency-in-asynchronous-request-inference-architecture-3f3948d978d2?source=rss-f5cfa346da5------2)
@@ -70,5 +71,4 @@ Let's build something amazing together!
 - [A Practical Approach to Keycloak Token Exchange: Converting External Tokens for Internal Use with…](https://levelup.gitconnected.com/a-practical-approach-to-keycloak-token-exchange-converting-external-tokens-for-internal-use-with-4d8fc965d57f?source=rss-f5cfa346da5------2)
 - [Bridging Authentication: A Getting Started Guide to Keycloak Token Exchange with Custom Identity…](https://levelup.gitconnected.com/bridging-authentication-a-getting-started-guide-to-keycloak-token-exchange-with-custom-identity-e6538b0754e3?source=rss-f5cfa346da5------2)
 - [Navigating Frontend Migration: Strategies for Refactoring, Rewriting, and Embracing Microfrontends](https://medium.com/syngenta-digitalblog/navigating-frontend-migration-strategies-for-refactoring-rewriting-and-embracing-microfrontends-331520cde2bb?source=rss-f5cfa346da5------2)
-- [Getting Started with Streamlit and Custom Streamlit Components](https://levelup.gitconnected.com/getting-started-with-streamlit-and-custom-streamlit-components-491bd197cd9f?source=rss-f5cfa346da5------2)
 <!-- BLOG-POST-LIST:END -->
