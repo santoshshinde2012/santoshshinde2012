@@ -61,6 +61,7 @@ Let's build something amazing together!
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Medallion Architecture: Principles and Practical Exploration](https://levelup.gitconnected.com/medallion-architecture-principles-and-practical-exploration-425834ae3bc7?source=rss-f5cfa346da5------2)
 - [A Decade-Plus Journey Through IT Buzzwords](https://levelup.gitconnected.com/a-decade-plus-journey-through-it-buzzwords-c2e0bb2c80e8?source=rss-f5cfa346da5------2)
 - [Microfrontends: Are We Solving Problems or Creating Them?](https://levelup.gitconnected.com/microfrontends-are-we-solving-problems-or-creating-them-35f1098b0820?source=rss-f5cfa346da5------2)
 - [How Can We Effectively Brainstorm Technical Problem Statements?](https://levelup.gitconnected.com/how-can-we-effectively-brainstorm-technical-problem-statements-d13679350675?source=rss-f5cfa346da5------2)
@@ -70,5 +71,4 @@ Let's build something amazing together!
 - [Achieving Scalability and Resiliency in Asynchronous Request Inference Architecture](https://levelup.gitconnected.com/achieving-scalability-and-resiliency-in-asynchronous-request-inference-architecture-3f3948d978d2?source=rss-f5cfa346da5------2)
 - [Design a Serverless Data Pipeline: Daily Data Collection, Transformation, and Storage with AWS…](https://levelup.gitconnected.com/design-a-serverless-data-pipeline-daily-data-collection-transformation-and-storage-with-aws-b0910179e4e1?source=rss-f5cfa346da5------2)
 - [Design Cache Invalidation with Real-Time Data Tracking with MongoDB, Debezium, Kafka, and NestJS](https://levelup.gitconnected.com/design-cache-invalidation-with-real-time-data-tracking-with-mongodb-debezium-kafka-and-nestjs-ae620b20c98d?source=rss-f5cfa346da5------2)
-- [Designing a Robust Asynchronous Request Inference Architecture with NestJS, Kafka, and Redis](https://levelup.gitconnected.com/designing-a-robust-asynchronous-request-inference-architecture-with-nestjs-kafka-and-redis-33cd269b1cbe?source=rss-f5cfa346da5------2)
 <!-- BLOG-POST-LIST:END -->
