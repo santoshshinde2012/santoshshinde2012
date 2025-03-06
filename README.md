@@ -61,7 +61,7 @@ Let's build something amazing together!
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Kappa Architecture Unveiled: Real-Time IoT Innovation and Hands-On Implementation](https://santosh-shinde.medium.com/kappa-architecture-unveiled-real-time-iot-innovation-and-hands-on-implementation-d8ff57f37167?source=rss-f5cfa346da5------2)
+- [Kappa Architecture Unveiled: Real-Time IoT Innovation and Hands-On Implementation](https://levelup.gitconnected.com/kappa-architecture-unveiled-real-time-iot-innovation-and-hands-on-implementation-d8ff57f37167?source=rss-f5cfa346da5------2)
 - [Medallion Architecture: Principles and Practical Exploration](https://levelup.gitconnected.com/medallion-architecture-principles-and-practical-exploration-425834ae3bc7?source=rss-f5cfa346da5------2)
 - [A Decade-Plus Journey Through IT Buzzwords](https://levelup.gitconnected.com/a-decade-plus-journey-through-it-buzzwords-c2e0bb2c80e8?source=rss-f5cfa346da5------2)
 - [Microfrontends: Are We Solving Problems or Creating Them?](https://levelup.gitconnected.com/microfrontends-are-we-solving-problems-or-creating-them-35f1098b0820?source=rss-f5cfa346da5------2)
