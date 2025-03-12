@@ -61,6 +61,8 @@ Let's build something amazing together!
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [TypeScript Just Got 10x Faster: What It Means for Developers](https://levelup.gitconnected.com/typescript-just-got-10x-faster-what-it-means-for-developers-dfae10dc92c2?source=rss-f5cfa346da5------2)
+- [Why Do S3 Storage Classes Matter for Machine Learning?](https://santosh-shinde.medium.com/why-do-s3-storage-classes-matter-for-machine-learning-82155e16fb54?source=rss-f5cfa346da5------2)
 - [From Monoliths to Mesh: How Data Mesh Redefines Scalable Systems](https://levelup.gitconnected.com/from-monoliths-to-mesh-how-data-mesh-redefines-scalable-systems-608a9f25f91b?source=rss-f5cfa346da5------2)
 - [Kappa Architecture Unveiled: Real-Time IoT Innovation and Hands-On Implementation](https://levelup.gitconnected.com/kappa-architecture-unveiled-real-time-iot-innovation-and-hands-on-implementation-d8ff57f37167?source=rss-f5cfa346da5------2)
 - [Medallion Architecture: Principles and Practical Exploration](https://levelup.gitconnected.com/medallion-architecture-principles-and-practical-exploration-425834ae3bc7?source=rss-f5cfa346da5------2)
@@ -69,6 +71,4 @@ Let's build something amazing together!
 - [How Can We Effectively Brainstorm Technical Problem Statements?](https://levelup.gitconnected.com/how-can-we-effectively-brainstorm-technical-problem-statements-d13679350675?source=rss-f5cfa346da5------2)
 - [Bridging the Domain-AI Gap: A Collaborative Application-Driven Machine Learning Model](https://levelup.gitconnected.com/bridging-the-domain-ai-gap-a-collaborative-application-driven-machine-learning-model-0d10939f6525?source=rss-f5cfa346da5------2)
 - [Getting Started with DeepSeek: Running DeepSeek-R1 Locally on MacOS](https://levelup.gitconnected.com/getting-started-with-deepseek-running-deepseek-r1-locally-on-macos-35bac18ade3a?source=rss-f5cfa346da5------2)
-- [Strategic Payload Validation in Asynchronous ML Inference Architectures: Ensuring Efficiency and…](https://levelup.gitconnected.com/strategic-payload-validation-in-asynchronous-ml-inference-architectures-ensuring-efficiency-and-d26ca08fd8fe?source=rss-f5cfa346da5------2)
-- [Achieving Scalability and Resiliency in Asynchronous Request Inference Architecture](https://levelup.gitconnected.com/achieving-scalability-and-resiliency-in-asynchronous-request-inference-architecture-3f3948d978d2?source=rss-f5cfa346da5------2)
 <!-- BLOG-POST-LIST:END -->
