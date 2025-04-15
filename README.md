@@ -61,6 +61,7 @@ Let's build something amazing together!
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [How to Create a Flexible Data Pipeline with Delta Live Tables](https://levelup.gitconnected.com/how-to-create-a-flexible-data-pipeline-with-delta-live-tables-1e03bf5481f9?source=rss-f5cfa346da5------2)
 - [Delta Lake Simplified: Bridging Batch and Streaming for Modern Data](https://medium.com/data-science-collective/delta-lake-simplified-bridging-batch-and-streaming-for-modern-data-bbc17d9952dc?source=rss-f5cfa346da5------2)
 - [Data Fabric Decoded: Principles and Practical Exploration](https://medium.com/data-science-collective/data-fabric-decoded-principles-and-practical-exploration-4c15395bb881?source=rss-f5cfa346da5------2)
 - [TypeScript Just Got 10x Faster: What It Means for Developers](https://levelup.gitconnected.com/typescript-just-got-10x-faster-what-it-means-for-developers-dfae10dc92c2?source=rss-f5cfa346da5------2)
@@ -70,5 +71,4 @@ Let's build something amazing together!
 - [Medallion Architecture: Principles and Practical Exploration](https://levelup.gitconnected.com/medallion-architecture-principles-and-practical-exploration-425834ae3bc7?source=rss-f5cfa346da5------2)
 - [A Decade-Plus Journey Through IT Buzzwords](https://levelup.gitconnected.com/a-decade-plus-journey-through-it-buzzwords-c2e0bb2c80e8?source=rss-f5cfa346da5------2)
 - [Microfrontends: Are We Solving Problems or Creating Them?](https://levelup.gitconnected.com/microfrontends-are-we-solving-problems-or-creating-them-35f1098b0820?source=rss-f5cfa346da5------2)
-- [How Can We Effectively Brainstorm Technical Problem Statements?](https://levelup.gitconnected.com/how-can-we-effectively-brainstorm-technical-problem-statements-d13679350675?source=rss-f5cfa346da5------2)
 <!-- BLOG-POST-LIST:END -->
