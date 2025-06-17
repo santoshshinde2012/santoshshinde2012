@@ -61,6 +61,7 @@ Let's build something amazing together!
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Lakebase—Database for Intelligence](https://levelup.gitconnected.com/lakebase-database-for-intelligence-a6759ed2a910?source=rss-f5cfa346da5------2)
 - [How to Create a Flexible Data Pipeline with Delta Live Tables](https://levelup.gitconnected.com/how-to-create-a-flexible-data-pipeline-with-delta-live-tables-1e03bf5481f9?source=rss-f5cfa346da5------2)
 - [Delta Lake Simplified: Bridging Batch and Streaming for Modern Data](https://medium.com/data-science-collective/delta-lake-simplified-bridging-batch-and-streaming-for-modern-data-bbc17d9952dc?source=rss-f5cfa346da5------2)
 - [Data Fabric Decoded: Principles and Practical Exploration](https://medium.com/data-science-collective/data-fabric-decoded-principles-and-practical-exploration-4c15395bb881?source=rss-f5cfa346da5------2)
@@ -70,5 +71,4 @@ Let's build something amazing together!
 - [Kappa Architecture Unveiled: Real-Time IoT Innovation and Hands-On Implementation](https://levelup.gitconnected.com/kappa-architecture-unveiled-real-time-iot-innovation-and-hands-on-implementation-d8ff57f37167?source=rss-f5cfa346da5------2)
 - [Medallion Architecture: Principles and Practical Exploration](https://levelup.gitconnected.com/medallion-architecture-principles-and-practical-exploration-425834ae3bc7?source=rss-f5cfa346da5------2)
 - [A Decade-Plus Journey Through IT Buzzwords](https://levelup.gitconnected.com/a-decade-plus-journey-through-it-buzzwords-c2e0bb2c80e8?source=rss-f5cfa346da5------2)
-- [Microfrontends: Are We Solving Problems or Creating Them?](https://levelup.gitconnected.com/microfrontends-are-we-solving-problems-or-creating-them-35f1098b0820?source=rss-f5cfa346da5------2)
 <!-- BLOG-POST-LIST:END -->
