@@ -16,18 +16,13 @@
  </a>
 </p>
 
-[![About me](./profile.png)](https://www.santoshshinde.com/)
 
 <h1 align="center">Hi 👋, I'm Santosh Shinde</h1>
 <h3 align="center">Experienced full-stack engineer with a focus on technology-driven solutions. </h3>
 
-As a seasoned full-stack engineer, I am committed to creating technology-driven solutions that tackle intricate problems. I have honed my skills in various aspects of software development, and I take pride in contributing to the tech community by sharing my work and assisting others.
+I’m an ML practitioner and data enthusiast with full‑stack development experience. I design and operate LLM‑powered products—retrieval‑augmented generation, evaluation loops, and scalable MLOps—combining the ML ecosystem (PyTorch/TensorFlow, scikit‑learn, SageMaker, MLflow) with modern product engineering (TypeScript, React, Node.js, AWS). Currently at Syngenta, I lead and contribute to product development that supports key business outcomes—translating AI and platform capabilities into dependable, user‑centric solutions.
 
-Currently, I'm actively involved in various open-source projects, where I collaborate with other developers to build and improve tools that make a difference.
-
-In addition, I'm working on a new project aimed at helping the technical community get started with their own ventures. My goal is to provide resources, guidance, and support to enable others to kickstart their projects with confidence.
-
-Passionate about continuous learning and technological innovation, I consistently seek opportunities to broaden my expertise and devise creative solutions. I actively share my insights and experiences through my blog, as well as contribute to open-source projects. I believe in the power of community and open-source collaboration, and I'm always eager to connect with like-minded individuals.
+I am committed to creating technology-driven solutions that tackle intricate problems. I have honed my skills in various aspects of software development, and I take pride in contributing to the tech community by sharing my work and assisting others.
 
 Let's build something amazing together!
 
