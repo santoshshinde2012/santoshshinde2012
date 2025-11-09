@@ -56,6 +56,7 @@ Let's build something amazing together!
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Can AI Really Learn from Experience?](https://medium.com/data-science-collective/can-ai-really-learn-from-experience-b37024b881ba?source=rss-f5cfa346da5------2)
 - [Business Insights with Databricks AI/BI Genie: A Custom Approach to Trusted Analytics](https://medium.com/data-science-collective/business-insights-with-databricks-ai-bi-genie-a-custom-approach-to-trusted-analytics-c62136930b0b?source=rss-f5cfa346da5------2)
 - [Generative AI Applications with OLTP and OLAP: Leveraging Lakebase and Lakehouse Architecture](https://levelup.gitconnected.com/generative-ai-applications-with-oltp-and-olap-leveraging-lakebase-and-lakehouse-architecture-684084143c0f?source=rss-f5cfa346da5------2)
 - [Understanding Agentic AI, Model Context Protocol, and Agent-to-Agent Communication](https://levelup.gitconnected.com/understanding-agentic-ai-model-context-protocol-and-agent-to-agent-communication-5a1b92dae4f1?source=rss-f5cfa346da5------2)
@@ -65,5 +66,4 @@ Let's build something amazing together!
 - [Data Fabric Decoded: Principles and Practical Exploration](https://medium.com/data-science-collective/data-fabric-decoded-principles-and-practical-exploration-4c15395bb881?source=rss-f5cfa346da5------2)
 - [TypeScript Just Got 10x Faster: What It Means for Developers](https://levelup.gitconnected.com/typescript-just-got-10x-faster-what-it-means-for-developers-dfae10dc92c2?source=rss-f5cfa346da5------2)
 - [Optimizing Machine Learning with S3 Storage Classes](https://medium.com/syngenta-digitalblog/why-do-s3-storage-classes-matter-for-machine-learning-82155e16fb54?source=rss-f5cfa346da5------2)
-- [From Monoliths to Mesh: How Data Mesh Redefines Scalable Systems](https://levelup.gitconnected.com/from-monoliths-to-mesh-how-data-mesh-redefines-scalable-systems-608a9f25f91b?source=rss-f5cfa346da5------2)
 <!-- BLOG-POST-LIST:END -->
