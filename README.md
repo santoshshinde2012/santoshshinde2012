@@ -56,6 +56,7 @@ Let's build something amazing together!
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Four Vibe Coding Anti-Patterns](https://levelup.gitconnected.com/four-vibe-coding-anti-patterns-f828841b5d25?source=rss-f5cfa346da5------2)
 - [Can AI Really Learn from Experience?](https://levelup.gitconnected.com/can-ai-really-learn-from-experience-b37024b881ba?source=rss-f5cfa346da5------2)
 - [Business Insights with Databricks AI/BI Genie: A Custom Approach to Trusted Analytics](https://medium.com/data-science-collective/business-insights-with-databricks-ai-bi-genie-a-custom-approach-to-trusted-analytics-c62136930b0b?source=rss-f5cfa346da5------2)
 - [Generative AI Applications with OLTP and OLAP: Leveraging Lakebase and Lakehouse Architecture](https://levelup.gitconnected.com/generative-ai-applications-with-oltp-and-olap-leveraging-lakebase-and-lakehouse-architecture-684084143c0f?source=rss-f5cfa346da5------2)
@@ -65,5 +66,4 @@ Let's build something amazing together!
 - [Delta Lake Simplified: Bridging Batch and Streaming for Modern Data](https://medium.com/data-science-collective/delta-lake-simplified-bridging-batch-and-streaming-for-modern-data-bbc17d9952dc?source=rss-f5cfa346da5------2)
 - [Data Fabric Decoded: Principles and Practical Exploration](https://medium.com/data-science-collective/data-fabric-decoded-principles-and-practical-exploration-4c15395bb881?source=rss-f5cfa346da5------2)
 - [TypeScript Just Got 10x Faster: What It Means for Developers](https://levelup.gitconnected.com/typescript-just-got-10x-faster-what-it-means-for-developers-dfae10dc92c2?source=rss-f5cfa346da5------2)
-- [Optimizing Machine Learning with S3 Storage Classes](https://medium.com/syngenta-digitalblog/why-do-s3-storage-classes-matter-for-machine-learning-82155e16fb54?source=rss-f5cfa346da5------2)
 <!-- BLOG-POST-LIST:END -->
