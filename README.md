@@ -59,7 +59,7 @@ Let's build something amazing together!
 - [Four Vibe Coding Anti-Patterns](https://levelup.gitconnected.com/four-vibe-coding-anti-patterns-f828841b5d25?source=rss-f5cfa346da5------2)
 - [Can AI Really Learn from Experience?](https://levelup.gitconnected.com/can-ai-really-learn-from-experience-b37024b881ba?source=rss-f5cfa346da5------2)
 - [Business Insights with Databricks AI/BI Genie: A Custom Approach to Trusted Analytics](https://medium.com/data-science-collective/business-insights-with-databricks-ai-bi-genie-a-custom-approach-to-trusted-analytics-c62136930b0b?source=rss-f5cfa346da5------2)
-- [Generative AI Applications with OLTP and OLAP: Leveraging Lakebase and Lakehouse Architecture](https://levelup.gitconnected.com/generative-ai-applications-with-oltp-and-olap-leveraging-lakebase-and-lakehouse-architecture-684084143c0f?source=rss-f5cfa346da5------2)
+- [OLTP for Data Apps and AI Agents: Leveraging Lakebase and Lakehouse Architecture](https://levelup.gitconnected.com/generative-ai-applications-with-oltp-and-olap-leveraging-lakebase-and-lakehouse-architecture-684084143c0f?source=rss-f5cfa346da5------2)
 - [Understanding Agentic AI, Model Context Protocol, and Agent-to-Agent Communication](https://levelup.gitconnected.com/understanding-agentic-ai-model-context-protocol-and-agent-to-agent-communication-5a1b92dae4f1?source=rss-f5cfa346da5------2)
 - [Lakebase—Database for Intelligence](https://levelup.gitconnected.com/lakebase-database-for-intelligence-a6759ed2a910?source=rss-f5cfa346da5------2)
 - [How to Create a Flexible Data Pipeline with Delta Live Tables](https://levelup.gitconnected.com/how-to-create-a-flexible-data-pipeline-with-delta-live-tables-1e03bf5481f9?source=rss-f5cfa346da5------2)
