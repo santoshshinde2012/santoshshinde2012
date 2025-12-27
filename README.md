@@ -39,20 +39,6 @@ Let's build something amazing together!
   </div>
 </div>
 
-### My GitHub Stats
-<div>
-<img align="center" width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=santoshshinde2012" alt="santoshshinde2012" />
-<img align="center" width="49%"  src="https://github-readme-stats.vercel.app/api?username=santoshshinde2012&show_icons=true&locale=en" alt="santoshshinde2012" />
-</div>
-
-## 🏆 Github Profile Trophy
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=santoshshinde2012&theme=monokai&margin-w=15&margin-h=15&&no-frame=true&row=1)](https://github.com/ryo-ma/github-profile-trophy)
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=santoshshinde2012&layout=compact&hide=html" />
-
-<br/>
-
 # Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
