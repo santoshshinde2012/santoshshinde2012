@@ -15,16 +15,15 @@
    <img src="https://img.shields.io/badge/stackoverflow-%23181717?style=flat-square&logo=stackoverflow" />
  </a>
 </p>
-
-
 <h1 align="center">Hi 👋, I'm Santosh Shinde</h1>
-<h3 align="center">Experienced full-stack engineer with a focus on technology-driven solutions. </h3>
+<h3 align="center">AI Engineer Lead · Systems thinker · Writer</h3>
+I'm an AI Engineer Lead at Syngenta, based in Pune. I design and ship LLM-powered products — RAG pipelines, evaluation loops, and the MLOps plumbing that keeps them running in production. I came up as a full-stack engineer (TypeScript, Node, React, AWS) and grew into ML and generative AI from there.
+Working across the full surface taught me one thing most posts skip: a model is the easy part. The hard part is everything around it — retrieval, evals, failure modes, cost, the team that has to maintain it six months from now. That's what I find interesting, and it's what I write about.
+What I focus on
 
-I’m an ML practitioner and data enthusiast with full‑stack development experience. I design and operate LLM‑powered products—retrieval‑augmented generation, evaluation loops, and scalable MLOps—combining the ML ecosystem (PyTorch/TensorFlow, scikit‑learn, SageMaker, MLflow) with modern product engineering (TypeScript, React, Node.js, AWS). Currently at Syngenta, I lead and contribute to product development that supports key business outcomes—translating AI and platform capabilities into dependable, user‑centric solutions.
-
-I am committed to creating technology-driven solutions that tackle intricate problems. I have honed my skills in various aspects of software development, and I take pride in contributing to the tech community by sharing my work and assisting others.
-
-Let's build something amazing together!
+End-to-end systems — not the model in isolation, the full pipeline. Most of the value (and most of the bugs) lives between the boxes on the architecture diagram.
+Tradeoffs that matter to the business — Lakebase vs Lakehouse, batch vs streaming, RAG vs fine-tuning. These show up in latency, cost, and risk, not just engineering preference.
+The unglamorous production work — eval harnesses, observability for non-deterministic systems, drift, guardrails. The stuff that separates a demo from something you can trust on a Tuesday morning.
 
 <div style="display: flex;">
   <div style="flex: 50%; padding: 0 15px;">
