@@ -22,8 +22,8 @@
 
 <table border="0" cellpadding="0" cellspacing="0">
   <tr>
-    <td width="32%" align="center" valign="middle">
-      <img src="./profile.jpeg" width="210" alt="Santosh Shinde" />
+    <td width="34%" align="center" valign="middle">
+      <img src="./assets/profile.svg" width="250" alt="Santosh Shinde" />
     </td>
     <td width="68%" valign="middle">
       <p>I'm an <b>AI Lead Engineer at Syngenta</b>, based in Pune. I design and ship LLM-powered products — RAG pipelines, evaluation loops, and the MLOps plumbing that keeps them running in production.</p>
