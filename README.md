@@ -35,6 +35,29 @@
 
 ---
 
+## Proof, Not Claims
+
+I'd rather show working systems than list skills. Everything here runs and is inspectable:
+
+| Working system | What it demonstrates | Link |
+| --- | --- | --- |
+| **FrameSleuth** | A shipped, local-first AI product — video → evidence-cited context bundles for coding agents, MCP-ready | [framesleuth.com](https://www.framesleuth.com/) |
+| **ask-santosh** | Retrieval-augmented Q&A over my writing, with a reproducible **DeepEval** suite (faithfulness · answer-relevancy · contextual-relevancy) gating answer quality in CI | [repo](https://github.com/santoshshinde2012/ask-santosh) |
+| **Multi-agent on Databricks** | Production multi-agent orchestration, beyond Genie code | [repo](https://github.com/santoshshinde2012/multi-agent-sales-ops-tpch-databricks) · [write-up](https://medium.com/data-science-collective/beyond-genie-code-orchestrating-production-multi-agent-systems-on-databricks-86ac51e9c55b) |
+| **This profile** | The summary just below is written by a GitHub Actions + **GitHub Models** workflow that reads my own recent activity — an agentic pipeline, not a static line | [workflow](.github/workflows/ai-summary.yml) |
+
+---
+
+## What I'm Shipping Lately
+
+<!-- AI-SUMMARY:START -->
+Lately: building **FrameSleuth** (video → shippable code for agents), shipping **ask-santosh** (RAG over my writing with a DeepEval quality gate), and multi-agent + AI-consumption-plane work on Databricks — with a steady stream of write-ups on MCP and agentic systems.
+
+<sub>Auto-generated from my recent GitHub activity by a GitHub Actions + GitHub Models workflow.</sub>
+<!-- AI-SUMMARY:END -->
+
+---
+
 ## What I'm Building — FrameSleuth
 
 > ### *"Turn any video into code your agent can ship."*
