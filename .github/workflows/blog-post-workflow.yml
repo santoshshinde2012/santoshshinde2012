@@ -1,16 +1,23 @@
 name: Latest Medium Articles
+
 on:
   schedule:
-    - cron: 0 10 * * *
+    # Runs every 6 hours so the profile always shows the latest posts
+    - cron: "0 */6 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-readme-with-blog:
     name: Update this repo's README with latest blog posts
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: gautamkrishnar/blog-post-workflow@master
+      - uses: actions/checkout@v4
+      - name: Pull latest posts into README
+        uses: gautamkrishnar/blog-post-workflow@master
         with:
           max_post_count: "20"
           feed_list: "https://medium.com/feed/@santosh-shinde"
+          commit_message: "chore: update README with latest blog posts"
