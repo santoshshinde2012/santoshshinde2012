@@ -111,27 +111,9 @@ pie showData
 
 Not every problem lives in the same place. I map what I build to the [Cynefin](https://en.wikipedia.org/wiki/Cynefin_framework) domains — because the right approach for a known CRUD API is the wrong approach for a non-deterministic agent.
 
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'quadrant1Fill':'#23863622','quadrant2Fill':'#1F6FEB22','quadrant3Fill':'#D9770622','quadrant4Fill':'#8B949E22','quadrant1TextFill':'#2EA043','quadrant2TextFill':'#2F81F7','quadrant3TextFill':'#D97706','quadrant4TextFill':'#6E7681','quadrantPointFill':'#2F81F7','quadrantPointTextFill':'#8B949E','quadrantXAxisTextFill':'#8B949E','quadrantYAxisTextFill':'#8B949E','quadrantTitleFill':'#8B949E','quadrantInternalBorderStrokeFill':'#30363D','quadrantExternalBorderStrokeFill':'#30363D'}}}%%
-quadrantChart
-    title Where my current work sits — a Cynefin map
-    x-axis Cause and effect unclear --> Cause and effect clear
-    y-axis Act first --> Probe and analyse
-    quadrant-1 Complicated
-    quadrant-2 Complex
-    quadrant-3 Chaotic
-    quadrant-4 Clear
-    Boilerplates and scaffolding: [0.82, 0.18]
-    Proven CRUD patterns: [0.68, 0.28]
-    Databricks platforms: [0.78, 0.80]
-    Multi-agent orchestration: [0.60, 0.70]
-    System architecture: [0.88, 0.60]
-    LLM evals and agent behavior: [0.28, 0.82]
-    RAG retrieval quality: [0.18, 0.66]
-    FrameSleuth video to code: [0.34, 0.58]
-    Model drift: [0.20, 0.22]
-    Non-deterministic failures: [0.32, 0.12]
-```
+<p align="center">
+  <img src="./assets/cynefin.svg" width="820" alt="A Cynefin map of my current work — Complex (multi-agent orchestration, LLM evals, RAG, FrameSleuth), Complicated (system architecture, Databricks platforms, pipelines), Chaotic (non-deterministic failures, model drift, incidents), Clear (boilerplates, CRUD patterns, CI/release), and Disorder in the center." />
+</p>
 
 ---
 

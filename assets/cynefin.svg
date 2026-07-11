@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 608" width="820" height="608" role="img" aria-label="How I navigate the work — a Cynefin map. Complex: multi-agent orchestration, LLM evals, RAG, FrameSleuth (probe-sense-respond, emergent practice). Complicated: system architecture, Databricks platforms (sense-analyse-respond, good practice). Chaotic: non-deterministic failures, model and data drift (act-sense-respond, novel practice). Clear: boilerplates and scaffolding, proven CRUD patterns (sense-categorise-respond, best practice). Confusion sits in the center. A navigator orb continuously probes out from Confusion toward each domain and returns.">
+  <defs>
+    <filter id="mk" x="-6%" y="-30%" width="112%" height="160%"><feGaussianBlur stdDeviation="0.7"/></filter>
+    <filter id="glow" x="-160%" y="-160%" width="420%" height="420%"><feGaussianBlur stdDeviation="3"/></filter>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/><stop offset="35%" stop-color="#79C0FF"/><stop offset="100%" stop-color="#2F81F7" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .ser  { font-family: Georgia,'Times New Roman',serif; }
+      .sans { font-family: 'Segoe UI',ui-sans-serif,Roboto,Helvetica,Arial,sans-serif; }
+    </style>
+  </defs>
+
+  <!-- card -->
+  <rect x="8" y="8" width="804" height="592" rx="16" fill="#FFFFFF" stroke="#D0D7DE" stroke-width="1.5"/>
+
+  <g transform="translate(0,-32)">
+
+  <!-- ===================== THE FOLD (drawn by a glowing pen-tip on load) ===================== -->
+  <g fill="none" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round">
+    <path d="M410,86 C418,150 402,214 410,270" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="0.9s" begin="0.2s" fill="freeze"/></path>
+    <path d="M410,390 C418,470 400,540 408,584 C414,602 395,606 398,588 C400,577 409,582 405,593" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.2s" begin="0.3s" fill="freeze"/></path>
+    <path d="M352,330 C280,322 150,338 50,330" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="0.9s" begin="0.25s" fill="freeze"/></path>
+    <path d="M468,330 C560,338 690,322 770,330" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" from="100" to="0" dur="0.9s" begin="0.25s" fill="freeze"/></path>
+  </g>
+  <g fill="#D97C84" filter="url(#glow)">
+    <circle r="4" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="0.9s" begin="0.2s" fill="freeze"/><animateMotion path="M410,86 C418,150 402,214 410,270" dur="0.9s" begin="0.2s" fill="freeze"/></circle>
+    <circle r="4" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="1.2s" begin="0.3s" fill="freeze"/><animateMotion path="M410,390 C418,470 400,540 408,584 C414,602 395,606 398,588 C400,577 409,582 405,593" dur="1.2s" begin="0.3s" fill="freeze"/></circle>
+    <circle r="4" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="0.9s" begin="0.25s" fill="freeze"/><animateMotion path="M352,330 C280,322 150,338 50,330" dur="0.9s" begin="0.25s" fill="freeze"/></circle>
+    <circle r="4" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="0.9s" begin="0.25s" fill="freeze"/><animateMotion path="M468,330 C560,338 690,322 770,330" dur="0.9s" begin="0.25s" fill="freeze"/></circle>
+  </g>
+
+  <!-- ===================== CENTER — Confusion (breathing forever) ===================== -->
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.9s" fill="freeze"/>
+    <circle cx="410" cy="330" r="20" fill="none" stroke="#E0989E" stroke-width="1.4"><animate attributeName="r" values="16;46" dur="3.6s" begin="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.5;0" dur="3.6s" begin="1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="410" cy="330" r="20" fill="none" stroke="#E0989E" stroke-width="1.2"><animate attributeName="r" values="16;46" dur="3.6s" begin="3.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.4;0" dur="3.6s" begin="3.2s" repeatCount="indefinite"/></circle>
+    <path d="M410,270 Q426,314 468,330 Q426,347 410,390 Q394,347 352,330 Q394,314 410,270 Z" fill="#F0BFC4" stroke="#1A1A1A" stroke-width="1.6"><animate attributeName="opacity" values="1;0.82;1" dur="3.2s" begin="1.4s" repeatCount="indefinite"/></path>
+    <text x="410" y="334" text-anchor="middle" class="ser" font-style="italic" font-size="13" fill="#4A2B2E">Confusion</text>
+  </g>
+
+  <!-- ===================== COMPLEX (top-left, cx 215) ===================== -->
+  <g>
+    <text x="215" y="104" text-anchor="middle" class="ser" font-size="26" font-weight="700" fill="#1F2328" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.35s" fill="freeze"/>Complex</text>
+    <g><rect x="110" y="120" width="0" height="22" rx="11" fill="#F3C3C6" filter="url(#mk)" opacity="0.9"><animate attributeName="width" values="0;210" dur="0.45s" begin="0.35s" fill="freeze" calcMode="spline" keySplines="0.3 0 0 1"/></rect><text x="215" y="135" text-anchor="middle" class="sans" font-size="13" fill="#2A2A2A" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.6s" fill="freeze"/>Multi-agent orchestration</text></g>
+    <g><rect x="98" y="148" width="0" height="22" rx="11" fill="#F3C3C6" filter="url(#mk)" opacity="0.9"><animate attributeName="width" values="0;234" dur="0.45s" begin="0.45s" fill="freeze" calcMode="spline" keySplines="0.3 0 0 1"/></rect><text x="215" y="163" text-anchor="middle" class="sans" font-size="13" fill="#2A2A2A" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.7s" fill="freeze"/>LLM evals · RAG · FrameSleuth</text></g>
+    <g><rect x="117" y="188" width="0" height="22" rx="11" fill="#C2DEF0" filter="url(#mk)" opacity="0.9"><animate attributeName="width" values="0;196" dur="0.45s" begin="0.55s" fill="freeze" calcMode="spline" keySplines="0.3 0 0 1"/></rect><text x="215" y="203" text-anchor="middle" class="sans" font-size="13" fill="#1B3A4B" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.8s" fill="freeze"/>probe → sense → respond</text></g>
+    <g><rect x="140" y="216" width="0" height="22" rx="11" fill="#FBE6A8" filter="url(#mk)" opacity="0.9"><animate attributeName="width" values="0;150" dur="0.45s" begin="0.65s" fill="freeze" calcMode="spline" keySplines="0.3 0 0 1"/></rect><text x="215" y="231" text-anchor="middle" class="sans" font-size="13" font-weight="600" fill="#5A4A1A" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.9s" fill="freeze"/>Emergent practice</text></g>
+  </g>
+
+  <!-- ===================== COMPLICATED (top-right, cx 605) ===================== -->
+  <g>
+    <text x="605" y="104" text-anchor="middle" class="ser" font-size="26" font-weight="700" fill="#1F2328" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.5s" fill="freeze"/>Complicated</text>
+    <g><rect x="522" y="120" width="0" height="22" rx="11" fill="#F3C3C6" filter="url(#mk)" opacity="0.9"><animate attributeName="width" values="0;166" dur="0.45s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.3 0 0 1"/></rect><text x="605" y="135" text-anchor="middle" class="sans" font-size="13" fill="#2A2A2A" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.75s" fill="freeze"/>System architecture</text></g>
+    <g><rect x="500" y="148" width="0" height="22" rx="11" fill="#F3C3C6" filter="url(#mk)" opacity="0.9"><animate attributeName="width" values="0;210" dur="0.45s" begin="0.6s" fill="freeze" calcMode="spline" keySplines="0.3 0 0 1"/></rect><text x="605" y="163" text-anchor="middle" class="sans" font-size="13" fill="#2A2A2A" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.85s" fill="freeze"/>Databricks data platforms</text></g>
+    <g><rect x="500" y="188" width="0" height="22" rx="11" fill="#C2DEF0" filter="url(#mk)" opacity="0.9"><animate attributeName="width" values="0;210" dur="0.45s" begin="0.7s" fill="freeze" calcMode="spline" keySplines="0.3 0 0 1"/></rect><text x="605" y="203" text-anchor="middle" class="sans" font-size="13" fill="#1B3A4B" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.95s" fill="freeze"/>sense → analyse → respond</text></g>
+    <g><rect x="545" y="216" width="0" height="22" rx="11" fill="#FBE6A8" filter="url(#mk)" opacity="0.9"><animate attributeName="width" values="0;120" dur="0.45s" begin="0.8s" fill="freeze" calcMode="spline" keySplines="0.3 0 0 1"/></rect><text x="605" y="231" text-anchor="middle" class="sans" font-size="13" font-weight="600" fill="#5A4A1A" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.05s" fill="freeze"/>Good practice</text></g>
+  </g>
+
+  <!-- ===================== CHAOTIC (bottom-left, cx 215) ===================== -->
+  <g>
+    <text x="215" y="404" text-anchor="middle" class="ser" font-size="26" font-weight="700" fill="#1F2328" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.65s" fill="freeze"/>Chaotic</text>
+    <g><rect x="106" y="420" width="0" height="22" rx="11" fill="#F3C3C6" filter="url(#mk)" opacity="0.9"><animate attributeName="width" values="0;218" dur="0.45s" begin="0.65s" fill="freeze" calcMode="spline" keySplines="0.3 0 0 1"/></rect><text x="215" y="435" text-anchor="middle" class="sans" font-size="13" fill="#2A2A2A" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.9s" fill="freeze"/>Non-deterministic failures</text></g>
+    <g><rect x="136" y="448" width="0" height="22" rx="11" fill="#F3C3C6" filter="url(#mk)" opacity="0.9"><animate attributeName="width" values="0;158" dur="0.45s" begin="0.75s" fill="freeze" calcMode="spline" keySplines="0.3 0 0 1"/></rect><text x="215" y="463" text-anchor="middle" class="sans" font-size="13" fill="#2A2A2A" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.0s" fill="freeze"/>Model &amp; data drift</text></g>
+    <g><rect x="125" y="488" width="0" height="22" rx="11" fill="#C2DEF0" filter="url(#mk)" opacity="0.9"><animate attributeName="width" values="0;180" dur="0.45s" begin="0.85s" fill="freeze" calcMode="spline" keySplines="0.3 0 0 1"/></rect><text x="215" y="503" text-anchor="middle" class="sans" font-size="13" fill="#1B3A4B" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.1s" fill="freeze"/>act → sense → respond</text></g>
+    <g><rect x="151" y="516" width="0" height="22" rx="11" fill="#FBE6A8" filter="url(#mk)" opacity="0.9"><animate attributeName="width" values="0;128" dur="0.45s" begin="0.95s" fill="freeze" calcMode="spline" keySplines="0.3 0 0 1"/></rect><text x="215" y="531" text-anchor="middle" class="sans" font-size="13" font-weight="600" fill="#5A4A1A" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.2s" fill="freeze"/>Novel practice</text></g>
+  </g>
+
+  <!-- ===================== CLEAR (bottom-right, cx 605) ===================== -->
+  <g>
+    <text x="605" y="404" text-anchor="middle" class="ser" font-size="26" font-weight="700" fill="#1F2328" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.8s" fill="freeze"/>Clear</text>
+    <g><rect x="496" y="420" width="0" height="22" rx="11" fill="#F3C3C6" filter="url(#mk)" opacity="0.9"><animate attributeName="width" values="0;218" dur="0.45s" begin="0.8s" fill="freeze" calcMode="spline" keySplines="0.3 0 0 1"/></rect><text x="605" y="435" text-anchor="middle" class="sans" font-size="13" fill="#2A2A2A" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.05s" fill="freeze"/>Boilerplates &amp; scaffolding</text></g>
+    <g><rect x="519" y="448" width="0" height="22" rx="11" fill="#F3C3C6" filter="url(#mk)" opacity="0.9"><animate attributeName="width" values="0;172" dur="0.45s" begin="0.9s" fill="freeze" calcMode="spline" keySplines="0.3 0 0 1"/></rect><text x="605" y="463" text-anchor="middle" class="sans" font-size="13" fill="#2A2A2A" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.15s" fill="freeze"/>Proven CRUD patterns</text></g>
+    <g><rect x="489" y="488" width="0" height="22" rx="11" fill="#C2DEF0" filter="url(#mk)" opacity="0.9"><animate attributeName="width" values="0;232" dur="0.45s" begin="1.0s" fill="freeze" calcMode="spline" keySplines="0.3 0 0 1"/></rect><text x="605" y="503" text-anchor="middle" class="sans" font-size="13" fill="#1B3A4B" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.25s" fill="freeze"/>sense → categorise → respond</text></g>
+    <g><rect x="545" y="516" width="0" height="22" rx="11" fill="#FBE6A8" filter="url(#mk)" opacity="0.9"><animate attributeName="width" values="0;120" dur="0.45s" begin="1.1s" fill="freeze" calcMode="spline" keySplines="0.3 0 0 1"/></rect><text x="605" y="531" text-anchor="middle" class="sans" font-size="13" font-weight="600" fill="#5A4A1A" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.35s" fill="freeze"/>Best practice</text></g>
+  </g>
+
+  <!-- ===================== NAVIGATOR — a probe that loops out to each domain, forever ===================== -->
+  <!-- faint route (4-petal rosette centred on Confusion) -->
+  <path d="M410,330 C480,300 620,305 690,330 C620,355 480,360 410,330 C380,260 385,150 410,95 C435,150 440,260 410,330 C340,300 200,305 130,330 C200,355 340,360 410,330 C380,400 385,510 410,565 C435,510 440,400 410,330 Z"
+        fill="none" stroke="#B9AEC9" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="1.5 9" opacity="0">
+    <animate attributeName="opacity" values="0;0.5" dur="0.8s" begin="1.2s" fill="freeze"/>
+  </path>
+  <!-- comet trail -->
+  <g fill="#2F81F7" filter="url(#glow)">
+    <circle r="5.4" opacity="0.40"><animateMotion path="M410,330 C480,300 620,305 690,330 C620,355 480,360 410,330 C380,260 385,150 410,95 C435,150 440,260 410,330 C340,300 200,305 130,330 C200,355 340,360 410,330 C380,400 385,510 410,565 C435,510 440,400 410,330 Z" dur="13s" begin="1.35s" repeatCount="indefinite"/></circle>
+    <circle r="4.8" opacity="0.30"><animateMotion path="M410,330 C480,300 620,305 690,330 C620,355 480,360 410,330 C380,260 385,150 410,95 C435,150 440,260 410,330 C340,300 200,305 130,330 C200,355 340,360 410,330 C380,400 385,510 410,565 C435,510 440,400 410,330 Z" dur="13s" begin="1.5s" repeatCount="indefinite"/></circle>
+    <circle r="4.2" opacity="0.22"><animateMotion path="M410,330 C480,300 620,305 690,330 C620,355 480,360 410,330 C380,260 385,150 410,95 C435,150 440,260 410,330 C340,300 200,305 130,330 C200,355 340,360 410,330 C380,400 385,510 410,565 C435,510 440,400 410,330 Z" dur="13s" begin="1.65s" repeatCount="indefinite"/></circle>
+    <circle r="3.6" opacity="0.15"><animateMotion path="M410,330 C480,300 620,305 690,330 C620,355 480,360 410,330 C380,260 385,150 410,95 C435,150 440,260 410,330 C340,300 200,305 130,330 C200,355 340,360 410,330 C380,400 385,510 410,565 C435,510 440,400 410,330 Z" dur="13s" begin="1.8s" repeatCount="indefinite"/></circle>
+    <circle r="3.0" opacity="0.09"><animateMotion path="M410,330 C480,300 620,305 690,330 C620,355 480,360 410,330 C380,260 385,150 410,95 C435,150 440,260 410,330 C340,300 200,305 130,330 C200,355 340,360 410,330 C380,400 385,510 410,565 C435,510 440,400 410,330 Z" dur="13s" begin="1.95s" repeatCount="indefinite"/></circle>
+  </g>
+  <!-- glowing head -->
+  <g>
+    <circle r="11" fill="#2F81F7" opacity="0.45" filter="url(#glow)"/>
+    <circle r="6.5" fill="url(#orb)"/>
+    <circle r="2.4" fill="#FFFFFF"/>
+    <animateMotion path="M410,330 C480,300 620,305 690,330 C620,355 480,360 410,330 C380,260 385,150 410,95 C435,150 440,260 410,330 C340,300 200,305 130,330 C200,355 340,360 410,330 C380,400 385,510 410,565 C435,510 440,400 410,330 Z" dur="13s" begin="1.2s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- legend -->
+  <g class="sans" font-size="11" fill="#57606A" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.5s" fill="freeze"/>
+    <rect x="250" y="616" width="16" height="10" rx="5" fill="#F3C3C6"/><text x="272" y="625">what I build here</text>
+    <rect x="388" y="616" width="16" height="10" rx="5" fill="#C2DEF0"/><text x="410" y="625">the approach</text>
+    <rect x="500" y="616" width="16" height="10" rx="5" fill="#FBE6A8"/><text x="522" y="625">the practice</text>
+  </g>
+
+  </g>
+</svg>
