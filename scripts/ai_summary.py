@@ -1,18 +1,28 @@
 #!/usr/bin/env python3
 """Regenerate the "What I'm Shipping Lately" README section.
 
-Pulls recent public GitHub activity, asks an LLM (GitHub Models — no external
-API key, just the Actions GITHUB_TOKEN) to write a short, human summary, and
-injects it between the AI-SUMMARY markers. If the model call fails for any
-reason, it falls back to a clean deterministic summary so the section never
-breaks. The workflow that itself writes part of this profile is the point:
-it demonstrates an agentic, self-updating pipeline rather than describing one.
+Pulls recent public GitHub activity, summarises what's been shipped, and injects
+it between the AI-SUMMARY markers. The section is always regenerated from real
+activity; whether a model writes the prose depends on configuration.
+
+NOTE: GitHub Models was fully retired on 2026-07-30 (inference API, catalog and
+BYOK all removed), so the original "free inference off GITHUB_TOKEN" design no
+longer has a backend. This script is now provider-agnostic: point
+MODELS_ENDPOINT at any OpenAI-compatible chat endpoint and supply
+MODELS_API_KEY, and the prose is model-written. With no key configured it
+degrades to a deterministic summary built from the same activity data.
+
+The footnote it renders always states which path actually ran, so the README can
+never advertise a model-written line that a template in fact produced. If a key
+IS configured and the call fails, the job exits non-zero rather than silently
+downgrading — a broken pipeline should be visible, not papered over.
 
 Env:
   GH_USER            GitHub username (default: santoshshinde2012)
-  GITHUB_TOKEN       token used for both the GitHub API and GitHub Models
-  MODELS_ENDPOINT    OpenAI-compatible chat endpoint (default: GitHub Models)
-  MODELS_MODEL       model id (default: gpt-4o-mini)
+  GITHUB_TOKEN       token for the GitHub activity API
+  MODELS_ENDPOINT    OpenAI-compatible chat completions URL (optional)
+  MODELS_API_KEY     bearer token for that endpoint (optional; enables prose)
+  MODELS_MODEL       model id for that endpoint
 """
 from __future__ import annotations
 
@@ -27,10 +37,12 @@ from pathlib import Path
 
 USER = os.getenv("GH_USER", "santoshshinde2012")
 TOKEN = os.getenv("GITHUB_TOKEN", "")
-ENDPOINT = os.getenv(
-    "MODELS_ENDPOINT", "https://models.inference.ai.azure.com/chat/completions"
-)
-MODEL = os.getenv("MODELS_MODEL", "gpt-4o-mini")
+ENDPOINT = os.getenv("MODELS_ENDPOINT", "")
+MODELS_KEY = os.getenv("MODELS_API_KEY", "")
+MODEL = os.getenv("MODELS_MODEL", "")
+# Model-written prose is opt-in: it needs somewhere to send the request and a
+# credential for it. Absent either, the deterministic path runs and says so.
+LLM_ENABLED = bool(ENDPOINT and MODELS_KEY and MODEL)
 README = Path(__file__).resolve().parent.parent / "README.md"
 START, END = "<!-- AI-SUMMARY:START -->", "<!-- AI-SUMMARY:END -->"
 WINDOW_DAYS = 21
@@ -44,38 +56,84 @@ def _get(url: str) -> list | dict:
         return json.loads(r.read().decode())
 
 
+SKIP_PREFIXES = (
+    "merge",
+    "chore: update readme",
+    "chore: refresh shipping summary",
+    "chore: refresh ai-generated",
+)
+# Subjects that describe nothing. Surfacing "update" on a profile is worse than
+# surfacing nothing, so these are dropped before a headline is chosen.
+LOW_SIGNAL = re.compile(
+    r"^(wip|tmp|temp|test|minor|small)\b"
+    r"|^(fix(ed|es)?|update[ds]?|change[ds]?|tweak(ed)?|clean(ed)? ?up|revert)"
+    r"(\s+(the|a|some|few|it|this|that|stuff|things?|docs?|documents?|typos?|"
+    r"formatting|lint|readme|files?))*[.!]?$",
+    re.I,
+)
+MAX_REPOS = 6
+
+
+def _pushed_repos(cutoff: datetime) -> list[str]:
+    """Distinct "owner/repo" pushed to inside the window, most recent first.
+
+    Only the event's repo name is used. PushEvent payloads no longer carry a
+    `commits` array (they are now just before/head/push_id/ref/repository_id),
+    so commit messages have to come from the commits API instead.
+    """
+    seen: "OrderedDict[str, None]" = OrderedDict()
+    for page in (1, 2):
+        try:
+            events = _get(
+                f"https://api.github.com/users/{USER}/events/public"
+                f"?per_page=100&page={page}"
+            )
+        except (urllib.error.URLError, ValueError):
+            break
+        if not events:
+            break
+        for ev in events:
+            try:
+                when = datetime.fromisoformat(ev["created_at"].replace("Z", "+00:00"))
+            except (KeyError, ValueError):
+                continue
+            if when < cutoff:
+                return list(seen)
+            if ev.get("type") != "PushEvent":
+                continue
+            full = ev.get("repo", {}).get("name", "")
+            if full.count("/") == 1:
+                seen.setdefault(full, None)
+    return list(seen)
+
+
+def _commits(full_repo: str, cutoff: datetime) -> list[str]:
+    """My commit subjects in one repo since the cutoff."""
+    since = cutoff.strftime("%Y-%m-%dT%H:%M:%SZ")
+    try:
+        data = _get(
+            f"https://api.github.com/repos/{full_repo}/commits"
+            f"?author={USER}&since={since}&per_page=20"
+        )
+    except (urllib.error.URLError, ValueError):
+        return []
+    out = []
+    for c in data if isinstance(data, list) else []:
+        msg = (c.get("commit", {}).get("message") or "").splitlines()[0].strip()
+        if msg and not msg.lower().startswith(SKIP_PREFIXES) and not LOW_SIGNAL.match(msg):
+            out.append(msg)
+    return out
+
+
 def recent_activity() -> "OrderedDict[str, list[str]]":
-    """repo -> list of recent commit messages / actions."""
+    """"owner/repo" -> my recent commit subjects there."""
     cutoff = datetime.now(timezone.utc) - timedelta(days=WINDOW_DAYS)
     repos: "OrderedDict[str, list[str]]" = OrderedDict()
-    try:
-        events = _get(f"https://api.github.com/users/{USER}/events/public?per_page=100")
-    except (urllib.error.URLError, ValueError):
-        return repos
-    for ev in events:
-        try:
-            when = datetime.fromisoformat(ev["created_at"].replace("Z", "+00:00"))
-        except (KeyError, ValueError):
-            continue
-        if when < cutoff:
-            continue
-        repo = ev.get("repo", {}).get("name", "").split("/")[-1]
-        if not repo:
-            continue
-        bucket = repos.setdefault(repo, [])
-        if ev.get("type") == "PushEvent":
-            for c in ev.get("payload", {}).get("commits", []):
-                msg = c.get("message", "").splitlines()[0].strip()
-                if msg and not msg.lower().startswith(("merge", "chore: update readme")):
-                    bucket.append(msg)
-        elif ev.get("type") == "CreateEvent" and ev.get("payload", {}).get("ref_type") == "repository":
-            bucket.append("created the repository")
-        elif ev.get("type") == "PullRequestEvent" and ev.get("payload", {}).get("action") == "opened":
-            title = ev.get("payload", {}).get("pull_request", {}).get("title")
-            if title:
-                bucket.append(f"opened PR: {title}")
-    # trim
-    return OrderedDict((r, msgs[:6]) for r, msgs in repos.items() if msgs)
+    for full in _pushed_repos(cutoff)[:MAX_REPOS]:
+        msgs = _commits(full, cutoff)
+        if msgs:
+            repos[full] = msgs[:6]
+    return repos
 
 
 def digest(activity: "OrderedDict[str, list[str]]") -> str:
@@ -84,9 +142,13 @@ def digest(activity: "OrderedDict[str, list[str]]") -> str:
     )
 
 
-def llm_summary(text: str) -> str | None:
-    if not TOKEN:
-        return None
+class ModelError(RuntimeError):
+    """The model call failed — surfaced instead of silently swallowed."""
+
+
+def llm_summary(text: str) -> str:
+    if not LLM_ENABLED:
+        raise ModelError("MODELS_ENDPOINT / MODELS_API_KEY / MODELS_MODEL not set")
     body = json.dumps(
         {
             "model": MODEL,
@@ -107,40 +169,131 @@ def llm_summary(text: str) -> str | None:
         }
     ).encode()
     req = urllib.request.Request(ENDPOINT, data=body, method="POST")
-    req.add_header("Authorization", f"Bearer {TOKEN}")
+    req.add_header("Authorization", f"Bearer {MODELS_KEY}")
     req.add_header("Content-Type", "application/json")
     try:
         with urllib.request.urlopen(req, timeout=60) as r:
             data = json.loads(r.read().decode())
-        return data["choices"][0]["message"]["content"].strip()
-    except (urllib.error.URLError, KeyError, ValueError, TimeoutError):
-        return None
+    except urllib.error.HTTPError as e:
+        detail = e.read().decode(errors="replace")[:400]
+        raise ModelError(f"{ENDPOINT} -> HTTP {e.code}: {detail}") from e
+    except (urllib.error.URLError, TimeoutError) as e:
+        raise ModelError(f"{ENDPOINT} unreachable: {e}") from e
+    try:
+        out = data["choices"][0]["message"]["content"].strip()
+    except (KeyError, IndexError, TypeError) as e:
+        raise ModelError(f"unexpected response shape: {str(data)[:400]}") from e
+    if not out:
+        raise ModelError("model returned an empty summary")
+    return out
 
 
-def fallback_summary(activity: "OrderedDict[str, list[str]]") -> str:
+def _reads_like_work(msg: str, repo_name: str) -> bool:
+    """Is this subject a description of work, or just a label?
+
+    Initial commits are usually the repo's own name ("poc - Churn vs Risk"),
+    which says nothing on a profile. Require a few words and some signal that
+    the message is about a change rather than a title.
+    """
+    words = [w for w in re.split(r"[\s\-_]+", msg) if w]
+    if len(words) < 4:
+        return False
+    # "poc - Churn vs Risk" against repo "churn-vs-risk-poc": mostly the name.
+    name_parts = {p.lower() for p in re.split(r"[\s\-_]+", repo_name) if p}
+    if name_parts:
+        overlap = sum(1 for w in words if w.lower() in name_parts)
+        if overlap / len(words) > 0.5:
+            return False
+    return True
+
+
+def deterministic_summary(activity: "OrderedDict[str, list[str]]") -> str:
+    """Concrete and checkable: the repos actually touched, and the real headline
+    change in each. No adjectives the activity log doesn't support."""
     if not activity:
-        return "Actively building production LLM systems — agents, RAG pipelines, evals, and data platforms."
-    repos = list(activity.keys())[:4]
-    lead = ", ".join(f"[`{r}`](https://github.com/{USER}/{r})" for r in repos)
-    return f"Recent focus across {lead} — shipping AI/ML systems, agent tooling, and data-platform work."
+        return (
+            f"No public pushes in the last {WINDOW_DAYS} days — current work is in "
+            "private repositories."
+        )
+    lines = []
+    for full, msgs in list(activity.items())[:5]:
+        name = full.split("/")[-1]
+        n = len(msgs)
+        good = [m for m in msgs if _reads_like_work(m, name)]
+        if good:
+            # The most *descriptive* subject reads better than the most recent
+            # one; prefer the longest that still fits on a line.
+            headline = max(good, key=lambda m: (len(m) <= 88, len(m))).rstrip(".")
+            if len(headline) > 88:
+                headline = headline[:85].rstrip() + "…"
+            extra = f" _(+{n - 1} more)_" if n > 1 else ""
+            lines.append(f"- **[{name}](https://github.com/{full})** — {headline}{extra}")
+        else:
+            # Nothing worth quoting — state the volume rather than surface a
+            # subject that reads like a repo name.
+            lines.append(
+                f"- **[{name}](https://github.com/{full})** — "
+                f"{n} commit{'s' if n != 1 else ''}"
+            )
+    return "\n".join(lines)
 
 
-def render(summary: str) -> str:
+GANTT_ONGOING = re.compile(
+    r"(:\s*(?:active|crit),\s*\w+,\s*\d{4}-\d{2}-\d{2},\s*)(\d{4}-\d{2}-\d{2})"
+)
+
+
+def refresh_timeline(text: str) -> tuple[str, int]:
+    """Roll the Gantt's open-ended bars forward to today.
+
+    The chart is titled "2014 to today" but every ongoing bar carried a
+    hardcoded end date, so it drifted a little further from the truth every
+    week. Only `active` and `crit` rows move; `done` rows are history and
+    `milestone` rows carry a `0d` duration, so neither matches.
+    """
+    today = os.getenv("RUN_DATE_ISO", datetime.now(timezone.utc).strftime("%Y-%m-%d"))
+    return GANTT_ONGOING.subn(lambda m: m.group(1) + today, text)
+
+
+def render(summary: str, *, model_written: bool) -> str:
     stamp = os.getenv("RUN_DATE", datetime.now(timezone.utc).strftime("%b %d, %Y"))
+    # The footnote states which path produced the text, so the README's
+    # "written by a workflow" claim is never stronger than what actually ran.
+    provenance = (
+        f"Prose written by <code>{MODEL}</code> from my last {WINDOW_DAYS} days "
+        "of public GitHub activity"
+        if model_written
+        else f"Built from my last {WINDOW_DAYS} days of public GitHub activity"
+    )
     return (
         f"{START}\n"
         f"{summary}\n\n"
-        f"<sub>Auto-generated from my recent GitHub activity by a GitHub Actions + "
-        f"GitHub Models workflow · updated {stamp}</sub>\n"
+        f"<sub>{provenance} · "
+        f"[workflow](.github/workflows/ai-summary.yml) · updated {stamp}</sub>\n"
         f"{END}"
     )
 
 
 def main() -> None:
     activity = recent_activity()
-    summary = llm_summary(digest(activity)) or fallback_summary(activity)
+    if LLM_ENABLED:
+        # A configured provider that then fails is a real breakage: fail the job
+        # rather than quietly shipping a different kind of summary.
+        try:
+            summary, model_written = llm_summary(digest(activity)), True
+        except ModelError as e:
+            raise SystemExit(
+                f"::error::model call failed: {e}\nREADME left unchanged. Unset "
+                "MODELS_API_KEY to run the deterministic path on purpose."
+            ) from e
+    else:
+        print("::notice::no model provider configured — deterministic summary")
+        summary, model_written = deterministic_summary(activity), False
     text = README.read_text()
-    block = render(summary)
+    text, moved = refresh_timeline(text)
+    if moved:
+        print(f"::notice::rolled {moved} Gantt bars forward to today")
+    block = render(summary, model_written=model_written)
     if START in text and END in text:
         text = re.sub(re.escape(START) + r".*?" + re.escape(END), block, text, flags=re.S)
     else:

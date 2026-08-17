@@ -1,4 +1,4 @@
-name: Self-updating AI summary
+name: Self-updating shipping summary
 
 on:
   schedule:
@@ -7,29 +7,49 @@ on:
 
 permissions:
   contents: write
-  models: read # access GitHub Models with the built-in token
+
+# A slow-running push job racing the blog workflow would just cause a
+# non-fast-forward push; let them queue instead.
+concurrency:
+  group: readme-writers
+  cancel-in-progress: false
 
 jobs:
   summarize:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: "3.12"
+
       - name: Generate "What I'm shipping" summary
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GH_USER: ${{ github.repository_owner }}
+          # Optional. Set all three as repository secrets to have the prose
+          # written by a model; with none set the job builds the summary
+          # deterministically from the same activity data and labels it as such.
+          # (GitHub Models was retired 2026-07-30, so there is no longer a
+          # zero-config inference backend available to github.token.)
+          MODELS_ENDPOINT: ${{ secrets.MODELS_ENDPOINT }}
+          MODELS_API_KEY: ${{ secrets.MODELS_API_KEY }}
+          MODELS_MODEL: ${{ secrets.MODELS_MODEL }}
         run: python scripts/ai_summary.py
+
+      # The rendered block carries an "updated <date>" stamp, so this commits
+      # every week even in a quiet stretch. That is deliberate: GitHub disables
+      # scheduled workflows after 60 days with no repository activity, which is
+      # exactly how the crons here died between Dec 2025 and Jul 2026. A weekly
+      # commit is the keepalive — no third-party action required.
       - name: Commit if changed
         run: |
-          if ! git diff --quiet README.md; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add README.md
-            git commit -m "chore: refresh AI-generated shipping summary"
-            git push
-          else
+          if git diff --quiet README.md; then
             echo "No change."
+            exit 0
           fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: refresh shipping summary"
+          git push

@@ -1,0 +1,16 @@
+version: 2
+
+# The workflows here are pinned to commit SHAs (a mutable tag on an action that
+# holds `contents: write` is a supply-chain footgun). Pins rot silently, so
+# Dependabot owns keeping them current — it understands the `@<sha> # vX` form
+# and bumps both the SHA and the trailing version comment.
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: "chore(actions)"
+    groups:
+      actions:
+        patterns: ["*"]
