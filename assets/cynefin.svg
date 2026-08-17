@@ -7,6 +7,18 @@
     </radialGradient>
     <style>
       .ser  { font-family: Georgia,'Times New Roman',serif; }
+      /* Dark mode. Only the paper adapts: the pastel highlighter marks and the
+         dark ink sitting on them are a self-contained pair that stays legible on
+         any background, so inverting them would break the contrast that already
+         works. CSS rules beat presentation attributes, so the light values below
+         remain the fallback wherever prefers-color-scheme is unsupported. */
+      @media (prefers-color-scheme: dark) {
+        rect[fill="#FFFFFF"]  { fill: #0D1117; }
+        [stroke="#D0D7DE"]    { stroke: #30363D; }
+        text[fill="#1F2328"]  { fill: #E6EDF3; }
+        [fill="#57606A"]      { fill: #8B949E; }
+        [stroke="#1A1A1A"]    { stroke: #C9D1D9; }
+      }
       .sans { font-family: 'Segoe UI',ui-sans-serif,Roboto,Helvetica,Arial,sans-serif; }
     </style>
   </defs>
