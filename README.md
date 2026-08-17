@@ -130,7 +130,7 @@ gantt
 ## Where I Spend My Time
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'pie1':'#2F81F7','pie2':'#238636','pie3':'#8B949E','pie4':'#D97706','pieStrokeColor':'#ffffff','pieStrokeWidth':'2px','pieTitleTextSize':'18px','pieSectionTextSize':'13px'}}}%%
+%%{init: {'theme':'base','themeVariables':{'pie1':'#2F81F7','pie2':'#238636','pie3':'#8B949E','pie4':'#D97706','pieOpacity':'1','pieStrokeColor':'#ffffff','pieStrokeWidth':'2px','pieOuterStrokeColor':'#8B949E','pieTitleTextSize':'18px','pieTitleTextColor':'#7A7A7A','pieSectionTextSize':'13px','pieSectionTextColor':'#1F2328','pieLegendTextColor':'#7A7A7A'}}}%%
 pie showData
     title Focus areas, right now
     "AI agents, LLM and MCP systems" : 40
