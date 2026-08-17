@@ -9,6 +9,10 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Python (scripts/ai_summary.py runs locally too)
+__pycache__/
+*.py[cod]
+
 # Logs / temp
 *.log
 *.tmp
