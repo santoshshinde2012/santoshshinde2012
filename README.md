@@ -49,7 +49,7 @@ I'd rather show working systems than list skills. Everything here runs and is in
 | Working system | What it demonstrates | Source |
 | --- | --- | --- |
 | **FrameSleuth agent** | The open-source MCP server behind [FrameSleuth](https://www.framesleuth.com/) — local video → structured Context Bundle, no frames leaving the machine. I wrote the initial commit and most of what followed. | [repo](https://github.com/thestackhub1/framesleuth-agent) · [site](https://www.framesleuth.com/) |
-| **ask-santosh** | Retrieval-augmented Q&A over my writing, with a reproducible **DeepEval** suite (faithfulness · answer-relevancy · contextual-relevancy) gating answer quality in CI | [repo](https://github.com/santoshshinde2012/ask-santosh) |
+| **ask-santosh** | Retrieval-augmented Q&A over my writing, gated in CI two ways: a **key-free retrieval gate** (recall@k · MRR over a labelled corpus) that runs on every push, and a **DeepEval** answer suite (faithfulness · answer-relevancy · contextual-relevancy) when a judge key is configured. | [repo](https://github.com/santoshshinde2012/ask-santosh) · [gate](https://github.com/santoshshinde2012/ask-santosh/blob/main/evals/test_retrieval.py) |
 | **Multi-agent on Databricks** | Production multi-agent orchestration, beyond Genie code | [repo](https://github.com/santoshshinde2012/multi-agent-sales-ops-tpch-databricks) · [write-up](https://medium.com/data-science-collective/beyond-genie-code-orchestrating-production-multi-agent-systems-on-databricks-86ac51e9c55b) |
 | **This profile** | The section below is regenerated weekly from my real GitHub activity by a scheduled workflow. Its footnote states how each run was produced, so the claim can't drift from what actually ran. | [workflow](.github/workflows/ai-summary.yml) · [script](scripts/ai_summary.py) |
 
@@ -158,7 +158,7 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 | Project | What it is |
 | --- | --- |
 | **[framesleuth-agent](https://github.com/thestackhub1/framesleuth-agent)** | The open-source MCP server behind FrameSleuth — local video → structured Context Bundle. Python, Docker, pinned lockfile, CI. |
-| **[ask-santosh](https://github.com/santoshshinde2012/ask-santosh)** | RAG over my own writing, with a DeepEval suite gating faithfulness and relevancy in CI. |
+| **[ask-santosh](https://github.com/santoshshinde2012/ask-santosh)** | RAG over my own writing. Retrieval quality (recall@k · MRR) is gated on every push without an API key; DeepEval scores answers when a judge key is set. |
 | **[multi-agent-sales-ops-tpch-databricks](https://github.com/santoshshinde2012/multi-agent-sales-ops-tpch-databricks)** | Beyond Genie code — orchestrating production multi-agent systems on Databricks. [Write-up →](https://medium.com/data-science-collective/beyond-genie-code-orchestrating-production-multi-agent-systems-on-databricks-86ac51e9c55b) |
 | **[ai-consumption-plane](https://github.com/santoshshinde2012/ai-consumption-plane)** | A hands-on build of the AI Consumption Plane on Databricks. |
 | **[churn-vs-risk-poc](https://github.com/santoshshinde2012/churn-vs-risk-poc)** | Why a churn model is not a risk model — and what that costs you. [Write-up →](https://medium.com/ai-that-ships/why-your-churn-model-is-not-a-risk-model-and-why-it-matters-963e1f9bd2e9) |
