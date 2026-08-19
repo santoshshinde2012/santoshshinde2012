@@ -58,8 +58,9 @@ I'd rather show working systems than list skills. Everything here runs and is in
 ## What I'm Shipping Lately
 
 <!-- AI-SUMMARY:START -->
+- **[santoshshinde2012](https://github.com/santoshshinde2012/santoshshinde2012)** — docs(readme): correct FrameSleuth credit, refresh stale content _(+5 more)_
+- **[crop-disease-prediction](https://github.com/santoshshinde2012/crop-disease-prediction)** — chore: add Apache-2.0 LICENSE _(+1 more)_
 - **[ask-santosh](https://github.com/santoshshinde2012/ask-santosh)** — feat(evals): add a key-free retrieval gate that actually runs _(+2 more)_
-- **[santoshshinde2012](https://github.com/santoshshinde2012/santoshshinde2012)** — perf(assets): dark-mode Cynefin map, and drop 40KB of duplication _(+5 more)_
 - **[multi-agent-sales-ops-tpch-databricks](https://github.com/santoshshinde2012/multi-agent-sales-ops-tpch-databricks)** — fix: declare Python 3.11, which the code has always required _(+2 more)_
 - **[node-ts-sequelize-pg-boilerplate](https://github.com/santoshshinde2012/node-ts-sequelize-pg-boilerplate)** — fix: remove Code Climate badges showing another repo's scores
 
@@ -232,13 +233,13 @@ I publish most of this through **[AI That Ships](https://medium.com/ai-that-ship
 <p align="center">
   <img src="https://img.shields.io/github/followers/santoshshinde2012?style=for-the-badge&color=2F81F7&logo=github&logoColor=white&label=followers" alt="followers" />
   <!-- STATS:START -->
-  <img src="https://img.shields.io/badge/654-stars%20earned-D97706?style=for-the-badge&logo=github&logoColor=white" alt="stars earned" />
+  <img src="https://img.shields.io/badge/653-stars%20earned-D97706?style=for-the-badge&logo=github&logoColor=white" alt="stars earned" />
   <img src="https://img.shields.io/badge/144-forks-238636?style=for-the-badge&logo=github&logoColor=white" alt="forks" />
   <img src="https://img.shields.io/badge/2014-building%20here%20since-8B949E?style=for-the-badge&logo=github&logoColor=white" alt="since 2014" />
   <!-- STATS:END -->
 </p>
 
-<p align="center"><sub><!-- PRIVATE:START -->Most of my work is in private repositories — <b>1,854 of my last 1,974 contributions</b>, about 94%<!-- PRIVATE:END -->.
+<p align="center"><sub><!-- PRIVATE:START -->Most of my work is in private repositories — <b>1,855 of my last 1,983 contributions</b>, about 94%<!-- PRIVATE:END -->.
 These are recounted by the weekly workflow, not typed in by hand.</sub></p>
 
 ---
