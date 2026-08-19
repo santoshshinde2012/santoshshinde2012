@@ -255,6 +255,74 @@ def refresh_timeline(text: str) -> tuple[str, int]:
     return GANTT_ONGOING.subn(lambda m: m.group(1) + today, text)
 
 
+STATS_START, STATS_END = "<!-- STATS:START -->", "<!-- STATS:END -->"
+PRIV_START, PRIV_END = "<!-- PRIVATE:START -->", "<!-- PRIVATE:END -->"
+
+
+def _totals() -> dict[str, int] | None:
+    """Aggregate stars/forks and the public-vs-private contribution split.
+
+    Hardcoding these is how a profile ends up claiming "460 stars" forever.
+    """
+    query = """
+    query($login:String!){ user(login:$login){
+      createdAt
+      repositories(first:100, ownerAffiliations:OWNER, isFork:false){
+        nodes{ stargazerCount forkCount } }
+      contributionsCollection{
+        restrictedContributionsCount
+        contributionCalendar{ totalContributions } } } }
+    """
+    body = json.dumps({"query": query, "variables": {"login": USER}}).encode()
+    req = urllib.request.Request("https://api.github.com/graphql", data=body, method="POST")
+    req.add_header("Authorization", f"Bearer {TOKEN}")
+    req.add_header("Content-Type", "application/json")
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            user = json.loads(r.read().decode())["data"]["user"]
+    except (urllib.error.URLError, KeyError, ValueError, TypeError, TimeoutError):
+        return None
+    nodes = user["repositories"]["nodes"]
+    cc = user["contributionsCollection"]
+    return {
+        "stars": sum(n["stargazerCount"] for n in nodes),
+        "forks": sum(n["forkCount"] for n in nodes),
+        "since": int(user["createdAt"][:4]),
+        "private": cc["restrictedContributionsCount"],
+        "total": cc["contributionCalendar"]["totalContributions"],
+    }
+
+
+def refresh_stats(text: str) -> tuple[str, bool]:
+    """Rewrite the by-the-numbers badges and the private-work note."""
+    totals = _totals()
+    if not totals or STATS_START not in text:
+        return text, False
+    badges = (
+        f'{STATS_START}\n'
+        f'  <img src="https://img.shields.io/badge/{totals["stars"]}-stars%20earned-D97706'
+        f'?style=for-the-badge&logo=github&logoColor=white" alt="stars earned" />\n'
+        f'  <img src="https://img.shields.io/badge/{totals["forks"]}-forks-238636'
+        f'?style=for-the-badge&logo=github&logoColor=white" alt="forks" />\n'
+        f'  <img src="https://img.shields.io/badge/{totals["since"]}-building%20here%20since-8B949E'
+        f'?style=for-the-badge&logo=github&logoColor=white" alt="since {totals["since"]}" />\n'
+        f'  {STATS_END}'
+    )
+    text = re.sub(
+        re.escape(STATS_START) + r".*?" + re.escape(STATS_END), badges, text, flags=re.S
+    )
+    pct = round(100 * totals["private"] / totals["total"]) if totals["total"] else 0
+    note = (
+        f"{PRIV_START}Most of my work is in private repositories — "
+        f"<b>{totals['private']:,} of my last {totals['total']:,} contributions</b>, "
+        f"about {pct}%{PRIV_END}"
+    )
+    text = re.sub(
+        re.escape(PRIV_START) + r".*?" + re.escape(PRIV_END), note, text, flags=re.S
+    )
+    return text, True
+
+
 def render(summary: str, *, model_written: bool) -> str:
     stamp = os.getenv("RUN_DATE", datetime.now(timezone.utc).strftime("%b %d, %Y"))
     # The footnote states which path produced the text, so the README's
@@ -293,6 +361,9 @@ def main() -> None:
     text, moved = refresh_timeline(text)
     if moved:
         print(f"::notice::rolled {moved} Gantt bars forward to today")
+    text, restated = refresh_stats(text)
+    if restated:
+        print("::notice::refreshed by-the-numbers stats")
     block = render(summary, model_written=model_written)
     if START in text and END in text:
         text = re.sub(re.escape(START) + r".*?" + re.escape(END), block, text, flags=re.S)

@@ -58,10 +58,12 @@ I'd rather show working systems than list skills. Everything here runs and is in
 ## What I'm Shipping Lately
 
 <!-- AI-SUMMARY:START -->
-- **[churn-vs-risk-poc](https://github.com/santoshshinde2012/churn-vs-risk-poc)** — 1 commit
-- **[framesleuth-agent](https://github.com/thestackhub1/framesleuth-agent)** — Finish the lockfile migration — 22 more places still said the old thing _(+5 more)_
+- **[ask-santosh](https://github.com/santoshshinde2012/ask-santosh)** — feat(evals): add a key-free retrieval gate that actually runs _(+2 more)_
+- **[santoshshinde2012](https://github.com/santoshshinde2012/santoshshinde2012)** — perf(assets): dark-mode Cynefin map, and drop 40KB of duplication _(+5 more)_
+- **[multi-agent-sales-ops-tpch-databricks](https://github.com/santoshshinde2012/multi-agent-sales-ops-tpch-databricks)** — fix: declare Python 3.11, which the code has always required _(+2 more)_
+- **[node-ts-sequelize-pg-boilerplate](https://github.com/santoshshinde2012/node-ts-sequelize-pg-boilerplate)** — fix: remove Code Climate badges showing another repo's scores
 
-<sub>Built from my last 21 days of public GitHub activity · [workflow](.github/workflows/ai-summary.yml) · updated Aug 17, 2026</sub>
+<sub>Built from my last 21 days of public GitHub activity · [workflow](.github/workflows/ai-summary.yml) · updated Aug 19, 2026</sub>
 <!-- AI-SUMMARY:END -->
 
 ---
@@ -93,6 +95,35 @@ I build and maintain **[`framesleuth-agent`](https://github.com/thestackhub1/fra
 
 ---
 
+## What I Keep Running
+
+Shipping something is one thing. Keeping it working for five years, while people
+build on it, is a different discipline — and it's the half of "Lead" that a commit
+graph doesn't show.
+
+<p>
+  <a href="https://github.com/santoshshinde2012/node-boilerplate"><img src="https://img.shields.io/github/stars/santoshshinde2012/node-boilerplate?style=flat-square&label=node-boilerplate&color=D97706&logo=github&logoColor=white" alt="node-boilerplate stars" /></a>
+  <img src="https://img.shields.io/github/forks/santoshshinde2012/node-boilerplate?style=flat-square&color=2F81F7&logo=github&logoColor=white" alt="forks" />
+  <img src="https://img.shields.io/github/commit-activity/t/santoshshinde2012/node-boilerplate?style=flat-square&color=238636&label=commits" alt="total commits" />
+  <img src="https://img.shields.io/github/created-at/santoshshinde2012/node-boilerplate?style=flat-square&color=8B949E&label=maintained%20since" alt="created" />
+</p>
+
+- **Five years of upkeep, not a weekend project.** `node-boilerplate` has been
+  maintained since March 2021 and is still on a current Node CI matrix, wired to
+  SonarCloud, Snyk, CodeQL and njsscan. 82 forks depend on it staying correct.
+- **Dependencies stay current.** 274 merged upgrade and security PRs — almost all
+  automated, which is the point: the pipeline does the work and I keep it unblocked.
+- **Breadth across a team, not one repo.** Beyond my own projects I contribute
+  across [`thestackhub1`](https://github.com/thestackhub1) — the FrameSleuth agent,
+  a voice agent, a logistics platform, and the web surfaces around them.
+
+<sub>Being straight about the limits: this is sustained maintenance and dependency
+discipline, not a large contributor community. One external contributor, three
+issues ever. The reviewing half of leading happens in private repos at work, where
+a public graph can't see it.</sub>
+
+---
+
 ## My Engineering Journey
 
 > A decade of building — from data pipelines and full-stack apps to production AI, with a habit of sharing what I learn along the way.
@@ -106,22 +137,22 @@ gantt
     tickInterval 1year
 
     section Craft
-    Data engineering (pipelines, Spark, Databricks)      :active, de,   2014-01-01, 2026-08-17
+    Data engineering (pipelines, Spark, Databricks)      :active, de,   2014-01-01, 2026-08-19
     Full-stack engineering (TypeScript, Node, React, AWS) :done,   fs,   2014-01-01, 2021-06-01
-    Architecture and platform engineering                :active, arch, 2018-01-01, 2026-08-17
+    Architecture and platform engineering                :active, arch, 2018-01-01, 2026-08-19
 
     section AI / ML
-    ML and data science                                  :active, ml,   2021-06-01, 2026-08-17
-    LLM, RAG and agentic systems                         :active, llm,  2023-06-01, 2026-08-17
-    MLOps, evals and guardrails                          :active, ops,  2023-06-01, 2026-08-17
+    ML and data science                                  :active, ml,   2021-06-01, 2026-08-19
+    LLM, RAG and agentic systems                         :active, llm,  2023-06-01, 2026-08-19
+    MLOps, evals and guardrails                          :active, ops,  2023-06-01, 2026-08-19
 
     section Building in public
-    Answering on Stack Overflow                          :crit, so,   2015-01-01, 2026-08-17
-    Open source on GitHub                                :crit, gh,   2016-01-01, 2026-08-17
-    Writing on Medium                                    :crit, med,  2019-01-01, 2026-08-17
+    Answering on Stack Overflow                          :crit, so,   2015-01-01, 2026-08-19
+    Open source on GitHub                                :crit, gh,   2016-01-01, 2026-08-19
+    Writing on Medium                                    :crit, med,  2019-01-01, 2026-08-19
 
     section Milestones
-    AI Engineer Lead at Syngenta                         :active,    syn, 2024-05-01, 2026-08-17
+    AI Engineer Lead at Syngenta                         :active,    syn, 2024-05-01, 2026-08-19
     FrameSleuth launch                                   :milestone, fsl, 2025-09-01, 0d
 ```
 
@@ -162,7 +193,7 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 | **[multi-agent-sales-ops-tpch-databricks](https://github.com/santoshshinde2012/multi-agent-sales-ops-tpch-databricks)** | Beyond Genie code — orchestrating production multi-agent systems on Databricks. [Write-up →](https://medium.com/data-science-collective/beyond-genie-code-orchestrating-production-multi-agent-systems-on-databricks-86ac51e9c55b) |
 | **[ai-consumption-plane](https://github.com/santoshshinde2012/ai-consumption-plane)** | A hands-on build of the AI Consumption Plane on Databricks. |
 | **[churn-vs-risk-poc](https://github.com/santoshshinde2012/churn-vs-risk-poc)** | Why a churn model is not a risk model — and what that costs you. [Write-up →](https://medium.com/ai-that-ships/why-your-churn-model-is-not-a-risk-model-and-why-it-matters-963e1f9bd2e9) |
-| **[crop-disease-prediction](https://github.com/santoshshinde2012/crop-disease-prediction)** | Crop-disease image classification — applied ML for agriculture. |
+| **[crop-disease-prediction](https://github.com/santoshshinde2012/crop-disease-prediction)** | Crop-disease image classification — **97.83% across 15 disease classes**, in a **9.3 MB** model at **~9 ms** inference. Sized to run where the crop is, not in a datacentre. |
 
 **Data Engineering & Platform**
 
@@ -172,6 +203,10 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 | **[dataset-atlas](https://github.com/santoshshinde2012/dataset-atlas)** | A map-first way to discover and download datasets — Region → Domain → Get. [Live demo →](https://santoshshinde2012.github.io/dataset-atlas/) |
 | **[node-boilerplate](https://github.com/santoshshinde2012/node-boilerplate)** <img src="https://img.shields.io/github/stars/santoshshinde2012/node-boilerplate?style=flat-square&color=D97706&label=%20&logo=github&logoColor=white" alt="stars" /> | Production-ready Node.js + TypeScript skeleton for microservices — ESLint, Prettier, Husky, CI wired in. |
 | **[genie-reality-check](https://github.com/santoshshinde2012/genie-reality-check)** | Chart data and methodology behind my Databricks Genie evaluation series. |
+| **[delta-live-table-databricks-sample-use-case](https://github.com/santoshshinde2012/delta-live-table-databricks-sample-use-case)** | Declarative pipelines with Delta Live Tables — expectations, lineage and incremental loads. |
+| **[delta-lake-databricks-sample-use-case](https://github.com/santoshshinde2012/delta-lake-databricks-sample-use-case)** | Delta Lake from first principles — ACID on object storage, time travel, schema evolution. |
+| **[kappa-iot-temperature](https://github.com/santoshshinde2012/kappa-iot-temperature)** | Kappa architecture for real-time IoT temperature monitoring — one streaming path, no batch twin. |
+| **[next-genie](https://github.com/santoshshinde2012/next-genie)** | A Next.js front end over Databricks Genie. |
 
 ---
 
@@ -192,4 +227,30 @@ I publish most of this through **[AI That Ships](https://medium.com/ai-that-ship
 
 ---
 
-<p align="center"><i>Open to conversations about production LLM systems, MLOps, and agent tooling — reach me on <a href="https://www.linkedin.com/in/shindesantosh">LinkedIn</a>.</i></p>
+## By the Numbers
+
+<p align="center">
+  <img src="https://img.shields.io/github/followers/santoshshinde2012?style=for-the-badge&color=2F81F7&logo=github&logoColor=white&label=followers" alt="followers" />
+  <!-- STATS:START -->
+  <img src="https://img.shields.io/badge/654-stars%20earned-D97706?style=for-the-badge&logo=github&logoColor=white" alt="stars earned" />
+  <img src="https://img.shields.io/badge/144-forks-238636?style=for-the-badge&logo=github&logoColor=white" alt="forks" />
+  <img src="https://img.shields.io/badge/2014-building%20here%20since-8B949E?style=for-the-badge&logo=github&logoColor=white" alt="since 2014" />
+  <!-- STATS:END -->
+</p>
+
+<p align="center"><sub><!-- PRIVATE:START -->Most of my work is in private repositories — <b>1,854 of my last 1,974 contributions</b>, about 94%<!-- PRIVATE:END -->.
+These are recounted by the weekly workflow, not typed in by hand.</sub></p>
+
+---
+
+<p align="center">
+  <b>What I'm up for.</b><br/>
+  Production LLM systems that have to survive contact with real users — retrieval that
+  holds up, evals that fail loudly, and the cost and failure-mode work underneath.
+  Happy to talk shop, review an eval harness, or compare notes on agent tooling.
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/shindesantosh"><img src="https://img.shields.io/badge/Start%20a%20conversation-0A66C2?style=for-the-badge&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://aithatship.substack.com/"><img src="https://img.shields.io/badge/Read%20AI%20That%20Ships-FF6719?style=for-the-badge&logo=substack&logoColor=white" alt="Substack" /></a>
+</p>
