@@ -193,7 +193,7 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 | **[multi-agent-sales-ops-tpch-databricks](https://github.com/santoshshinde2012/multi-agent-sales-ops-tpch-databricks)** | Beyond Genie code — orchestrating production multi-agent systems on Databricks. [Write-up →](https://medium.com/data-science-collective/beyond-genie-code-orchestrating-production-multi-agent-systems-on-databricks-86ac51e9c55b) |
 | **[ai-consumption-plane](https://github.com/santoshshinde2012/ai-consumption-plane)** | A hands-on build of the AI Consumption Plane on Databricks. |
 | **[churn-vs-risk-poc](https://github.com/santoshshinde2012/churn-vs-risk-poc)** | Why a churn model is not a risk model — and what that costs you. [Write-up →](https://medium.com/ai-that-ships/why-your-churn-model-is-not-a-risk-model-and-why-it-matters-963e1f9bd2e9) |
-| **[crop-disease-prediction](https://github.com/santoshshinde2012/crop-disease-prediction)** | Crop-disease image classification — **97.83% across 15 disease classes**, in a **9.3 MB** model at **~9 ms** inference. Sized to run where the crop is, not in a datacentre. |
+| **[crop-disease-prediction](https://github.com/santoshshinde2012/crop-disease-prediction)** | End-to-end applied ML: **97.83% across 15 disease classes** in a **9.3 MB** model at **~9 ms**, exported to TFLite and shipped four ways — Streamlit, a FastAPI service, a WhatsApp bot, and a React Native app doing **offline on-device inference**. With a [model card](https://github.com/santoshshinde2012/crop-disease-prediction/blob/main/MODEL_CARD.md) that states where it stops working. |
 
 **Data Engineering & Platform**
 
