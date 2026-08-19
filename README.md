@@ -214,13 +214,13 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 ## Latest Writing
 
 <!-- BLOG-POST-LIST:START -->
-- [Why Your Churn Model Is Not a Risk Model (And Why It Matters)](https://medium.com/ai-that-ships/why-your-churn-model-is-not-a-risk-model-and-why-it-matters-963e1f9bd2e9)
+- [Why Your Churn Model Is Not a Risk Model &lpar;And Why It Matters&rpar;](https://medium.com/ai-that-ships/why-your-churn-model-is-not-a-risk-model-and-why-it-matters-963e1f9bd2e9)
 - [Databricks Genie: Agent Mode vs Chat Mode — Should You Switch Yet?](https://medium.com/ai-that-ships/databricks-genie-agent-mode-vs-chat-mode-should-you-switch-yet-fc9b8bf65032)
 - [Feature Store vs. Gold Data Products: Where Should Your ML Features Live?](https://medium.com/ai-that-ships/feature-store-vs-gold-data-products-where-should-your-ml-features-live-4d75011982a5)
 - [What Genie Ontology Actually Automates, and What It Leaves to You](https://medium.com/ai-that-ships/what-genie-ontology-actually-automates-and-what-it-leaves-to-you-95f16458fc85)
 - [Data Governance on the Ground — and the Challenges AI Agents Bring](https://medium.com/ai-that-ships/data-governance-on-the-ground-and-the-challenges-ai-agents-bring-49a38acc63cc)
 - [Every Design Pattern Casts a Shadow in Machine Learning](https://levelup.gitconnected.com/every-design-pattern-casts-a-shadow-in-machine-learning-c16f727fea02)
-- [The Four Debts of AI-Assisted Engineering (and the Four Gates That Pay Them Down)](https://levelup.gitconnected.com/the-four-debts-of-ai-assisted-engineering-and-the-four-gates-that-pay-them-down-bd7383acb5f2)
+- [The Four Debts of AI-Assisted Engineering &lpar;and the Four Gates That Pay Them Down&rpar;](https://levelup.gitconnected.com/the-four-debts-of-ai-assisted-engineering-and-the-four-gates-that-pay-them-down-bd7383acb5f2)
 - [Genie’s Two Meters: The One Your Budget Sees, and the One It Doesn’t](https://levelup.gitconnected.com/genies-two-meters-the-one-your-budget-sees-and-the-one-it-doesn-t-23ad1d1dabea)
 <!-- BLOG-POST-LIST:END -->
 
