@@ -214,6 +214,7 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 ## Latest Writing
 
 <!-- BLOG-POST-LIST:START -->
+- [A Knowledge Graph Over Gold: What Multi‑Hop Questions Need, and How to Build It Inside Databricks](https://medium.com/towards-data-engineering/a-knowledge-graph-over-gold-what-multi-hop-questions-need-and-how-to-build-it-inside-databricks-a221bbbfad21)
 - [Stack Convergence vs. Cloud Sprawl: The Cost of Unified AI/BI](https://medium.com/ai-that-ships/stack-convergence-vs-cloud-sprawl-the-cost-of-unified-ai-bi-beaa189d69ff)
 - [Why Your Churn Model Is Not a Risk Model &lpar;And Why It Matters&rpar;](https://medium.com/ai-that-ships/why-your-churn-model-is-not-a-risk-model-and-why-it-matters-963e1f9bd2e9)
 - [Databricks Genie: Agent Mode vs Chat Mode — Should You Switch Yet?](https://medium.com/ai-that-ships/databricks-genie-agent-mode-vs-chat-mode-should-you-switch-yet-fc9b8bf65032)
@@ -221,7 +222,6 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 - [What Genie Ontology Actually Automates, and What It Leaves to You](https://medium.com/ai-that-ships/what-genie-ontology-actually-automates-and-what-it-leaves-to-you-95f16458fc85)
 - [Data Governance on the Ground — and the Challenges AI Agents Bring](https://medium.com/ai-that-ships/data-governance-on-the-ground-and-the-challenges-ai-agents-bring-49a38acc63cc)
 - [Every Design Pattern Casts a Shadow in Machine Learning](https://levelup.gitconnected.com/every-design-pattern-casts-a-shadow-in-machine-learning-c16f727fea02)
-- [The Four Debts of AI-Assisted Engineering &lpar;and the Four Gates That Pay Them Down&rpar;](https://levelup.gitconnected.com/the-four-debts-of-ai-assisted-engineering-and-the-four-gates-that-pay-them-down-bd7383acb5f2)
 <!-- BLOG-POST-LIST:END -->
 
 I publish most of this through **[AI That Ships](https://medium.com/ai-that-ships)** — my Medium publication on getting AI systems into production, also on [Substack](https://aithatship.substack.com/). More on [Medium →](https://medium.com/@santosh-shinde)
