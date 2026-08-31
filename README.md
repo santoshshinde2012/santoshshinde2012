@@ -58,13 +58,13 @@ I'd rather show working systems than list skills. Everything here runs and is in
 ## What I'm Shipping Lately
 
 <!-- AI-SUMMARY:START -->
+- **[e_shop_ltap_scenario](https://github.com/santoshshinde2012/e_shop_ltap_scenario)** — Make the coding-standards link work outside the article folder _(+1 more)_
+- **[ai-ml-ground-truth](https://github.com/santoshshinde2012/ai-ml-ground-truth)** — Ground Truth - A working developer's path into AI and machine learning _(+1 more)_
+- **[medallion-write-back-loop](https://github.com/santoshshinde2012/medallion-write-back-loop)** — Rebuild on the TPC-H sample, fix correctness bugs, and repair the repo metadata _(+5 more)_
 - **[graph-over-gold-agent](https://github.com/santoshshinde2012/graph-over-gold-agent)** — Graph over Gold: governed multi-hop routes vs naive text-to-SQL, end to end _(+3 more)_
 - **[kappa-iot-temperature](https://github.com/santoshshinde2012/kappa-iot-temperature)** — chore: add Apache-2.0 LICENSE
-- **[delta-live-table-databricks-sample-use-case](https://github.com/santoshshinde2012/delta-live-table-databricks-sample-use-case)** — chore: add Apache-2.0 LICENSE
-- **[delta-lake-databricks-sample-use-case](https://github.com/santoshshinde2012/delta-lake-databricks-sample-use-case)** — chore: add Apache-2.0 LICENSE
-- **[santoshshinde2012](https://github.com/santoshshinde2012/santoshshinde2012)** — docs(readme): correct FrameSleuth credit, refresh stale content _(+5 more)_
 
-<sub>Built from my last 21 days of public GitHub activity · [workflow](.github/workflows/ai-summary.yml) · updated Aug 24, 2026</sub>
+<sub>Built from my last 21 days of public GitHub activity · [workflow](.github/workflows/ai-summary.yml) · updated Aug 31, 2026</sub>
 <!-- AI-SUMMARY:END -->
 
 ---
@@ -138,22 +138,22 @@ gantt
     tickInterval 1year
 
     section Craft
-    Data engineering (pipelines, Spark, Databricks)      :active, de,   2014-01-01, 2026-08-24
+    Data engineering (pipelines, Spark, Databricks)      :active, de,   2014-01-01, 2026-08-31
     Full-stack engineering (TypeScript, Node, React, AWS) :done,   fs,   2014-01-01, 2021-06-01
-    Architecture and platform engineering                :active, arch, 2018-01-01, 2026-08-24
+    Architecture and platform engineering                :active, arch, 2018-01-01, 2026-08-31
 
     section AI / ML
-    ML and data science                                  :active, ml,   2021-06-01, 2026-08-24
-    LLM, RAG and agentic systems                         :active, llm,  2023-06-01, 2026-08-24
-    MLOps, evals and guardrails                          :active, ops,  2023-06-01, 2026-08-24
+    ML and data science                                  :active, ml,   2021-06-01, 2026-08-31
+    LLM, RAG and agentic systems                         :active, llm,  2023-06-01, 2026-08-31
+    MLOps, evals and guardrails                          :active, ops,  2023-06-01, 2026-08-31
 
     section Building in public
-    Answering on Stack Overflow                          :crit, so,   2015-01-01, 2026-08-24
-    Open source on GitHub                                :crit, gh,   2016-01-01, 2026-08-24
-    Writing on Medium                                    :crit, med,  2019-01-01, 2026-08-24
+    Answering on Stack Overflow                          :crit, so,   2015-01-01, 2026-08-31
+    Open source on GitHub                                :crit, gh,   2016-01-01, 2026-08-31
+    Writing on Medium                                    :crit, med,  2019-01-01, 2026-08-31
 
     section Milestones
-    AI Engineer Lead at Syngenta                         :active,    syn, 2024-05-01, 2026-08-24
+    AI Engineer Lead at Syngenta                         :active,    syn, 2024-05-01, 2026-08-31
     FrameSleuth launch                                   :milestone, fsl, 2025-09-01, 0d
 ```
 
@@ -233,13 +233,13 @@ I publish most of this through **[AI That Ships](https://medium.com/ai-that-ship
 <p align="center">
   <img src="https://img.shields.io/github/followers/santoshshinde2012?style=for-the-badge&color=2F81F7&logo=github&logoColor=white&label=followers" alt="followers" />
   <!-- STATS:START -->
-  <img src="https://img.shields.io/badge/656-stars%20earned-D97706?style=for-the-badge&logo=github&logoColor=white" alt="stars earned" />
-  <img src="https://img.shields.io/badge/144-forks-238636?style=for-the-badge&logo=github&logoColor=white" alt="forks" />
+  <img src="https://img.shields.io/badge/692-stars%20earned-D97706?style=for-the-badge&logo=github&logoColor=white" alt="stars earned" />
+  <img src="https://img.shields.io/badge/147-forks-238636?style=for-the-badge&logo=github&logoColor=white" alt="forks" />
   <img src="https://img.shields.io/badge/2014-building%20here%20since-8B949E?style=for-the-badge&logo=github&logoColor=white" alt="since 2014" />
   <!-- STATS:END -->
 </p>
 
-<p align="center"><sub><!-- PRIVATE:START -->Most of my work is in private repositories — <b>1,893 of my last 2,027 contributions</b>, about 93%<!-- PRIVATE:END -->.
+<p align="center"><sub><!-- PRIVATE:START -->Most of my work is in private repositories — <b>1,958 of my last 2,104 contributions</b>, about 93%<!-- PRIVATE:END -->.
 These are recounted by the weekly workflow, not typed in by hand.</sub></p>
 
 ---
