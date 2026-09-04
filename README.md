@@ -214,6 +214,7 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 ## Latest Writing
 
 <!-- BLOG-POST-LIST:START -->
+- [How to Avoid the Five Most Costly Anti-Patterns in Data Engineering](https://medium.com/data-science-collective/how-to-avoid-the-five-most-costly-anti-patterns-in-data-engineering-a4c6e0fe83ad)
 - [What actually matters when you design an ML system?](https://medium.com/ai-that-ships/what-actually-matters-when-you-design-an-ml-system-47ac82e6a0b4)
 - [The Second Copy Problem: What LTAP Actually Removes](https://medium.com/ai-that-ships/the-second-copy-problem-what-ltap-actually-removes-6860dccb52ae)
 - [Medallion Architecture Has a Write-Back Problem](https://medium.com/data-science-collective/medallion-architecture-has-a-write-back-problem-525d088eeb0f)
@@ -221,7 +222,6 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 - [Stack Convergence vs. Cloud Sprawl: The Cost of Unified AI/BI](https://medium.com/towards-data-engineering/stack-convergence-vs-cloud-sprawl-the-cost-of-unified-ai-bi-beaa189d69ff)
 - [Why Your Churn Model Is Not a Risk Model &lpar;And Why It Matters&rpar;](https://medium.com/ai-that-ships/why-your-churn-model-is-not-a-risk-model-and-why-it-matters-963e1f9bd2e9)
 - [Databricks Genie: Agent Mode vs Chat Mode — Should You Switch Yet?](https://medium.com/ai-that-ships/databricks-genie-agent-mode-vs-chat-mode-should-you-switch-yet-fc9b8bf65032)
-- [Feature Store vs. Gold Data Products: Where Should Your ML Features Live?](https://medium.com/ai-that-ships/feature-store-vs-gold-data-products-where-should-your-ml-features-live-4d75011982a5)
 <!-- BLOG-POST-LIST:END -->
 
 I publish most of this through **[AI That Ships](https://medium.com/ai-that-ships)** — my Medium publication on getting AI systems into production, also on [Substack](https://aithatship.substack.com/). More on [Medium →](https://medium.com/@santosh-shinde)
