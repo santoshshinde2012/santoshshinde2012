@@ -58,13 +58,9 @@ I'd rather show working systems than list skills. Everything here runs and is in
 ## What I'm Shipping Lately
 
 <!-- AI-SUMMARY:START -->
-- **[ai-ml-ground-truth](https://github.com/santoshshinde2012/ai-ml-ground-truth)** — Ground Truth - A working developer's path into AI and machine learning _(+2 more)_
-- **[e_shop_ltap_scenario](https://github.com/santoshshinde2012/e_shop_ltap_scenario)** — Make the coding-standards link work outside the article folder _(+1 more)_
-- **[medallion-write-back-loop](https://github.com/santoshshinde2012/medallion-write-back-loop)** — Rebuild on the TPC-H sample, fix correctness bugs, and repair the repo metadata _(+5 more)_
-- **[graph-over-gold-agent](https://github.com/santoshshinde2012/graph-over-gold-agent)** — Graph over Gold: governed multi-hop routes vs naive text-to-SQL, end to end _(+3 more)_
-- **[kappa-iot-temperature](https://github.com/santoshshinde2012/kappa-iot-temperature)** — chore: add Apache-2.0 LICENSE
+- **[local-data-lakehouse](https://github.com/santoshshinde2012/local-data-lakehouse)** — Stop tracking generated churn CSVs; keep tiny fixture only _(+2 more)_
 
-<sub>Built from my last 21 days of public GitHub activity · [workflow](.github/workflows/ai-summary.yml) · updated Sep 07, 2026</sub>
+<sub>Built from my last 21 days of public GitHub activity · [workflow](.github/workflows/ai-summary.yml) · updated Sep 14, 2026</sub>
 <!-- AI-SUMMARY:END -->
 
 ---
@@ -138,22 +134,22 @@ gantt
     tickInterval 1year
 
     section Craft
-    Data engineering (pipelines, Spark, Databricks)      :active, de,   2014-01-01, 2026-09-07
+    Data engineering (pipelines, Spark, Databricks)      :active, de,   2014-01-01, 2026-09-14
     Full-stack engineering (TypeScript, Node, React, AWS) :done,   fs,   2014-01-01, 2021-06-01
-    Architecture and platform engineering                :active, arch, 2018-01-01, 2026-09-07
+    Architecture and platform engineering                :active, arch, 2018-01-01, 2026-09-14
 
     section AI / ML
-    ML and data science                                  :active, ml,   2021-06-01, 2026-09-07
-    LLM, RAG and agentic systems                         :active, llm,  2023-06-01, 2026-09-07
-    MLOps, evals and guardrails                          :active, ops,  2023-06-01, 2026-09-07
+    ML and data science                                  :active, ml,   2021-06-01, 2026-09-14
+    LLM, RAG and agentic systems                         :active, llm,  2023-06-01, 2026-09-14
+    MLOps, evals and guardrails                          :active, ops,  2023-06-01, 2026-09-14
 
     section Building in public
-    Answering on Stack Overflow                          :crit, so,   2015-01-01, 2026-09-07
-    Open source on GitHub                                :crit, gh,   2016-01-01, 2026-09-07
-    Writing on Medium                                    :crit, med,  2019-01-01, 2026-09-07
+    Answering on Stack Overflow                          :crit, so,   2015-01-01, 2026-09-14
+    Open source on GitHub                                :crit, gh,   2016-01-01, 2026-09-14
+    Writing on Medium                                    :crit, med,  2019-01-01, 2026-09-14
 
     section Milestones
-    AI Engineer Lead at Syngenta                         :active,    syn, 2024-05-01, 2026-09-07
+    AI Engineer Lead at Syngenta                         :active,    syn, 2024-05-01, 2026-09-14
     FrameSleuth launch                                   :milestone, fsl, 2025-09-01, 0d
 ```
 
@@ -239,7 +235,7 @@ I publish most of this through **[AI That Ships](https://medium.com/ai-that-ship
   <!-- STATS:END -->
 </p>
 
-<p align="center"><sub><!-- PRIVATE:START -->Most of my work is in private repositories — <b>2,041 of my last 2,187 contributions</b>, about 93%<!-- PRIVATE:END -->.
+<p align="center"><sub><!-- PRIVATE:START -->Most of my work is in private repositories — <b>2,297 of my last 2,450 contributions</b>, about 94%<!-- PRIVATE:END -->.
 These are recounted by the weekly workflow, not typed in by hand.</sub></p>
 
 ---
