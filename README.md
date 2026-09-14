@@ -214,6 +214,7 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 ## Latest Writing
 
 <!-- BLOG-POST-LIST:START -->
+- [Stop Reading About Lakehouses- Build One Locally](https://medium.com/data-science-collective/stop-reading-about-lakehouses-build-one-locally-10e920e3a673)
 - [Migrating a Medallion: Start With an Owner, Not a Layer](https://medium.com/data-science-collective/migrating-a-medallion-start-with-an-owner-not-a-layer-728fe29282e3)
 - [What a Brownfield Migration Actually Is, and Why Every Data Engineer Will Do One](https://levelup.gitconnected.com/what-a-brownfield-migration-actually-is-and-why-every-data-engineer-will-do-one-71947129abb6)
 - [How to Avoid the Five Most Costly Anti-Patterns in Data Engineering](https://medium.com/data-science-collective/how-to-avoid-the-five-most-costly-anti-patterns-in-data-engineering-a4c6e0fe83ad)
@@ -221,7 +222,6 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 - [The Second Copy Problem: What LTAP Actually Removes](https://medium.com/ai-that-ships/the-second-copy-problem-what-ltap-actually-removes-6860dccb52ae)
 - [Medallion Architecture Has a Write-Back Problem](https://medium.com/data-science-collective/medallion-architecture-has-a-write-back-problem-525d088eeb0f)
 - [A Knowledge Graph Over Gold: What Multi‑Hop Questions Need, and How to Build It Inside Databricks](https://medium.com/towards-data-engineering/a-knowledge-graph-over-gold-what-multi-hop-questions-need-and-how-to-build-it-inside-databricks-a221bbbfad21)
-- [Stack Convergence vs. Cloud Sprawl: The Cost of Unified AI/BI](https://medium.com/towards-data-engineering/stack-convergence-vs-cloud-sprawl-the-cost-of-unified-ai-bi-beaa189d69ff)
 <!-- BLOG-POST-LIST:END -->
 
 I publish most of this through **[AI That Ships](https://medium.com/ai-that-ships)** — my Medium publication on getting AI systems into production, also on [Substack](https://aithatship.substack.com/). More on [Medium →](https://medium.com/@santosh-shinde)
