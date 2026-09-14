@@ -210,7 +210,7 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 ## Latest Writing
 
 <!-- BLOG-POST-LIST:START -->
-- [Stop Reading About Lakehouses- Build One Locally](https://medium.com/data-science-collective/stop-reading-about-lakehouses-build-one-locally-10e920e3a673)
+- [Stop Reading About Lakehouses- Build One Locally](https://blog.dataengineerthings.org/stop-reading-about-lakehouses-build-one-locally-10e920e3a673)
 - [Migrating a Medallion: Start With an Owner, Not a Layer](https://medium.com/data-science-collective/migrating-a-medallion-start-with-an-owner-not-a-layer-728fe29282e3)
 - [What a Brownfield Migration Actually Is, and Why Every Data Engineer Will Do One](https://levelup.gitconnected.com/what-a-brownfield-migration-actually-is-and-why-every-data-engineer-will-do-one-71947129abb6)
 - [How to Avoid the Five Most Costly Anti-Patterns in Data Engineering](https://medium.com/data-science-collective/how-to-avoid-the-five-most-costly-anti-patterns-in-data-engineering-a4c6e0fe83ad)
