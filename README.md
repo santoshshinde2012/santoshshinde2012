@@ -58,9 +58,9 @@ I'd rather show working systems than list skills. Everything here runs and is in
 ## What I'm Shipping Lately
 
 <!-- AI-SUMMARY:START -->
-- **[local-data-lakehouse](https://github.com/santoshshinde2012/local-data-lakehouse)** — Stop tracking generated churn CSVs; keep tiny fixture only _(+2 more)_
+- **[dataset-atlas](https://github.com/santoshshinde2012/dataset-atlas)** — Add verified join path, DCAT resources, and crawlable dataset pages (#40) _(+5 more)_
 
-<sub>Built from my last 21 days of public GitHub activity · [workflow](.github/workflows/ai-summary.yml) · updated Sep 14, 2026</sub>
+<sub>Built from my last 21 days of public GitHub activity · [workflow](.github/workflows/ai-summary.yml) · updated Sep 21, 2026</sub>
 <!-- AI-SUMMARY:END -->
 
 ---
@@ -134,22 +134,22 @@ gantt
     tickInterval 1year
 
     section Craft
-    Data engineering (pipelines, Spark, Databricks)      :active, de,   2014-01-01, 2026-09-14
+    Data engineering (pipelines, Spark, Databricks)      :active, de,   2014-01-01, 2026-09-21
     Full-stack engineering (TypeScript, Node, React, AWS) :done,   fs,   2014-01-01, 2021-06-01
-    Architecture and platform engineering                :active, arch, 2018-01-01, 2026-09-14
+    Architecture and platform engineering                :active, arch, 2018-01-01, 2026-09-21
 
     section AI / ML
-    ML and data science                                  :active, ml,   2021-06-01, 2026-09-14
-    LLM, RAG and agentic systems                         :active, llm,  2023-06-01, 2026-09-14
-    MLOps, evals and guardrails                          :active, ops,  2023-06-01, 2026-09-14
+    ML and data science                                  :active, ml,   2021-06-01, 2026-09-21
+    LLM, RAG and agentic systems                         :active, llm,  2023-06-01, 2026-09-21
+    MLOps, evals and guardrails                          :active, ops,  2023-06-01, 2026-09-21
 
     section Building in public
-    Answering on Stack Overflow                          :crit, so,   2015-01-01, 2026-09-14
-    Open source on GitHub                                :crit, gh,   2016-01-01, 2026-09-14
-    Writing on Medium                                    :crit, med,  2019-01-01, 2026-09-14
+    Answering on Stack Overflow                          :crit, so,   2015-01-01, 2026-09-21
+    Open source on GitHub                                :crit, gh,   2016-01-01, 2026-09-21
+    Writing on Medium                                    :crit, med,  2019-01-01, 2026-09-21
 
     section Milestones
-    AI Engineer Lead at Syngenta                         :active,    syn, 2024-05-01, 2026-09-14
+    AI Engineer Lead at Syngenta                         :active,    syn, 2024-05-01, 2026-09-21
     FrameSleuth launch                                   :milestone, fsl, 2025-09-01, 0d
 ```
 
@@ -229,13 +229,13 @@ I publish most of this through **[AI That Ships](https://medium.com/ai-that-ship
 <p align="center">
   <img src="https://img.shields.io/github/followers/santoshshinde2012?style=for-the-badge&color=2F81F7&logo=github&logoColor=white&label=followers" alt="followers" />
   <!-- STATS:START -->
-  <img src="https://img.shields.io/badge/694-stars%20earned-D97706?style=for-the-badge&logo=github&logoColor=white" alt="stars earned" />
+  <img src="https://img.shields.io/badge/695-stars%20earned-D97706?style=for-the-badge&logo=github&logoColor=white" alt="stars earned" />
   <img src="https://img.shields.io/badge/147-forks-238636?style=for-the-badge&logo=github&logoColor=white" alt="forks" />
   <img src="https://img.shields.io/badge/2014-building%20here%20since-8B949E?style=for-the-badge&logo=github&logoColor=white" alt="since 2014" />
   <!-- STATS:END -->
 </p>
 
-<p align="center"><sub><!-- PRIVATE:START -->Most of my work is in private repositories — <b>2,297 of my last 2,450 contributions</b>, about 94%<!-- PRIVATE:END -->.
+<p align="center"><sub><!-- PRIVATE:START -->Most of my work is in private repositories — <b>2,677 of my last 2,906 contributions</b>, about 92%<!-- PRIVATE:END -->.
 These are recounted by the weekly workflow, not typed in by hand.</sub></p>
 
 ---
