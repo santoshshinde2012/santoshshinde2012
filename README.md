@@ -210,6 +210,7 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 ## Latest Writing
 
 <!-- BLOG-POST-LIST:START -->
+- [The Metric View Is the Contract Genie Actually Needs](https://medium.com/ai-that-ships/the-metric-view-is-the-contract-genie-actually-needs-588c7359b2e7)
 - [How I Would Evaluate a Genie Space Before I Trust It](https://medium.com/ai-that-ships/how-i-would-evaluate-a-genie-space-before-i-trust-it-ca07abade9eb)
 - [Don’t Start with a Model. Start with the Problem.](https://medium.com/ai-that-ships/dont-start-with-a-model-start-with-the-problem-1e96b0a04512)
 - [What If I Screenshot an AI-Generated Photo?](https://medium.com/ai-that-ships/what-if-i-screenshot-an-ai-generated-photo-7a53cefee7e6)
@@ -217,7 +218,6 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 - [Stop Reading About Lakehouses- Build One Locally](https://blog.dataengineerthings.org/stop-reading-about-lakehouses-build-one-locally-10e920e3a673)
 - [Migrating a Medallion: Start With an Owner, Not a Layer](https://medium.com/data-science-collective/migrating-a-medallion-start-with-an-owner-not-a-layer-728fe29282e3)
 - [What a Brownfield Migration Actually Is, and Why Every Data Engineer Will Do One](https://levelup.gitconnected.com/what-a-brownfield-migration-actually-is-and-why-every-data-engineer-will-do-one-71947129abb6)
-- [How to Avoid the Five Most Costly Anti-Patterns in Data Engineering](https://medium.com/data-science-collective/how-to-avoid-the-five-most-costly-anti-patterns-in-data-engineering-a4c6e0fe83ad)
 <!-- BLOG-POST-LIST:END -->
 
 I publish most of this through **[AI That Ships](https://medium.com/ai-that-ships)** — my Medium publication on getting AI systems into production, also on [Substack](https://aithatship.substack.com/). More on [Medium →](https://medium.com/@santosh-shinde)
