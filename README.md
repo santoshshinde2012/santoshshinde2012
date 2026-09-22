@@ -214,7 +214,7 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 - [How I Would Evaluate a Genie Space Before I Trust It](https://medium.com/ai-that-ships/how-i-would-evaluate-a-genie-space-before-i-trust-it-ca07abade9eb)
 - [Don’t Start with a Model. Start with the Problem.](https://medium.com/ai-that-ships/dont-start-with-a-model-start-with-the-problem-1e96b0a04512)
 - [What If I Screenshot an AI-Generated Photo?](https://medium.com/ai-that-ships/what-if-i-screenshot-an-ai-generated-photo-7a53cefee7e6)
-- [The Low-Code Illusion](https://blog.dataengineerthings.org/the-low-code-illusion-de5fa34a8949)
+- [The Low-Code Illusion](https://santosh-shinde.medium.com/the-low-code-illusion-de5fa34a8949)
 - [Stop Reading About Lakehouses- Build One Locally](https://blog.dataengineerthings.org/stop-reading-about-lakehouses-build-one-locally-10e920e3a673)
 - [Migrating a Medallion: Start With an Owner, Not a Layer](https://medium.com/data-science-collective/migrating-a-medallion-start-with-an-owner-not-a-layer-728fe29282e3)
 - [What a Brownfield Migration Actually Is, and Why Every Data Engineer Will Do One](https://levelup.gitconnected.com/what-a-brownfield-migration-actually-is-and-why-every-data-engineer-will-do-one-71947129abb6)
