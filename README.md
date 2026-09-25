@@ -210,7 +210,7 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 ## Latest Writing
 
 <!-- BLOG-POST-LIST:START -->
-- [Authentication Worked. Authorization Ran as the Bot](https://medium.com/ai-that-ships/authentication-worked-authorization-ran-as-the-bot-bb320e9c20a8)
+- [Unity Catalog Authorized the Service Principal, Not the User](https://medium.com/ai-that-ships/authentication-worked-authorization-ran-as-the-bot-bb320e9c20a8)
 - [Who Owns the Pipeline Genie Code Just Shipped?](https://medium.com/ai-that-ships/who-owns-the-pipeline-genie-code-just-shipped-159668a1506b)
 - [The Metric View Is the Contract Genie Actually Needs](https://medium.com/ai-that-ships/the-metric-view-is-the-contract-genie-actually-needs-588c7359b2e7)
 - [How I Would Evaluate a Genie Space Before I Trust It](https://medium.com/ai-that-ships/how-i-would-evaluate-a-genie-space-before-i-trust-it-ca07abade9eb)
