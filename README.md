@@ -210,6 +210,7 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 ## Latest Writing
 
 <!-- BLOG-POST-LIST:START -->
+- [Jev vs Laya: the benchmark isn’t on the card](https://medium.com/ai-that-ships/jev-vs-laya-the-benchmark-isnt-on-the-card-733388d01124)
 - [Unity Catalog Authorized the Service Principal, Not the User](https://medium.com/ai-that-ships/authentication-worked-authorization-ran-as-the-bot-bb320e9c20a8)
 - [Who Owns the Pipeline Genie Code Just Shipped?](https://medium.com/ai-that-ships/who-owns-the-pipeline-genie-code-just-shipped-159668a1506b)
 - [The Metric View Is the Contract Genie Actually Needs](https://medium.com/ai-that-ships/the-metric-view-is-the-contract-genie-actually-needs-588c7359b2e7)
@@ -217,7 +218,6 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 - [Don’t Start with a Model. Start with the Problem.](https://medium.com/ai-that-ships/dont-start-with-a-model-start-with-the-problem-1e96b0a04512)
 - [What If I Screenshot an AI-Generated Photo?](https://medium.com/ai-that-ships/what-if-i-screenshot-an-ai-generated-photo-7a53cefee7e6)
 - [The Low-Code Illusion](https://medium.com/ai-that-ships/the-low-code-illusion-de5fa34a8949)
-- [Stop Reading About Lakehouses- Build One Locally](https://blog.dataengineerthings.org/stop-reading-about-lakehouses-build-one-locally-10e920e3a673)
 <!-- BLOG-POST-LIST:END -->
 
 I publish most of this through **[AI That Ships](https://medium.com/ai-that-ships)** — my Medium publication on getting AI systems into production, also on [Substack](https://aithatship.substack.com/). More on [Medium →](https://medium.com/@santosh-shinde)
