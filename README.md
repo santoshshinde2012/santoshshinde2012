@@ -212,7 +212,7 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 ## Latest Writing
 
 <!-- BLOG-POST-LIST:START -->
-- [Your Data Product Has No Owner](https://blog.dataengineerthings.org/your-data-product-has-no-owner-3ab42f555a67)
+- [What the Owner of a Gold Data Product Can Refuse](https://blog.dataengineerthings.org/your-data-product-has-no-owner-3ab42f555a67)
 - [Jev vs Laya: the benchmark isn’t on the card](https://medium.com/ai-that-ships/jev-vs-laya-the-benchmark-isnt-on-the-card-733388d01124)
 - [Unity Catalog Authorized the Service Principal, Not the User](https://medium.com/ai-that-ships/authentication-worked-authorization-ran-as-the-bot-bb320e9c20a8)
 - [Who Owns the Pipeline Genie Code Just Shipped?](https://medium.com/ai-that-ships/who-owns-the-pipeline-genie-code-just-shipped-159668a1506b)
