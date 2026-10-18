@@ -212,6 +212,7 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 ## Latest Writing
 
 <!-- BLOG-POST-LIST:START -->
+- [Build Decks Your Business Can Trust from Gold Data Products on Databricks](https://medium.com/data-science-collective/build-decks-your-business-can-trust-from-gold-data-products-on-databricks-ba2c977d9c80)
 - [Data Quality Before Publication: Building Gates for a Lakehouse](https://blog.dataengineerthings.org/data-quality-before-publication-building-gates-for-a-lakehouse-4d57dabd8fa7)
 - [Build a Leak-Free Graph on Your Lakehouse Gold Tables](https://blog.dataengineerthings.org/build-a-leak-free-graph-on-your-lakehouse-gold-tables-f7ec470a7370)
 - [Build a Document Knowledge Base on Databricks](https://blog.dataengineerthings.org/build-a-document-knowledge-base-on-databricks-2e2914fb8d4e)
@@ -219,7 +220,6 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 - [What the Owner of a Gold Data Product Can Refuse](https://levelup.gitconnected.com/your-data-product-has-no-owner-3ab42f555a67)
 - [Jev vs Laya: the benchmark isn’t on the card](https://medium.com/ai-that-ships/jev-vs-laya-the-benchmark-isnt-on-the-card-733388d01124)
 - [Unity Catalog Authorized the Service Principal, Not the User](https://medium.com/ai-that-ships/authentication-worked-authorization-ran-as-the-bot-bb320e9c20a8)
-- [Who Owns the Pipeline Genie Code Just Shipped?](https://medium.com/ai-that-ships/who-owns-the-pipeline-genie-code-just-shipped-159668a1506b)
 <!-- BLOG-POST-LIST:END -->
 
 I publish most of this through **[AI That Ships](https://medium.com/ai-that-ships)** — my Medium publication on getting AI systems into production, also on [Substack](https://aithatship.substack.com/). More on [Medium →](https://medium.com/@santosh-shinde)
