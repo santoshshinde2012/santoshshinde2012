@@ -212,7 +212,7 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 ## Latest Writing
 
 <!-- BLOG-POST-LIST:START -->
-- [Build Decks Your Business Can Trust from Gold Data Products on Databricks](https://medium.com/data-science-collective/build-decks-your-business-can-trust-from-gold-data-products-on-databricks-ba2c977d9c80)
+- [Build Decks Your Business Can Trust from Gold Data Products on Databricks](https://blog.dataengineerthings.org/build-decks-your-business-can-trust-from-gold-data-products-on-databricks-ba2c977d9c80)
 - [Data Quality Before Publication: Building Gates for a Lakehouse](https://blog.dataengineerthings.org/data-quality-before-publication-building-gates-for-a-lakehouse-4d57dabd8fa7)
 - [Build a Leak-Free Graph on Your Lakehouse Gold Tables](https://blog.dataengineerthings.org/build-a-leak-free-graph-on-your-lakehouse-gold-tables-f7ec470a7370)
 - [Build a Document Knowledge Base on Databricks](https://blog.dataengineerthings.org/build-a-document-knowledge-base-on-databricks-2e2914fb8d4e)
