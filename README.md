@@ -58,12 +58,11 @@ I'd rather show working systems than list skills. Everything here runs and is in
 ## What I'm Shipping Lately
 
 <!-- AI-SUMMARY:START -->
-- **[holdmap](https://github.com/santoshshinde2012/holdmap)** — deps: tauri 2.12.4, astro 7.4.0 and #88's other updates (sse-stream stays on 0.2) (#90) _(+5 more)_
-- **[Catalogfore](https://github.com/santoshshinde2012/Catalogfore)** — fix: remediate security alerts and bound untrusted input handling _(+5 more)_
-- **[deck-smith-local](https://github.com/santoshshinde2012/deck-smith-local)** — docs: rewrite README and architecture diagrams with one semantic palette _(+5 more)_
-- **[lakehouse-quality-gates](https://github.com/santoshshinde2012/lakehouse-quality-gates)** — Make the lifecycle figure reproducible from the contracts; tighten the end-to-end guide _(+5 more)_
+- **[holdmap](https://github.com/santoshshinde2012/holdmap)** — fix(mcp): no folder paths in list_skill_trust; name changed-only skill folders (#110) _(+5 more)_
+- **[dataset-atlas](https://github.com/santoshshinde2012/dataset-atlas)** — Harden research workflows and enforce SOLID module boundaries
+- **[Catalogfore](https://github.com/santoshshinde2012/Catalogfore)** — Isolate keyboard menu checks from stale pointer movement _(+5 more)_
 
-<sub>Built from my last 21 days of public GitHub activity · [workflow](.github/workflows/ai-summary.yml) · updated Oct 19, 2026</sub>
+<sub>Built from my last 21 days of public GitHub activity · [workflow](.github/workflows/ai-summary.yml) · updated Oct 26, 2026</sub>
 <!-- AI-SUMMARY:END -->
 
 ---
@@ -137,22 +136,22 @@ gantt
     tickInterval 1year
 
     section Craft
-    Data engineering (pipelines, Spark, Databricks)      :active, de,   2014-01-01, 2026-10-19
+    Data engineering (pipelines, Spark, Databricks)      :active, de,   2014-01-01, 2026-10-26
     Full-stack engineering (TypeScript, Node, React, AWS) :done,   fs,   2014-01-01, 2021-06-01
-    Architecture and platform engineering                :active, arch, 2018-01-01, 2026-10-19
+    Architecture and platform engineering                :active, arch, 2018-01-01, 2026-10-26
 
     section AI / ML
-    ML and data science                                  :active, ml,   2021-06-01, 2026-10-19
-    LLM, RAG and agentic systems                         :active, llm,  2023-06-01, 2026-10-19
-    MLOps, evals and guardrails                          :active, ops,  2023-06-01, 2026-10-19
+    ML and data science                                  :active, ml,   2021-06-01, 2026-10-26
+    LLM, RAG and agentic systems                         :active, llm,  2023-06-01, 2026-10-26
+    MLOps, evals and guardrails                          :active, ops,  2023-06-01, 2026-10-26
 
     section Building in public
-    Answering on Stack Overflow                          :crit, so,   2015-01-01, 2026-10-19
-    Open source on GitHub                                :crit, gh,   2016-01-01, 2026-10-19
-    Writing on Medium                                    :crit, med,  2019-01-01, 2026-10-19
+    Answering on Stack Overflow                          :crit, so,   2015-01-01, 2026-10-26
+    Open source on GitHub                                :crit, gh,   2016-01-01, 2026-10-26
+    Writing on Medium                                    :crit, med,  2019-01-01, 2026-10-26
 
     section Milestones
-    AI Engineer Lead at Syngenta                         :active,    syn, 2024-05-01, 2026-10-19
+    AI Engineer Lead at Syngenta                         :active,    syn, 2024-05-01, 2026-10-26
     FrameSleuth launch                                   :milestone, fsl, 2025-09-01, 0d
 ```
 
@@ -232,13 +231,13 @@ I publish most of this through **[AI That Ships](https://medium.com/ai-that-ship
 <p align="center">
   <img src="https://img.shields.io/github/followers/santoshshinde2012?style=for-the-badge&color=2F81F7&logo=github&logoColor=white&label=followers" alt="followers" />
   <!-- STATS:START -->
-  <img src="https://img.shields.io/badge/698-stars%20earned-D97706?style=for-the-badge&logo=github&logoColor=white" alt="stars earned" />
-  <img src="https://img.shields.io/badge/154-forks-238636?style=for-the-badge&logo=github&logoColor=white" alt="forks" />
+  <img src="https://img.shields.io/badge/699-stars%20earned-D97706?style=for-the-badge&logo=github&logoColor=white" alt="stars earned" />
+  <img src="https://img.shields.io/badge/153-forks-238636?style=for-the-badge&logo=github&logoColor=white" alt="forks" />
   <img src="https://img.shields.io/badge/2014-building%20here%20since-8B949E?style=for-the-badge&logo=github&logoColor=white" alt="since 2014" />
   <!-- STATS:END -->
 </p>
 
-<p align="center"><sub><!-- PRIVATE:START -->Most of my work is in private repositories — <b>3,341 of my last 4,125 contributions</b>, about 81%<!-- PRIVATE:END -->.
+<p align="center"><sub><!-- PRIVATE:START -->Most of my work is in private repositories — <b>3,658 of my last 4,497 contributions</b>, about 81%<!-- PRIVATE:END -->.
 These are recounted by the weekly workflow, not typed in by hand.</sub></p>
 
 ---
