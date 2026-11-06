@@ -211,6 +211,7 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 ## Latest Writing
 
 <!-- BLOG-POST-LIST:START -->
+- [Delta Lake or Apache Iceberg: the open format war is still a war](https://blog.dataengineerthings.org/delta-lake-or-apache-iceberg-the-open-format-war-is-still-a-war-e89e7749a2ce)
 - [How I would fill the bronze layer](https://levelup.gitconnected.com/how-i-would-fill-the-bronze-layer-b3a8b74b49af)
 - [CDC for AI Agents: Seven Problems and Three Things to Pick Before You Build the Sink](https://levelup.gitconnected.com/when-tools-arent-enough-what-our-ai-agent-project-taught-us-about-cdc-and-why-experience-still-a9e209d5ece3)
 - [Build Decks Your Business Can Trust from Gold Data Products on Databricks](https://blog.dataengineerthings.org/build-decks-your-business-can-trust-from-gold-data-products-on-databricks-ba2c977d9c80)
@@ -218,7 +219,6 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 - [Build a Leak-Free Graph on Your Lakehouse Gold Tables](https://blog.dataengineerthings.org/build-a-leak-free-graph-on-your-lakehouse-gold-tables-f7ec470a7370)
 - [Build a Document Knowledge Base on Databricks](https://blog.dataengineerthings.org/build-a-document-knowledge-base-on-databricks-2e2914fb8d4e)
 - [Building a churn risk queue for an AI platform’s customer success team](https://medium.com/data-science-collective/building-a-churn-risk-queue-for-an-ai-platforms-customer-success-team-1414ad462627)
-- [What the Owner of a Gold Data Product Can Refuse](https://levelup.gitconnected.com/your-data-product-has-no-owner-3ab42f555a67)
 <!-- BLOG-POST-LIST:END -->
 
 I publish most of this through **[AI That Ships](https://medium.com/ai-that-ships)** — my Medium publication on getting AI systems into production, also on [Substack](https://aithatship.substack.com/). More on [Medium →](https://medium.com/@santosh-shinde)
