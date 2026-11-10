@@ -211,7 +211,7 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 
 <!-- BLOG-POST-LIST:START -->
 - [Designing Festive Offers with Databricks](https://levelup.gitconnected.com/designing-festive-offers-with-databricks-7335b2535156)
-- [Delta Lake or Apache Iceberg: the open format war is still a war](https://medium.com/data-science-collective/delta-lake-or-apache-iceberg-the-open-format-war-is-still-a-war-e89e7749a2ce)
+- [Delta Lake or Apache Iceberg: the open format war is still a war](https://medium.com/ai-that-ships/delta-lake-or-apache-iceberg-the-open-format-war-is-still-a-war-e89e7749a2ce)
 - [How I would fill the bronze layer](https://levelup.gitconnected.com/how-i-would-fill-the-bronze-layer-b3a8b74b49af)
 - [CDC for AI Agents: Seven Problems and Three Things to Pick Before You Build the Sink](https://levelup.gitconnected.com/when-tools-arent-enough-what-our-ai-agent-project-taught-us-about-cdc-and-why-experience-still-a9e209d5ece3)
 - [Build Decks Your Business Can Trust from Gold Data Products on Databricks](https://blog.dataengineerthings.org/build-decks-your-business-can-trust-from-gold-data-products-on-databricks-ba2c977d9c80)
