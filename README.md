@@ -210,14 +210,14 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 ## Latest Writing
 
 <!-- BLOG-POST-LIST:START -->
+- [Defining the AI Product Beyond the Happy Path &lpar;Part 2&rpar;](https://pub.towardsai.net/defining-the-ai-product-beyond-the-happy-path-part-2-0ece781db44b)
+- [Defining the AI Product Beyond the Thinking Panel &lpar;Part 1&rpar;](https://pub.towardsai.net/defining-the-ai-product-beyond-the-thinking-panel-part-1-4bf2cd3fbddc)
 - [Beyond Bronze, Silver, and Gold: Design Your Lakehouse by Purpose](https://blog.dataengineerthings.org/beyond-bronze-silver-and-gold-design-your-lakehouse-by-purpose-6ac265a7e1d7)
 - [Designing Festive Offers with Databricks](https://levelup.gitconnected.com/designing-festive-offers-with-databricks-7335b2535156)
 - [Delta Lake or Apache Iceberg: the open format war is still a war](https://medium.com/ai-that-ships/delta-lake-or-apache-iceberg-the-open-format-war-is-still-a-war-e89e7749a2ce)
 - [How I would fill the bronze layer](https://levelup.gitconnected.com/how-i-would-fill-the-bronze-layer-b3a8b74b49af)
 - [CDC for AI Agents: Seven Problems and Three Things to Pick Before You Build the Sink](https://levelup.gitconnected.com/when-tools-arent-enough-what-our-ai-agent-project-taught-us-about-cdc-and-why-experience-still-a9e209d5ece3)
 - [Build Decks Your Business Can Trust from Gold Data Products on Databricks](https://blog.dataengineerthings.org/build-decks-your-business-can-trust-from-gold-data-products-on-databricks-ba2c977d9c80)
-- [Data Quality Before Publication: Building Gates for a Lakehouse](https://blog.dataengineerthings.org/data-quality-before-publication-building-gates-for-a-lakehouse-4d57dabd8fa7)
-- [Build a Leak-Free Graph on Your Lakehouse Gold Tables](https://blog.dataengineerthings.org/build-a-leak-free-graph-on-your-lakehouse-gold-tables-f7ec470a7370)
 <!-- BLOG-POST-LIST:END -->
 
 I publish most of this through **[AI That Ships](https://medium.com/ai-that-ships)** — my Medium publication on getting AI systems into production, also on [Substack](https://aithatship.substack.com/). More on [Medium →](https://medium.com/@santosh-shinde)
