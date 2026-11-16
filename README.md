@@ -58,9 +58,12 @@ I'd rather show working systems than list skills. Everything here runs and is in
 ## What I'm Shipping Lately
 
 <!-- AI-SUMMARY:START -->
+- **[holdmap](https://github.com/santoshshinde2012/holdmap)** — fix: post-#132 test pass: accurate agent roots, CPU, unknown memory and UI polish (#133) _(+5 more)_
+- **[ai-providers](https://github.com/santoshshinde2012/ai-providers)** — feat(ai): add a canonical provider protocol package and Keychain fallback tests _(+4 more)_
+- **[ai-ml-ground-truth](https://github.com/santoshshinde2012/ai-ml-ground-truth)** — Label the lab report's charts, and sharpen the README's short version _(+5 more)_
 - **[festive-offer-engine](https://github.com/santoshshinde2012/festive-offer-engine)** — Link the published Databricks system-design article _(+3 more)_
 
-<sub>Built from my last 21 days of public GitHub activity · [workflow](.github/workflows/ai-summary.yml) · updated Nov 09, 2026</sub>
+<sub>Built from my last 21 days of public GitHub activity · [workflow](.github/workflows/ai-summary.yml) · updated Nov 16, 2026</sub>
 <!-- AI-SUMMARY:END -->
 
 ---
@@ -134,22 +137,22 @@ gantt
     tickInterval 1year
 
     section Craft
-    Data engineering (pipelines, Spark, Databricks)      :active, de,   2014-01-01, 2026-11-09
+    Data engineering (pipelines, Spark, Databricks)      :active, de,   2014-01-01, 2026-11-16
     Full-stack engineering (TypeScript, Node, React, AWS) :done,   fs,   2014-01-01, 2021-06-01
-    Architecture and platform engineering                :active, arch, 2018-01-01, 2026-11-09
+    Architecture and platform engineering                :active, arch, 2018-01-01, 2026-11-16
 
     section AI / ML
-    ML and data science                                  :active, ml,   2021-06-01, 2026-11-09
-    LLM, RAG and agentic systems                         :active, llm,  2023-06-01, 2026-11-09
-    MLOps, evals and guardrails                          :active, ops,  2023-06-01, 2026-11-09
+    ML and data science                                  :active, ml,   2021-06-01, 2026-11-16
+    LLM, RAG and agentic systems                         :active, llm,  2023-06-01, 2026-11-16
+    MLOps, evals and guardrails                          :active, ops,  2023-06-01, 2026-11-16
 
     section Building in public
-    Answering on Stack Overflow                          :crit, so,   2015-01-01, 2026-11-09
-    Open source on GitHub                                :crit, gh,   2016-01-01, 2026-11-09
-    Writing on Medium                                    :crit, med,  2019-01-01, 2026-11-09
+    Answering on Stack Overflow                          :crit, so,   2015-01-01, 2026-11-16
+    Open source on GitHub                                :crit, gh,   2016-01-01, 2026-11-16
+    Writing on Medium                                    :crit, med,  2019-01-01, 2026-11-16
 
     section Milestones
-    AI Engineer Lead at Syngenta                         :active,    syn, 2024-05-01, 2026-11-09
+    AI Engineer Lead at Syngenta                         :active,    syn, 2024-05-01, 2026-11-16
     FrameSleuth launch                                   :milestone, fsl, 2025-09-01, 0d
 ```
 
@@ -229,13 +232,13 @@ I publish most of this through **[AI That Ships](https://medium.com/ai-that-ship
 <p align="center">
   <img src="https://img.shields.io/github/followers/santoshshinde2012?style=for-the-badge&color=2F81F7&logo=github&logoColor=white&label=followers" alt="followers" />
   <!-- STATS:START -->
-  <img src="https://img.shields.io/badge/702-stars%20earned-D97706?style=for-the-badge&logo=github&logoColor=white" alt="stars earned" />
-  <img src="https://img.shields.io/badge/154-forks-238636?style=for-the-badge&logo=github&logoColor=white" alt="forks" />
+  <img src="https://img.shields.io/badge/705-stars%20earned-D97706?style=for-the-badge&logo=github&logoColor=white" alt="stars earned" />
+  <img src="https://img.shields.io/badge/153-forks-238636?style=for-the-badge&logo=github&logoColor=white" alt="forks" />
   <img src="https://img.shields.io/badge/2014-building%20here%20since-8B949E?style=for-the-badge&logo=github&logoColor=white" alt="since 2014" />
   <!-- STATS:END -->
 </p>
 
-<p align="center"><sub><!-- PRIVATE:START -->Most of my work is in private repositories — <b>4,748 of my last 5,631 contributions</b>, about 84%<!-- PRIVATE:END -->.
+<p align="center"><sub><!-- PRIVATE:START -->Most of my work is in private repositories — <b>4,880 of my last 5,788 contributions</b>, about 84%<!-- PRIVATE:END -->.
 These are recounted by the weekly workflow, not typed in by hand.</sub></p>
 
 ---
