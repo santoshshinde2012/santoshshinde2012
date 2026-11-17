@@ -213,6 +213,7 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 ## Latest Writing
 
 <!-- BLOG-POST-LIST:START -->
+- [Silver Already Keeps History. Why Is Gold Building It Again?](https://blog.dataengineerthings.org/silver-already-keeps-history-why-is-gold-building-it-again-449a8c21a49d)
 - [Bronze Loaded the New Schema. Silver Lost a Column](https://levelup.gitconnected.com/bronze-loaded-the-new-schema-silver-lost-a-column-38ec7529ca61)
 - [Defining the AI Product Beyond the Happy Path &lpar;Part 2&rpar;](https://pub.towardsai.net/defining-the-ai-product-beyond-the-happy-path-part-2-0ece781db44b)
 - [Defining the AI Product Beyond the Thinking Panel &lpar;Part 1&rpar;](https://pub.towardsai.net/defining-the-ai-product-beyond-the-thinking-panel-part-1-4bf2cd3fbddc)
@@ -220,7 +221,6 @@ Not every problem lives in the same place. I map what I build to the [Cynefin](h
 - [Designing Festive Offers with Databricks](https://levelup.gitconnected.com/designing-festive-offers-with-databricks-7335b2535156)
 - [Delta Lake or Apache Iceberg: the open format war is still a war](https://medium.com/ai-that-ships/delta-lake-or-apache-iceberg-the-open-format-war-is-still-a-war-e89e7749a2ce)
 - [How I would fill the bronze layer](https://levelup.gitconnected.com/how-i-would-fill-the-bronze-layer-b3a8b74b49af)
-- [CDC for AI Agents: Seven Problems and Three Things to Pick Before You Build the Sink](https://levelup.gitconnected.com/when-tools-arent-enough-what-our-ai-agent-project-taught-us-about-cdc-and-why-experience-still-a9e209d5ece3)
 <!-- BLOG-POST-LIST:END -->
 
 I publish most of this through **[AI That Ships](https://medium.com/ai-that-ships)** — my Medium publication on getting AI systems into production, also on [Substack](https://aithatship.substack.com/). More on [Medium →](https://medium.com/@santosh-shinde)
