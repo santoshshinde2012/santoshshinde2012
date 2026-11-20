@@ -61,14 +61,14 @@ Each row is a problem, a repo, and a piece of evidence you can open.
 I write at [Medium](https://medium.com/@santosh-shinde) and in the [AI That Ships](https://medium.com/ai-that-ships) publication, and I publish the same weekly short pieces on [Substack](https://santosh0.substack.com/). The list below is filled by a scheduled workflow.
 
 <!-- BLOG-POST-LIST:START -->
+- [The Beginner’s Path to Data Engineering on Databricks](https://medium.com/ai-that-ships/the-beginners-path-to-data-engineering-on-databricks-c437da4f36d0)
 - [One Silver Row Changed. Which Gold Totals Must Change?](https://blog.dataengineerthings.org/one-silver-row-changed-which-gold-totals-must-change-3430ba3db6f3)
 - [Why Does Every Gold Table Clean the Same Rows?](https://levelup.gitconnected.com/why-does-every-gold-table-clean-the-same-rows-81442cab6f49)
 - [Can You Rebuild Silver Without Reloading the Source?](https://medium.com/data-science-collective/can-you-rebuild-silver-without-reloading-the-source-61d1ae4f00a1)
 - [Silver Already Keeps History. Why Is Gold Building It Again?](https://blog.dataengineerthings.org/silver-already-keeps-history-why-is-gold-building-it-again-449a8c21a49d)
 - [Bronze Loaded the New Schema. Silver Lost a Column](https://levelup.gitconnected.com/bronze-loaded-the-new-schema-silver-lost-a-column-38ec7529ca61)
-- [Defining the AI Product Beyond the Happy Path (Part 2)](https://pub.towardsai.net/defining-the-ai-product-beyond-the-happy-path-part-2-0ece781db44b)
-- [Defining the AI Product Beyond the Thinking Panel (Part 1)](https://pub.towardsai.net/defining-the-ai-product-beyond-the-thinking-panel-part-1-4bf2cd3fbddc)
-- [Beyond Bronze, Silver, and Gold: Design Your Lakehouse by Purpose](https://blog.dataengineerthings.org/beyond-bronze-silver-and-gold-design-your-lakehouse-by-purpose-6ac265a7e1d7)
+- [Defining the AI Product Beyond the Happy Path &lpar;Part 2&rpar;](https://pub.towardsai.net/defining-the-ai-product-beyond-the-happy-path-part-2-0ece781db44b)
+- [Defining the AI Product Beyond the Thinking Panel &lpar;Part 1&rpar;](https://pub.towardsai.net/defining-the-ai-product-beyond-the-thinking-panel-part-1-4bf2cd3fbddc)
 <!-- BLOG-POST-LIST:END -->
 
 ## Contact
