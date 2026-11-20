@@ -6,18 +6,11 @@
 
 AI Lead Engineer in Pune.
 
-<table border="0" cellpadding="0" cellspacing="0">
-  <tr>
-    <td width="32%" align="center" valign="middle">
-      <img src="./profile.jpeg" width="210" alt="Santosh Shinde" />
-    </td>
-    <td width="68%" valign="middle">
-      <p>I work on problems where a system can look fine and still be wrong: retrieval that misses the right context, evaluations typed in by hand, and data quality issues that hide between Silver and Gold. I would rather show a repo you can run than list skills.</p>
-    </td>
-  </tr>
-</table>
+I work on problems where a system can look fine and still be wrong: retrieval that misses the right context, evaluations typed in by hand, and data quality issues that hide between Silver and Gold. I would rather show a repo you can run than list skills.
 
-[LinkedIn](https://www.linkedin.com/in/shindesantosh/) · [Medium](https://medium.com/@santosh-shinde) · [AI That Ships (Substack)](https://santosh0.substack.com/) · [X](https://x.com/sanshinde2012) · [Website](https://www.santoshshinde.com/) · [Buy Me a Coffee](https://buymeacoffee.com/santoshshin)
+[LinkedIn](https://www.linkedin.com/in/shindesantosh/) · [Medium](https://medium.com/@santosh-shinde) · [AI That Ships (Substack)](https://santosh0.substack.com/) · [X](https://x.com/sanshinde2012) · [Website](https://www.santoshshinde.com/)
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/santoshshin)
 
 ## What I build
 
@@ -80,4 +73,6 @@ I write at [Medium](https://medium.com/@santosh-shinde) and in the [AI That Ship
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/shindesantosh/) · [X @sanshinde2012](https://x.com/sanshinde2012) · [Substack](https://santosh0.substack.com/) · [Medium](https://medium.com/@santosh-shinde) · [Buy Me a Coffee](https://buymeacoffee.com/santoshshin) · [santoshshinde.com](https://www.santoshshinde.com/)
+[LinkedIn](https://www.linkedin.com/in/shindesantosh/) · [X @sanshinde2012](https://x.com/sanshinde2012) · [Substack](https://santosh0.substack.com/) · [Medium](https://medium.com/@santosh-shinde) · [santoshshinde.com](https://www.santoshshinde.com/)
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/santoshshin)
