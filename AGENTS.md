@@ -11,8 +11,7 @@ Santosh Shinde. AI Engineer Lead at Syngenta, Pune. Ships LLM products: retrieva
 1. [portwise](https://github.com/santoshshinde2012/portwise) — local port and process tool. CLI, TUI, desktop, MCP. One-line install. Rust + Tauri.
 2. [ai-ml-ground-truth](https://github.com/santoshshinde2012/ai-ml-ground-truth) — Ground Truth, a working developer's path into AI. One dataset becomes one model becomes one product.
 3. [ask-santosh](https://github.com/santoshshinde2012/ask-santosh) — RAG over his writing. recall@k and MRR are re-measured in CI.
-4. [framesleuth-agent](https://github.com/thestackhub1/framesleuth-agent) — open-source MCP server behind https://www.framesleuth.com/. He wrote the initial commit and most of what followed.
-5. [node-boilerplate](https://github.com/santoshshinde2012/node-boilerplate) — 460-star TypeScript microservice skeleton, maintained since 2021. Maintenance proof, not the current product.
+4. [node-boilerplate](https://github.com/santoshshinde2012/node-boilerplate) — 460-star TypeScript microservice skeleton, maintained since 2021. Maintenance proof, not the current product.
 
 ## Do not invent
 
