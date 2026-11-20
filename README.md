@@ -1,8 +1,21 @@
 # Santosh Shinde
 
+<p align="center">
+  <img src="./assets/profile.svg" width="250" alt="Santosh Shinde" />
+</p>
+
 AI Lead Engineer in Pune.
 
-I work on problems where a system can look fine and still be wrong: retrieval that misses the right context, evaluations typed in by hand, and data quality issues that hide between Silver and Gold. I would rather show a repo you can run than list skills.
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="32%" align="center" valign="middle">
+      <img src="./profile.jpeg" width="210" alt="Santosh Shinde" />
+    </td>
+    <td width="68%" valign="middle">
+      <p>I work on problems where a system can look fine and still be wrong: retrieval that misses the right context, evaluations typed in by hand, and data quality issues that hide between Silver and Gold. I would rather show a repo you can run than list skills.</p>
+    </td>
+  </tr>
+</table>
 
 [LinkedIn](https://www.linkedin.com/in/shindesantosh/) · [Medium](https://medium.com/@santosh-shinde) · [AI That Ships (Substack)](https://santosh0.substack.com/) · [X](https://x.com/sanshinde2012) · [Website](https://www.santoshshinde.com/) · [Buy Me a Coffee](https://buymeacoffee.com/santoshshin)
 
@@ -12,6 +25,14 @@ I work on problems where a system can look fine and still be wrong: retrieval th
 - Lakehouse quality problems as executable examples, with a write-up next to the code. [local-data-lakehouse](https://github.com/santoshshinde2012/local-data-lakehouse) and the Silver and Gold repair repos below are the working copies.
 - Applied ML with the limits written down. [crop-disease-prediction](https://github.com/santoshshinde2012/crop-disease-prediction) ships a [model card](https://github.com/santoshshinde2012/crop-disease-prediction/blob/main/MODEL_CARD.md) that states where the reported accuracy stops being a useful number.
 - Small tools I can run locally, with a demo when there is one: [holdmap](https://santoshshinde2012.github.io/holdmap/), [Catalogfore](https://santoshshinde2012.github.io/Catalogfore/), and [deck-smith-local](https://github.com/santoshshinde2012/deck-smith-local).
+
+## How I navigate the work
+
+Not every problem lives in the same place. I map what I build to the [Cynefin](https://en.wikipedia.org/wiki/Cynefin_framework) domains, because the right approach for a known CRUD API is the wrong approach for a non-deterministic agent.
+
+<p align="center">
+  <img src="./assets/cynefin.svg" width="820" alt="A Cynefin map of the work: Complex, Complicated, Chaotic, Clear, and Confusion in the center." />
+</p>
 
 ## Selected work
 
