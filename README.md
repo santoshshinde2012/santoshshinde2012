@@ -48,12 +48,13 @@ Each row is a problem, a repo, and a piece of evidence you can open.
 ## What I have been shipping
 
 <!-- AI-SUMMARY:START -->
-- **[holdmap](https://github.com/santoshshinde2012/holdmap)** - fix: post-#132 test pass: accurate agent roots, CPU, unknown memory and UI polish (#133) _(+5 more)_
-- **[ai-providers](https://github.com/santoshshinde2012/ai-providers)** - feat(ai): add a canonical provider protocol package and Keychain fallback tests _(+4 more)_
-- **[ai-ml-ground-truth](https://github.com/santoshshinde2012/ai-ml-ground-truth)** - Label the lab report's charts, and sharpen the README's short version _(+5 more)_
-- **[festive-offer-engine](https://github.com/santoshshinde2012/festive-offer-engine)** - Link the published Databricks system-design article _(+3 more)_
+- **[nestjs-mindmaps](https://github.com/santoshshinde2012/nestjs-mindmaps)** — Add GitHub Sponsors username to FUNDING.yml _(+2 more)_
+- **[multi-agent-sales-ops-tpch-databricks](https://github.com/santoshshinde2012/multi-agent-sales-ops-tpch-databricks)** — Add GitHub Sponsors username to FUNDING.yml _(+2 more)_
+- **[gold-rule-to-silver](https://github.com/santoshshinde2012/gold-rule-to-silver)** — Refactor shared Silver reporting and add verified result documentation _(+4 more)_
+- **[festive-offer-engine](https://github.com/santoshshinde2012/festive-offer-engine)** — Link the published Databricks system-design article _(+5 more)_
+- **[docusaurus-tailwindcss-v4](https://github.com/santoshshinde2012/docusaurus-tailwindcss-v4)** — Add GitHub Sponsors username to FUNDING.yml _(+2 more)_
 
-<sub>Built from my last 21 days of public GitHub activity · [workflow](.github/workflows/ai-summary.yml) · updated Nov 16, 2026</sub>
+<sub>Built from my last 21 days of public GitHub activity · [workflow](.github/workflows/ai-summary.yml) · updated Nov 23, 2026</sub>
 <!-- AI-SUMMARY:END -->
 
 ## Writing
