@@ -61,7 +61,7 @@ Each row is a problem, a repo, and a piece of evidence you can open.
 I write at [Medium](https://medium.com/@santosh-shinde) and in the [AI That Ships](https://medium.com/ai-that-ships) publication, and I publish the same weekly short pieces on [Substack](https://santosh0.substack.com/). The list below is filled by a scheduled workflow.
 
 <!-- BLOG-POST-LIST:START -->
-- [A Knowledge Graph Is Not a Knowledge Base: How I Navigate One for AI Agents](https://levelup.gitconnected.com/a-knowledge-graph-is-not-a-knowledge-base-how-i-navigate-one-for-ai-agents-224c1643a3df)
+- [A Knowledge Graph Is Not a Knowledge Base: How I Navigate One for AI Agents](https://medium.com/ai-that-ships/a-knowledge-graph-is-not-a-knowledge-base-how-i-navigate-one-for-ai-agents-224c1643a3df)
 - [The Beginner’s Path to Data Engineering on Databricks](https://medium.com/ai-that-ships/the-beginners-path-to-data-engineering-on-databricks-c437da4f36d0)
 - [One Silver Row Changed. Which Gold Totals Must Change?](https://blog.dataengineerthings.org/one-silver-row-changed-which-gold-totals-must-change-3430ba3db6f3)
 - [Why Does Every Gold Table Clean the Same Rows?](https://levelup.gitconnected.com/why-does-every-gold-table-clean-the-same-rows-81442cab6f49)
