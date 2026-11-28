@@ -62,6 +62,7 @@ Each row is a problem, a repo, and a piece of evidence you can open.
 I write at [Medium](https://medium.com/@santosh-shinde) and in the [AI That Ships](https://medium.com/ai-that-ships) publication, and I publish the same weekly short pieces on [Substack](https://santosh0.substack.com/). The list below is filled by a scheduled workflow.
 
 <!-- BLOG-POST-LIST:START -->
+- [You May Not Need Kafka to Get Postgres Changes Into Delta](https://blog.dataengineerthings.org/you-may-not-need-kafka-to-get-postgres-changes-into-delta-f451f49b84bc)
 - [How I Measure the Quality of an Agent Skill](https://levelup.gitconnected.com/how-i-measure-the-quality-of-an-agent-skill-544581564597)
 - [A Knowledge Graph Is Not a Knowledge Base: How I Navigate One for AI Agents](https://medium.com/ai-that-ships/a-knowledge-graph-is-not-a-knowledge-base-how-i-navigate-one-for-ai-agents-224c1643a3df)
 - [The Beginner’s Path to Data Engineering on Databricks](https://medium.com/ai-that-ships/the-beginners-path-to-data-engineering-on-databricks-c437da4f36d0)
@@ -69,7 +70,6 @@ I write at [Medium](https://medium.com/@santosh-shinde) and in the [AI That Ship
 - [Why Does Every Gold Table Clean the Same Rows?](https://levelup.gitconnected.com/why-does-every-gold-table-clean-the-same-rows-81442cab6f49)
 - [Can You Rebuild Silver Without Reloading the Source?](https://medium.com/data-science-collective/can-you-rebuild-silver-without-reloading-the-source-61d1ae4f00a1)
 - [Silver Already Keeps History. Why Is Gold Building It Again?](https://blog.dataengineerthings.org/silver-already-keeps-history-why-is-gold-building-it-again-449a8c21a49d)
-- [Bronze Loaded the New Schema. Silver Lost a Column](https://levelup.gitconnected.com/bronze-loaded-the-new-schema-silver-lost-a-column-38ec7529ca61)
 <!-- BLOG-POST-LIST:END -->
 
 ## Contact
